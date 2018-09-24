@@ -1,0 +1,1435 @@
+﻿Log file open, 09/22/18 14:06:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SP_Prototype
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-221142181) SRandInit(-221142180).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.719787
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  5.760s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Tony-PC (192.168.0.5:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Program Files/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.22-13.06.46:563][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.22-13.06.46:563][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.22-13.06.46:590][  0]LogInit: Computer: TONY-PC
+[2018.09.22-13.06.46:590][  0]LogInit: User: Tony
+[2018.09.22-13.06.46:590][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.22-13.06.46:590][  0]LogInit: High frequency timer resolution =3.417974 MHz
+[2018.09.22-13.06.46:591][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.22-13.06.46:591][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.22-13.06.46:591][  0]LogMemory: Process Physical Memory: 274.27 MB used, 274.27 MB peak
+[2018.09.22-13.06.46:591][  0]LogMemory: Process Virtual Memory: 264.83 MB used, 264.83 MB peak
+[2018.09.22-13.06.46:591][  0]LogMemory: Physical Memory: 6778.81 MB used,  9553.78 MB free, 16332.59 MB total
+[2018.09.22-13.06.46:591][  0]LogMemory: Virtual Memory: 4781.09 MB used,  9553.78 MB free, 134217728.00 MB total
+[2018.09.22-13.06.46:793][  0]LogInit: Using OS detected language (en-GB).
+[2018.09.22-13.06.46:793][  0]LogInit: Using OS detected locale (en-GB).
+[2018.09.22-13.06.46:834][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.09.22-13.06.47:377][  0]LogStreaming: Display: Took  0.584s to EndInitTextLocalization.
+[2018.09.22-13.06.47:377][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.22-13.06.47:472][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.22-13.06.47:472][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.22-13.06.47:840][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.22-13.06.47:886][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.09.22-13.06.47:886][  0]LogD3D11RHI:       4043/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.09.22-13.06.47:888][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.22-13.06.47:888][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.22-13.06.47:888][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.22-13.06.47:894][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.22-13.06.47:894][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.22-13.06.47:894][  0]LogWindows: EnumDisplayDevices:
+[2018.09.22-13.06.47:894][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.09.22-13.06.47:894][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.09.22-13.06.47:894][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.09.22-13.06.47:895][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.09.22-13.06.47:895][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.22-13.06.47:895][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.09.22-13.06.47:895][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.22-13.06.47:895][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.22-13.06.47:895][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.09.22-13.06.47:932][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.09.22-13.06.47:932][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.09.22-13.06.47:932][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.22-13.06.47:952][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.22-13.06.47:955][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../My Documents/Unreal Projects/SP_Prototype/Intermediate/Shaders/WorkingDirectory/12640/).
+[2018.09.22-13.06.47:955][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tony/AppData/Local/Temp/UnrealShaderWorkingDir/C20BDE4C4C001FA570E8CF8D6E5DDC89/'.
+[2018.09.22-13.06.48:485][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.22-13.06.48:509][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.22-13.06.48:533][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.22-13.06.48:550][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.22-13.06.48:582][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.22-13.06.48:604][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.22-13.06.48:617][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.22-13.06.48:641][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.22-13.06.48:647][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.22-13.06.48:663][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.22-13.06.48:688][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.22-13.06.48:708][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.22-13.06.48:729][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.09.22-13.06.48:749][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.22-13.06.48:770][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.22-13.06.48:844][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.22-13.06.48:844][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.22-13.06.48:880][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-13.06.48:892][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.22-13.06.49:003][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.22-13.06.49:017][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.22-13.06.49:053][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.22-13.06.49:068][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.22-13.06.49:107][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.22-13.06.49:166][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.22-13.06.49:166][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.22-13.06.49:589][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.22-13.06.49:589][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.22-13.06.49:589][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.22-13.06.50:562][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: Loaded boot cache 0.25s 74MB C:/Users/Tony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../My Documents/Unreal Projects/SP_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../My Documents/Unreal Projects/SP_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.22-13.06.50:811][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.22-13.06.50:835][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.22-13.06.50:848][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.22-13.06.50:848][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.22-13.06.50:848][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.22-13.06.50:861][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.22-13.06.50:862][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.22-13.06.50:874][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.22-13.06.50:874][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.22-13.06.52:791][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.09.22-13.06.53:326][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.22-13.06.53:582][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.22-13.06.53:585][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.22-13.06.53:585][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.22-13.06.53:585][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.22-13.06.53:585][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.22-13.06.53:585][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.22-13.06.53:615][  0]LogNetVersion: SP_Prototype , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4173178018)
+[2018.09.22-13.06.54:005][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.061818 seconds
+[2018.09.22-13.06.54:012][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.09.22-13.06.54:012][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.09.22-13.06.54:012][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.22-13.07.02:247][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.22-13.07.02:288][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.22-13.07.02:821][  0]SourceControl: Source control is disabled
+[2018.09.22-13.07.02:821][  0]SourceControl: Source control is disabled
+[2018.09.22-13.07.02:876][  0]SourceControl: Source control is disabled
+[2018.09.22-13.07.02:906][  0]SourceControl: Source control is disabled
+[2018.09.22-13.07.03:750][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.22-13.07.03:991][  0]LogOcInput: OculusInput pre-init called
+[2018.09.22-13.07.04:217][  0]LogEngine: Initializing Engine...
+[2018.09.22-13.07.04:218][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.22-13.07.04:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.22-13.07.04:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.22-13.07.04:433][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.22-13.07.04:441][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-13.07.04:461][  0]LogInit: FAudioDevice initialized.
+[2018.09.22-13.07.04:530][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Tony/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.09.22-13.07.04:538][  0]LogInit: Texture streaming: Enabled
+[2018.09.22-13.07.04:577][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.22-13.07.04:639][  0]LogInit: Transaction tracking system initialized
+[2018.09.22-13.07.04:758][  0]BlueprintLog: New page: Editor Load
+[2018.09.22-13.07.05:364][  0]LocalizationService: Localization service is disabled
+[2018.09.22-13.07.05:666][  0]LogConsoleResponse: Display: 
+[2018.09.22-13.07.05:908][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.22-13.07.05:908][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.22-13.07.05:908][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.22-13.07.05:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.22-13.07.05:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.22-13.07.05:963][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Unreal Projects/SP_Prototype/Content/' took 0.02s
+[2018.09.22-13.07.06:719][  0]SourceControl: Source control is disabled
+[2018.09.22-13.07.06:719][  0]Cmd: MAP LOAD FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.22-13.07.06:720][  0]LightingResults: New page: Lighting Build
+[2018.09.22-13.07.06:732][  0]MapCheck: New page: Map Check
+[2018.09.22-13.07.06:732][  0]LightingResults: New page: Lighting Build
+[2018.09.22-13.07.06:804][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c48091a6c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.09.22-13.07.06:812][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c48091a6c0, Size=64
+[2018.09.22-13.07.06:812][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c48091a8c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.09.22-13.07.06:820][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ed79a250, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.09.22-13.07.06:874][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4eef58100, Size=1200, Default__TopDownCharacter_C Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+[2018.09.22-13.07.06:879][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4eef58100, Size=1200
+[2018.09.22-13.07.06:879][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4eef5cf00, Size=1200, Default__TopDownCharacter_C Function /Engine/Transient.REINST_TopDownCharacter_C_4:ExecuteUbergraph_TopDownCharacter
+[2018.09.22-13.07.06:883][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ed232b00, Size=1200, Default__TopDownCharacter_C Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+[2018.09.22-13.07.06:944][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4eef48200, Size=512, Default__TopDownController_C Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:ExecuteUbergraph_TopDownController
+[2018.09.22-13.07.06:958][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4eef48200, Size=512
+[2018.09.22-13.07.06:958][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4882cf400, Size=512, Default__TopDownController_C Function /Engine/Transient.REINST_TopDownController_C_8:ExecuteUbergraph_TopDownController
+[2018.09.22-13.07.06:964][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4882cf000, Size=504, Default__TopDownController_C Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:ExecuteUbergraph_TopDownController
+[2018.09.22-13.07.07:289][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [21.506893ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.09.22-13.07.07:305][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-13.07.07:315][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.22-13.07.07:327][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c48091a8c0, Size=64
+[2018.09.22-13.07.07:327][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4eef5cf00, Size=1200
+[2018.09.22-13.07.07:327][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4882cf400, Size=512
+[2018.09.22-13.07.07:328][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.22-13.07.07:379][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.377ms to complete.
+[2018.09.22-13.07.07:379][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.660
+[2018.09.22-13.07.07:526][  0]LogCollectionManager: Loaded 0 collections in 0.001613 seconds
+[2018.09.22-13.07.07:578][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Unreal Projects/SP_Prototype/Saved/Collections/' took 0.01s
+[2018.09.22-13.07.07:578][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Unreal Projects/SP_Prototype/Content/Developers/Tony/Collections/' took 0.01s
+[2018.09.22-13.07.07:578][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Unreal Projects/SP_Prototype/Content/Collections/' took 0.01s
+[2018.09.22-13.07.07:578][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.22-13.07.07:586][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2452 classes and 558 folders.
+[2018.09.22-13.07.07:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.22-13.07.08:049][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.22-13.07.08:077][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.22-13.07.08:174][  0]LogSlate: Took 0.019325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.22-13.07.08:185][  0]LogSlate: Took 0.009725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.22-13.07.08:211][  0]LogSlate: Took 0.020078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.22-13.07.08:293][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.09.22-13.07.08:435][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.22-13.07.08:435][  0]LogLoad: (Engine Initialization) Total time: 35.40 seconds
+[2018.09.22-13.07.08:435][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.22-13.07.08:792][  0]LogAssetRegistry: Asset discovery search completed in 16.0225 seconds
+[2018.09.22-13.07.08:794][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.22-13.07.08:794][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.09.22-13.07.08:804][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.22-13.07.08:861][  0]LogSlate: Took 0.000774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.22-13.08.07:695][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-13.08.38:026][401]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.22-13.08.56:071][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoAI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset" SILENT=true
+[2018.09.22-13.08.56:075][468]LogSavePackage: Save=1.79ms
+[2018.09.22-13.08.56:075][468]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoAIE0155BF3497C149578AD87A2981D6A11.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset'
+[2018.09.22-13.08.56:079][468]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset
+[2018.09.22-13.09.10:717][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoAI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset" SILENT=true
+[2018.09.22-13.09.10:723][216]LogSavePackage: Save=1.66ms
+[2018.09.22-13.09.10:723][216]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoAI83CC9B0A4FD5AEED5D3BE5AF160145F2.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset'
+[2018.09.22-13.09.10:727][216]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset
+[2018.09.22-13.09.22:812][635]LogSlate: Took 0.007314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.22-13.09.33:971][876]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.09.22-13.09.34:324][876]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ba931218, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.09.22-13.09.34:326][876]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ba931210, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.09.22-13.09.34:968][876]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AIAgent/BTService_BlueprintBase_New.
+[2018.09.22-13.09.50:525][702]LogMetaData: Removing '/Game/AIAgent/Perception.SKEL_Perception_C' ref from Metadata '/Game/AIAgent/BTService_BlueprintBase_New.PackageMetaData'
+[2018.09.22-13.09.50:525][702]LogMetaData: Removing '/Game/AIAgent/Perception.Perception_C' ref from Metadata '/Game/AIAgent/BTService_BlueprintBase_New.PackageMetaData'
+[2018.09.22-13.09.50:567][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-13.09.50:584][702]LogSavePackage: Save=16.53ms
+[2018.09.22-13.09.50:584][702]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception8BD39D0F41E0D6D4087DB9A6A4D72993.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-13.09.50:586][702]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-13.09.50:771][704]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/Perception.
+[2018.09.22-13.09.59:704][633]LogSlate: Window 'Perception' being destroyed
+[2018.09.22-13.10.44:376][599]LogSlate: Took 0.005451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.22-13.10.55:919][972]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.11.01:132][561]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.17.08:940][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.018
+[2018.09.22-13.17.08:942][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/ProtoTree] ([1] browsable assets)...
+[2018.09.22-13.17.08:942][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/ProtoTree]
+[2018.09.22-13.17.08:942][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-13.17.08:945][223]LogSavePackage: Save=2.27ms
+[2018.09.22-13.17.08:945][223]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTree_Auto1C6E6681D40B54613873DDF9D0784EBAF.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset'
+[2018.09.22-13.17.08:946][223]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset
+[2018.09.22-13.17.08:947][223]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-13.17.08:947][223]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-13.17.08:947][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-13.17.08:970][223]LogSavePackage: Save=19.22ms
+[2018.09.22-13.17.08:970][223]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto198AD27654DAAA549548E4EBF0A4CE49E.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto1.uasset'
+[2018.09.22-13.17.08:971][223]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto1.uasset
+[2018.09.22-13.17.08:971][223]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.09.22-13.17.39:880][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset" SILENT=true
+[2018.09.22-13.17.39:883][781]LogSavePackage: Save=2.17ms
+[2018.09.22-13.17.39:883][781]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTreeFECEC37E4931391A84C9918664DE24F2.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset'
+[2018.09.22-13.17.39:886][781]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset
+[2018.09.22-13.18.06:891][989]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f41947a8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.18.08:806][214]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.18.08:807][214]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f41947a8, Size=4
+[2018.09.22-13.18.08:807][214]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f45989a0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_48:ExecuteUbergraph_Perception
+[2018.09.22-13.18.08:808][214]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4983d4790, Size=24, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.18.08:888][214]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f45989a0, Size=4
+[2018.09.22-13.20.25:673][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-13.20.25:694][140]LogSavePackage: Save=18.64ms
+[2018.09.22-13.20.25:694][140]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception6DEFC13A497ACAE62E43D7A04132B341.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-13.20.25:698][140]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-13.20.59:256][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset" SILENT=true
+[2018.09.22-13.20.59:261][591]LogSavePackage: Save=2.07ms
+[2018.09.22-13.20.59:261][591]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTreeDC9788BC4508C84CDE7031958BAEB8C7.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset'
+[2018.09.22-13.20.59:264][591]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset
+[2018.09.22-13.21.24:421][758]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.22-13.21.33:764][863]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AIAgent/Proto_controller.
+[2018.09.22-13.22.57:815][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Proto_controller" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset" SILENT=true
+[2018.09.22-13.22.57:821][205]LogSavePackage: Save=4.45ms
+[2018.09.22-13.22.57:821][205]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controllerA03779084AB624488305F88704E467C6.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset'
+[2018.09.22-13.22.57:824][205]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset
+[2018.09.22-13.22.57:844][207]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/Proto_controller.
+[2018.09.22-13.39.10:304][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.22-13.39.11:523][829]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.22-13.39.11:578][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-13.39.11:612][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-13.39.11:675][829]PIE: New page: PIE session: TopDownExampleMap (22 Sep 2018 15:39:11)
+[2018.09.22-13.39.11:685][829]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-13.39.11:733][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048188s)
+[2018.09.22-13.39.11:734][829]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-13.39.11:734][829]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2018.09.22-13.39.11:734][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.049245s)
+[2018.09.22-13.39.11:764][829]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-13.39.11:778][829]LogInit: FAudioDevice initialized.
+[2018.09.22-13.39.11:826][829]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-13.39.11:954][829]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.09.22-14.39.11
+[2018.09.22-13.39.11:984][829]LogWorld: Bringing up level for play took: 0.048353
+[2018.09.22-13.39.12:168][829]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.09.22-13.39.12:200][829]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.19
+[2018.09.22-13.39.12:200][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-13.40.34:994][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.22-13.40.37:385][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-13.40.37:462][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-13.41.07:786][ 16]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5ee0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.41.10:239][309]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.41.10:240][309]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5ee0, Size=4
+[2018.09.22-13.41.10:240][309]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5ee0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_58:ExecuteUbergraph_Perception
+[2018.09.22-13.41.10:240][309]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4983d4790, Size=24
+[2018.09.22-13.41.10:240][309]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e38a518, Size=24, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_60:ExecuteUbergraph_Perception
+[2018.09.22-13.41.10:241][309]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a00506a0, Size=32, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.41.10:333][309]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5ee0, Size=4
+[2018.09.22-13.41.35:192][556]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e38a518, Size=24
+[2018.09.22-13.41.35:192][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.016
+[2018.09.22-13.41.35:193][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-13.41.35:193][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-13.41.35:193][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-13.41.35:201][556]LogSavePackage: Save=4.06ms
+[2018.09.22-13.41.35:201][556]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto2D4FF2C4D46574ECBF4F12597C76F18CE.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto2.uasset'
+[2018.09.22-13.41.35:202][556]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto2.uasset
+[2018.09.22-13.41.35:202][556]LogFileHelpers: Auto-saving content packages took 0.010
+[2018.09.22-13.41.48:330][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-13.41.48:335][966]LogSavePackage: Save=2.96ms
+[2018.09.22-13.41.48:335][966]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception0C6310BB40F6E3B59DD15B9B2A8E9A2C.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-13.41.48:338][966]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-13.44.12:379][641]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969620, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.50.56:145][266]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.50.56:146][266]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969620, Size=4
+[2018.09.22-13.50.56:146][266]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969620, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_64:ExecuteUbergraph_Perception
+[2018.09.22-13.50.56:148][266]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a00506a0, Size=32
+[2018.09.22-13.50.56:148][266]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e9ba9bc0, Size=32, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_66:ExecuteUbergraph_Perception
+[2018.09.22-13.50.56:149][266]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c498915de0, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.50.56:224][266]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969620, Size=4
+[2018.09.22-13.51.38:267][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969e68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.51.38:267][ 27]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_Perception_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.09.22-13.51.38:820][ 86]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e9ba9bc0, Size=32
+[2018.09.22-13.51.38:820][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2018.09.22-13.51.38:822][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-13.51.38:822][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-13.51.38:822][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-13.51.38:830][ 86]LogSavePackage: Save=4.50ms
+[2018.09.22-13.51.38:830][ 86]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto3713376C840DEB5E89B328FADC4EBE415.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto3.uasset'
+[2018.09.22-13.51.38:831][ 86]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto3.uasset
+[2018.09.22-13.51.38:831][ 86]LogFileHelpers: Auto-saving content packages took 0.011
+[2018.09.22-13.52.27:182][ 61]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969e68, Size=4
+[2018.09.22-13.52.27:182][ 61]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969e68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_70:ExecuteUbergraph_Perception
+[2018.09.22-13.52.27:183][ 61]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89696d8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.52.29:364][321]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89696d8, Size=4
+[2018.09.22-13.52.29:364][321]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89696d8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_72:ExecuteUbergraph_Perception
+[2018.09.22-13.52.29:365][321]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969b88, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.52.40:948][553]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969b88, Size=4
+[2018.09.22-13.52.40:948][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969b88, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_74:ExecuteUbergraph_Perception
+[2018.09.22-13.52.40:949][553]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8968d38, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.52.40:949][553]LogClass: Warning: In asset 'None', there is an enum property of type 'EObjectTypeQuery' with an invalid value of 'SelectedKeyName'
+[2018.09.22-13.54.47:446][725]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.54.47:448][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8968d38, Size=4
+[2018.09.22-13.54.47:448][725]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8968d38, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_76:ExecuteUbergraph_Perception
+[2018.09.22-13.54.47:449][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c498915de0, Size=48
+[2018.09.22-13.54.47:449][725]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c49fe39390, Size=48, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_78:ExecuteUbergraph_Perception
+[2018.09.22-13.54.47:450][725]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c49fe3a110, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.54.47:450][725]LogClass: Warning: Type mismatch in TargetObjects of Perception_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.09.22-13.54.47:450][725]LogClass: Warning: In asset 'None', there is an enum property of type 'EObjectTypeQuery' with an invalid value of 'SelectedKeyName'
+[2018.09.22-13.54.47:450][725]LogBlueprint: Warning: [Compiler Perception] Can't parse default value '(SelectedKeyName="",bNoneIsAllowedValue=False)' for  <None> . Property: TargetObjects.
+[2018.09.22-13.54.47:522][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8968d38, Size=4
+[2018.09.22-13.54.47:522][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969b88, Size=4
+[2018.09.22-13.54.47:522][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89696d8, Size=4
+[2018.09.22-13.54.47:522][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969e68, Size=4
+[2018.09.22-13.54.47:527][725]LogBlueprint: Warning: [Compiler Perception] [2894.50] Compile of Perception successful, but with 1 Warning(s) [in 80 ms] (/Game/AIAgent/Perception.Perception)
+[2018.09.22-13.56.00:423][966]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896b4c8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.56.25:103][915]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896b4c8, Size=4
+[2018.09.22-13.56.25:103][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896b4c8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_82:ExecuteUbergraph_Perception
+[2018.09.22-13.56.25:104][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896a298, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.56.29:748][470]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896a298, Size=4
+[2018.09.22-13.56.29:748][470]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896a298, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_84:ExecuteUbergraph_Perception
+[2018.09.22-13.56.29:749][470]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896bbe8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.56.43:981][175]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896bbe8, Size=4
+[2018.09.22-13.56.43:981][175]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e896bbe8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_86:ExecuteUbergraph_Perception
+[2018.09.22-13.56.43:982][175]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969340, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.56.49:666][856]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969340, Size=4
+[2018.09.22-13.56.49:666][856]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969340, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_88:ExecuteUbergraph_Perception
+[2018.09.22-13.56.49:668][856]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89690c0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.56.58:038][857]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89690c0, Size=4
+[2018.09.22-13.56.58:039][857]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89690c0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_90:ExecuteUbergraph_Perception
+[2018.09.22-13.56.58:040][857]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969a68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.57.00:282][125]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.57.00:284][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969a68, Size=4
+[2018.09.22-13.57.00:284][125]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969a68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_92:ExecuteUbergraph_Perception
+[2018.09.22-13.57.00:285][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c49fe3a110, Size=48
+[2018.09.22-13.57.00:285][125]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a454a830, Size=48, Perception_C_1 Function /Engine/Transient.REINST_Perception_C_94:ExecuteUbergraph_Perception
+[2018.09.22-13.57.00:286][125]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a454a950, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969a68, Size=4
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89690c0, Size=4
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969340, Size=4
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896bbe8, Size=4
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896a298, Size=4
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c49fe39390, Size=48
+[2018.09.22-13.57.00:360][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e896b4c8, Size=4
+[2018.09.22-13.59.32:437][268]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969ca0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.59.44:740][721]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969ca0, Size=4
+[2018.09.22-13.59.44:740][721]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969ca0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_98:ExecuteUbergraph_Perception
+[2018.09.22-13.59.44:741][721]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89690f0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.59.50:102][361]BlueprintLog: New page: Compile Perception
+[2018.09.22-13.59.50:104][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89690f0, Size=4
+[2018.09.22-13.59.50:104][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f459ad78, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_100:ExecuteUbergraph_Perception
+[2018.09.22-13.59.50:106][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a454a950, Size=48
+[2018.09.22-13.59.50:106][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f63b5c30, Size=48, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_102:ExecuteUbergraph_Perception
+[2018.09.22-13.59.50:107][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c49ff7c7c0, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-13.59.50:182][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a454a830, Size=48
+[2018.09.22-13.59.50:182][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f459ad78, Size=4
+[2018.09.22-13.59.50:182][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969ca0, Size=4
+[2018.09.22-14.00.01:875][733]LogSlate: Took 0.025686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.22-14.00.07:662][427]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.00.07:666][427]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c49ff7c7c0, Size=48
+[2018.09.22-14.00.07:666][427]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c491f19030, Size=48, Perception_C_2 Function /Engine/Transient.REINST_Perception_C_106:ExecuteUbergraph_Perception
+[2018.09.22-14.00.07:667][427]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c491f18670, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.00.07:742][427]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f63b5c30, Size=48
+[2018.09.22-14.01.39:368][282]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c491f19030, Size=48
+[2018.09.22-14.01.39:368][282]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2018.09.22-14.01.39:370][282]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-14.01.39:370][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-14.01.39:370][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.01.39:382][282]LogSavePackage: Save=9.42ms
+[2018.09.22-14.01.39:382][282]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto4599E77F6452C7B70FAF5559C54124B2B.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto4.uasset'
+[2018.09.22-14.01.39:384][282]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto4.uasset
+[2018.09.22-14.01.39:384][282]LogFileHelpers: Auto-saving content packages took 0.015
+[2018.09.22-14.02.49:582][263]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89687d0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.02.53:856][765]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89687d0, Size=4
+[2018.09.22-14.02.53:856][765]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e89687d0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_110:ExecuteUbergraph_Perception
+[2018.09.22-14.02.53:857][765]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969f08, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.06:171][240]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.03.06:173][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969f08, Size=4
+[2018.09.22-14.03.06:173][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8969f08, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_112:ExecuteUbergraph_Perception
+[2018.09.22-14.03.06:176][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c491f18670, Size=48
+[2018.09.22-14.03.06:176][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4d7ab30, Size=48, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_114:ExecuteUbergraph_Perception
+[2018.09.22-14.03.06:177][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4d7b1f0, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.06:253][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8969f08, Size=4
+[2018.09.22-14.03.06:253][240]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e89687d0, Size=4
+[2018.09.22-14.03.15:702][355]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcecfa8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.16:849][490]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.03.16:851][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcecfa8, Size=4
+[2018.09.22-14.03.16:851][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcecfa8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_118:ExecuteUbergraph_Perception
+[2018.09.22-14.03.16:853][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4d7b1f0, Size=48
+[2018.09.22-14.03.16:853][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ad9f42b0, Size=48, Perception_C_3 Function /Engine/Transient.REINST_Perception_C_120:ExecuteUbergraph_Perception
+[2018.09.22-14.03.16:855][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ad9f48b0, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.16:932][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4d7ab30, Size=48
+[2018.09.22-14.03.16:932][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcecfa8, Size=4
+[2018.09.22-14.03.47:003][ 67]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a3f63288, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.49:541][369]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a3f63288, Size=4
+[2018.09.22-14.03.49:541][369]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7cc0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_124:ExecuteUbergraph_Perception
+[2018.09.22-14.03.49:542][369]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d62d8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.50:492][481]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d62d8, Size=4
+[2018.09.22-14.03.50:492][481]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d62d8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_126:ExecuteUbergraph_Perception
+[2018.09.22-14.03.50:493][481]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d4660, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.03.57:178][271]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d4660, Size=4
+[2018.09.22-14.03.57:178][271]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195388, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_128:ExecuteUbergraph_Perception
+[2018.09.22-14.03.57:179][271]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f41946e0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.04.18:045][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f41946e0, Size=4
+[2018.09.22-14.04.18:045][147]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f41946e0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_130:ExecuteUbergraph_Perception
+[2018.09.22-14.04.18:046][147]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f41944d0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.04.43:984][ 58]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.04.43:986][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f41944d0, Size=4
+[2018.09.22-14.04.43:986][ 58]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f41944d0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_132:ExecuteUbergraph_Perception
+[2018.09.22-14.04.43:989][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ad9f48b0, Size=48
+[2018.09.22-14.04.43:989][ 58]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a4237010, Size=48, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_134:ExecuteUbergraph_Perception
+[2018.09.22-14.04.43:990][ 58]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a42366e0, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.04.44:066][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f41944d0, Size=4
+[2018.09.22-14.04.44:067][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f41946e0, Size=4
+[2018.09.22-14.04.44:067][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ad9f42b0, Size=48
+[2018.09.22-14.04.44:067][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d62d8, Size=4
+[2018.09.22-14.04.44:067][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195388, Size=4
+[2018.09.22-14.04.44:067][ 58]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7cc0, Size=4
+[2018.09.22-14.05.10:934][406]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4197920, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.13:860][752]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4197920, Size=4
+[2018.09.22-14.05.13:860][752]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4197920, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_138:ExecuteUbergraph_Perception
+[2018.09.22-14.05.13:861][752]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195030, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.20:205][504]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195030, Size=4
+[2018.09.22-14.05.20:205][504]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195030, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_140:ExecuteUbergraph_Perception
+[2018.09.22-14.05.20:206][504]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195880, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.34:477][980]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195880, Size=4
+[2018.09.22-14.05.34:477][980]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195880, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_142:ExecuteUbergraph_Perception
+[2018.09.22-14.05.34:479][980]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195f38, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.37:405][329]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195f38, Size=4
+[2018.09.22-14.05.37:405][329]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195f38, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_144:ExecuteUbergraph_Perception
+[2018.09.22-14.05.37:406][329]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195c90, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.45:630][314]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.05.45:633][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195c90, Size=4
+[2018.09.22-14.05.45:633][314]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195c90, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_146:ExecuteUbergraph_Perception
+[2018.09.22-14.05.45:636][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a42366e0, Size=48
+[2018.09.22-14.05.45:636][314]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4d79f30, Size=48, Perception_C_4 Function /Engine/Transient.REINST_Perception_C_148:ExecuteUbergraph_Perception
+[2018.09.22-14.05.45:637][314]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4d7bf40, Size=48, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195c90, Size=4
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195f38, Size=4
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a4237010, Size=48
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195880, Size=4
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195030, Size=4
+[2018.09.22-14.05.45:712][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4197920, Size=4
+[2018.09.22-14.05.49:225][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-14.05.49:236][732]LogSavePackage: Save=8.38ms
+[2018.09.22-14.05.49:237][732]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception0802022B47A941F5A59856A60D63F844.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-14.05.49:239][732]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-14.09.10:558][903]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4195128, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.09.27:146][889]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.09.27:149][889]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4195128, Size=4
+[2018.09.22-14.09.27:149][889]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4b7123aa0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_152:ExecuteUbergraph_Perception
+[2018.09.22-14.09.27:152][889]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4d7bf40, Size=48
+[2018.09.22-14.09.27:152][889]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f4d7bf40, Size=48, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_154:ExecuteUbergraph_Perception
+[2018.09.22-14.09.27:153][889]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4accc2610, Size=80, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.09.27:223][889]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4d79f30, Size=48
+[2018.09.22-14.09.27:223][889]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4b7123aa0, Size=4
+[2018.09.22-14.09.57:726][521]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4f45992a0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.10.34:242][888]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.10.34:246][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f45992a0, Size=4
+[2018.09.22-14.10.34:246][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcedad8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_158:ExecuteUbergraph_Perception
+[2018.09.22-14.10.34:250][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4accc2610, Size=80
+[2018.09.22-14.10.34:250][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c491e01e90, Size=80, Perception_C_5 Function /Engine/Transient.REINST_Perception_C_160:ExecuteUbergraph_Perception
+[2018.09.22-14.10.34:252][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4ada463e0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.10.34:325][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4f4d7bf40, Size=48
+[2018.09.22-14.10.34:325][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcedad8, Size=4
+[2018.09.22-14.11.40:019][269]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c491e01e90, Size=80
+[2018.09.22-14.11.40:019][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.026
+[2018.09.22-14.11.40:022][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-14.11.40:022][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-14.11.40:022][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.11.40:041][269]LogSavePackage: Save=14.11ms
+[2018.09.22-14.11.40:041][269]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto5875F073A408E5D539F64E4B5D19FCC57.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto5.uasset'
+[2018.09.22-14.11.40:042][269]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto5.uasset
+[2018.09.22-14.11.40:042][269]LogFileHelpers: Auto-saving content packages took 0.022
+[2018.09.22-14.15.37:353][854]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adc25780, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.15.51:636][563]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adc25780, Size=4
+[2018.09.22-14.15.51:636][563]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcec9c8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_164:ExecuteUbergraph_Perception
+[2018.09.22-14.15.51:638][563]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcef510, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.15.57:481][255]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcef510, Size=4
+[2018.09.22-14.15.57:481][255]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcef510, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_166:ExecuteUbergraph_Perception
+[2018.09.22-14.15.57:483][255]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcee778, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.16.06:092][285]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcee778, Size=4
+[2018.09.22-14.16.06:092][285]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcee778, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_168:ExecuteUbergraph_Perception
+[2018.09.22-14.16.06:093][285]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcee8b0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.16.07:641][468]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.16.07:648][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcee8b0, Size=4
+[2018.09.22-14.16.07:648][468]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adcee8b0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_170:ExecuteUbergraph_Perception
+[2018.09.22-14.16.07:654][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ada463e0, Size=96
+[2018.09.22-14.16.07:654][468]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4af245d80, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_172:ExecuteUbergraph_Perception
+[2018.09.22-14.16.07:657][468]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4af244100, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.16.07:733][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcee778, Size=4
+[2018.09.22-14.16.07:733][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcee8b0, Size=4
+[2018.09.22-14.16.07:733][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcef510, Size=4
+[2018.09.22-14.16.07:733][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adcec9c8, Size=4
+[2018.09.22-14.17.23:410][  9]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AIAgent/TargetInterface.
+[2018.09.22-14.18.12:543][885]BlueprintLog: New page: Compile TargetInterface
+[2018.09.22-14.18.12:565][885]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4af245d80, Size=96
+[2018.09.22-14.21.35:609][851]BlueprintLog: New page: Compile TargetInterface
+[2018.09.22-14.22.04:154][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.018
+[2018.09.22-14.22.04:155][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-14.22.04:155][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-14.22.04:155][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.22.04:178][382]LogSavePackage: Save=18.64ms
+[2018.09.22-14.22.04:178][382]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto6FFBF67204D96F26AE61EFBB19A0A75D5.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto6.uasset'
+[2018.09.22-14.22.04:179][382]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto6.uasset
+[2018.09.22-14.22.04:180][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/TargetInterface] ([1] browsable assets)...
+[2018.09.22-14.22.04:180][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/TargetInterface]
+[2018.09.22-14.22.04:184][382]LogSavePackage: Save=3.27ms
+[2018.09.22-14.22.04:184][382]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/TargetInterface_Auto6A389EC6145B46B75E1ABD4BEB893D9A9.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/TargetInterface_Auto6.uasset'
+[2018.09.22-14.22.04:185][382]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/TargetInterface_Auto6.uasset
+[2018.09.22-14.22.04:185][382]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.09.22-14.24.50:968][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/TargetInterface" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset" SILENT=true
+[2018.09.22-14.24.50:973][ 72]LogSavePackage: Save=3.36ms
+[2018.09.22-14.24.50:973][ 72]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/TargetInterfaceAC21B93146075C5B4C1CDDBDAFB33387.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset'
+[2018.09.22-14.24.50:975][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset
+[2018.09.22-14.24.51:025][ 78]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/TargetInterface.
+[2018.09.22-14.26.00:762][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/TargetInterface" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset" SILENT=true
+[2018.09.22-14.26.00:768][572]LogSavePackage: Save=3.05ms
+[2018.09.22-14.26.00:768][572]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/TargetInterface949E277E4191027914949DA793FE79B0.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset'
+[2018.09.22-14.26.00:769][572]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset
+[2018.09.22-14.26.32:145][322]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.22-14.26.38:688][103]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.26.38:703][103]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4af244100, Size=96
+[2018.09.22-14.26.38:703][103]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4af244100, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_202:ExecuteUbergraph_Perception
+[2018.09.22-14.26.38:708][103]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4af246b60, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.28.52:124][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-14.28.52:149][588]LogSavePackage: Save=21.52ms
+[2018.09.22-14.28.52:149][588]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception4B82C1B9420595D4A64224B9BA06596F.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-14.28.52:152][588]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-14.29.38:668][561]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a3f62938, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.29.58:022][374]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a3f62938, Size=4
+[2018.09.22-14.29.58:023][374]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d6640, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_206:ExecuteUbergraph_Perception
+[2018.09.22-14.29.58:025][374]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5cb8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.30.02:569][915]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5cb8, Size=4
+[2018.09.22-14.30.02:569][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5cb8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_208:ExecuteUbergraph_Perception
+[2018.09.22-14.30.02:572][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7ce8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.30.13:362][204]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7ce8, Size=4
+[2018.09.22-14.30.13:362][204]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7ce8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_210:ExecuteUbergraph_Perception
+[2018.09.22-14.30.13:364][204]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5fb0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.30.17:320][677]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.30.17:327][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5fb0, Size=4
+[2018.09.22-14.30.17:327][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5fb0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_212:ExecuteUbergraph_Perception
+[2018.09.22-14.30.17:335][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4af246b60, Size=96
+[2018.09.22-14.30.17:335][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4af246b60, Size=96, Perception_C_6 Function /Engine/Transient.REINST_Perception_C_214:ExecuteUbergraph_Perception
+[2018.09.22-14.30.17:339][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4afb8a500, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.30.17:417][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5fb0, Size=4
+[2018.09.22-14.30.17:417][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7ce8, Size=4
+[2018.09.22-14.30.17:417][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4af244100, Size=96
+[2018.09.22-14.30.17:417][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d6640, Size=4
+[2018.09.22-14.30.17:417][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5cb8, Size=4
+[2018.09.22-14.30.40:310][416]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d77e8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.01:776][986]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d77e8, Size=4
+[2018.09.22-14.31.01:776][986]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d77e8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_218:ExecuteUbergraph_Perception
+[2018.09.22-14.31.01:777][986]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5b68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.05:729][456]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5b68, Size=4
+[2018.09.22-14.31.05:729][456]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d5b68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_220:ExecuteUbergraph_Perception
+[2018.09.22-14.31.05:731][456]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7918, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.07:441][656]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.31.07:449][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7918, Size=4
+[2018.09.22-14.31.07:449][656]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a3f632b8, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_222:ExecuteUbergraph_Perception
+[2018.09.22-14.31.07:457][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4afb8a500, Size=96
+[2018.09.22-14.31.07:457][656]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50654e980, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_224:ExecuteUbergraph_Perception
+[2018.09.22-14.31.07:461][656]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4adc6f5e0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.07:536][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a3f632b8, Size=4
+[2018.09.22-14.31.07:536][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4af246b60, Size=96
+[2018.09.22-14.31.07:536][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d5b68, Size=4
+[2018.09.22-14.31.07:536][656]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d77e8, Size=4
+[2018.09.22-14.31.09:222][856]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7af0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.20:263][178]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7af0, Size=4
+[2018.09.22-14.31.20:263][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d7af0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_228:ExecuteUbergraph_Perception
+[2018.09.22-14.31.20:265][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d70a0, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.21:721][351]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.31.21:729][351]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d70a0, Size=4
+[2018.09.22-14.31.21:729][351]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c50e3d70a0, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_230:ExecuteUbergraph_Perception
+[2018.09.22-14.31.21:738][351]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4adc6f5e0, Size=96
+[2018.09.22-14.31.21:738][351]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5149fa260, Size=96, Perception_C_7 Function /Engine/Transient.REINST_Perception_C_232:ExecuteUbergraph_Perception
+[2018.09.22-14.31.21:742][351]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4add4b8e0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.21:822][351]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50654e980, Size=96
+[2018.09.22-14.31.21:822][351]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d70a0, Size=4
+[2018.09.22-14.31.21:822][351]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c50e3d7af0, Size=4
+[2018.09.22-14.31.25:210][753]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a3f63528, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.26:352][888]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.31.26:359][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a3f63528, Size=4
+[2018.09.22-14.31.26:359][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4a3f63528, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_236:ExecuteUbergraph_Perception
+[2018.09.22-14.31.26:367][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4add4b8e0, Size=96
+[2018.09.22-14.31.26:367][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4add4b8e0, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_238:ExecuteUbergraph_Perception
+[2018.09.22-14.31.26:371][888]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c514d21d20, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.31.26:446][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5149fa260, Size=96
+[2018.09.22-14.31.26:446][888]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4a3f63528, Size=4
+[2018.09.22-14.32.09:567][274]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4add4b8e0, Size=96
+[2018.09.22-14.32.09:568][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.046
+[2018.09.22-14.32.09:572][274]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-14.32.09:572][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-14.32.09:572][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.32.09:603][274]LogSavePackage: Save=26.46ms
+[2018.09.22-14.32.09:603][274]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto778320C634BBB9E6A1A097C8C8645A154.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto7.uasset'
+[2018.09.22-14.32.09:604][274]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto7.uasset
+[2018.09.22-14.32.09:604][274]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.09.22-14.34.52:698][935]BlueprintLog: New page: Compile TargetInterface
+[2018.09.22-14.34.57:639][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/TargetInterface" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset" SILENT=true
+[2018.09.22-14.34.57:647][523]LogSavePackage: Save=4.04ms
+[2018.09.22-14.34.57:647][523]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/TargetInterface8D7D2E1F454CA1F20F11F4A724A20CCC.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset'
+[2018.09.22-14.34.57:649][523]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/TargetInterface.uasset
+[2018.09.22-14.39.22:153][657]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.39.22:172][657]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c514d21d20, Size=96
+[2018.09.22-14.39.22:172][657]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51ac47ee0, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_256:ExecuteUbergraph_Perception
+[2018.09.22-14.39.22:180][657]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51ac443a0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.39.22:927][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-14.39.22:956][733]LogSavePackage: Save=25.69ms
+[2018.09.22-14.39.22:956][733]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception9D240E0740F0E6FC49985F836ADCBFD9.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-14.39.22:958][733]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-14.40.51:510][280]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c518625710, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.43.58:284][ 31]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51ac47ee0, Size=96
+[2018.09.22-14.43.58:285][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2018.09.22-14.43.58:287][ 31]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Perception] ([1] browsable assets)...
+[2018.09.22-14.43.58:287][ 31]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Perception]
+[2018.09.22-14.43.58:287][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.43.58:318][ 31]LogSavePackage: Save=28.91ms
+[2018.09.22-14.43.58:318][ 31]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception_Auto83801ADD647C5209CCA86488C8A337B7F.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto8.uasset'
+[2018.09.22-14.43.58:319][ 31]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Perception_Auto8.uasset
+[2018.09.22-14.43.58:319][ 31]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.09.22-14.45.24:843][996]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c518625710, Size=4
+[2018.09.22-14.45.24:843][996]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c519421d10, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_260:ExecuteUbergraph_Perception
+[2018.09.22-14.45.24:845][996]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c519422968, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.45.29:778][576]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c519422968, Size=4
+[2018.09.22-14.45.29:778][576]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e69a980, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_262:ExecuteUbergraph_Perception
+[2018.09.22-14.45.29:780][576]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e698e68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.45.31:841][820]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e698e68, Size=4
+[2018.09.22-14.45.31:841][820]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e698e68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_264:ExecuteUbergraph_Perception
+[2018.09.22-14.45.31:844][820]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e69af68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.45.36:020][318]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e69af68, Size=4
+[2018.09.22-14.45.36:020][318]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e69af68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_266:ExecuteUbergraph_Perception
+[2018.09.22-14.45.36:023][318]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e69ae68, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.45.37:533][496]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.45.37:544][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e69ae68, Size=4
+[2018.09.22-14.45.37:544][496]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e69ae68, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_268:ExecuteUbergraph_Perception
+[2018.09.22-14.45.37:555][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51ac443a0, Size=96
+[2018.09.22-14.45.37:555][496]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51bcd9c60, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_270:ExecuteUbergraph_Perception
+[2018.09.22-14.45.37:561][496]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c4e8f69e40, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.45.37:639][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e69ae68, Size=4
+[2018.09.22-14.45.37:639][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e69af68, Size=4
+[2018.09.22-14.45.37:639][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c519421d10, Size=4
+[2018.09.22-14.45.37:639][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e698e68, Size=4
+[2018.09.22-14.45.37:639][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e69a980, Size=4
+[2018.09.22-14.46.06:592][961]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.46.06:614][961]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4e8f69e40, Size=96
+[2018.09.22-14.46.06:614][961]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51bcd98a0, Size=96, Perception_C_8 Function /Engine/Transient.REINST_Perception_C_274:ExecuteUbergraph_Perception
+[2018.09.22-14.46.06:620][961]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51ac46fe0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.46.06:703][961]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51bcd9c60, Size=96
+[2018.09.22-14.46.18:885][405]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e699a28, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.46.20:023][538]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.46.20:037][538]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e699a28, Size=4
+[2018.09.22-14.46.20:037][538]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e699a28, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_278:ExecuteUbergraph_Perception
+[2018.09.22-14.46.20:050][538]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51ac46fe0, Size=96
+[2018.09.22-14.46.20:050][538]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51e943e80, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_280:ExecuteUbergraph_Perception
+[2018.09.22-14.46.20:056][538]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5220d93c0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.46.20:132][538]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e699a28, Size=4
+[2018.09.22-14.46.20:132][538]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51bcd98a0, Size=96
+[2018.09.22-14.46.22:878][862]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.46.22:902][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5220d93c0, Size=96
+[2018.09.22-14.46.22:902][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51d63fee0, Size=96, Perception_C_9 Function /Engine/Transient.REINST_Perception_C_284:ExecuteUbergraph_Perception
+[2018.09.22-14.46.22:908][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c51bf886a0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.46.22:989][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51e943e80, Size=96
+[2018.09.22-14.46.50:027][893]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c522abace8, Size=4, Default__SKEL_Perception_C Function /Game/AIAgent/Perception.SKEL_Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.47.23:910][933]BlueprintLog: New page: Compile Perception
+[2018.09.22-14.47.23:923][933]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c522abace8, Size=4
+[2018.09.22-14.47.23:923][933]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c518624150, Size=4, Default__SKEL_Perception_C Function /Engine/Transient.REINST_SKEL_Perception_C_288:ExecuteUbergraph_Perception
+[2018.09.22-14.47.23:935][933]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51bf886a0, Size=96
+[2018.09.22-14.47.23:935][933]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c519b6e9e0, Size=96, Default__Perception_C Function /Engine/Transient.REINST_Perception_C_290:ExecuteUbergraph_Perception
+[2018.09.22-14.47.23:943][933]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5149faec0, Size=96, Default__Perception_C Function /Game/AIAgent/Perception.Perception_C:ExecuteUbergraph_Perception
+[2018.09.22-14.47.24:022][933]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c51d63fee0, Size=96
+[2018.09.22-14.47.24:022][933]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c518624150, Size=4
+[2018.09.22-14.49.18:260][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Perception" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset" SILENT=true
+[2018.09.22-14.49.18:298][915]LogSavePackage: Save=34.32ms
+[2018.09.22-14.49.18:298][915]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Perception760BD12A437BCA3E263F1AB8FE06CE79.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset'
+[2018.09.22-14.49.18:301][915]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Perception.uasset
+[2018.09.22-14.49.28:759][161]LogBehaviorTree: Warning: Blackboard asset (ProtoAI) has (ProtoAI) in parent chain! Clearing value to avoid cycle.
+[2018.09.22-14.50.15:505][339]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2018.09.22-14.50.36:860][892]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-14.50.37:057][892]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c519b6e9e0, Size=96
+[2018.09.22-14.50.51:247][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Proto_controller" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset" SILENT=true
+[2018.09.22-14.50.51:255][589]LogSavePackage: Save=4.32ms
+[2018.09.22-14.50.51:255][589]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controller51BAA2E9455868F6A236A6ADC0558404.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset'
+[2018.09.22-14.50.51:257][589]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset
+[2018.09.22-14.52.16:641][505]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AIAgent/I_AI.
+[2018.09.22-14.53.59:104][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.020
+[2018.09.22-14.53.59:106][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/ProtoAI] ([1] browsable assets)...
+[2018.09.22-14.53.59:106][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/ProtoAI]
+[2018.09.22-14.53.59:106][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoAI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoAI_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.53.59:111][481]LogSavePackage: Save=1.24ms
+[2018.09.22-14.53.59:111][481]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoAI_Auto94DDA296647E996CB3DE9EAB656BD3EEC.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoAI_Auto9.uasset'
+[2018.09.22-14.53.59:113][481]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoAI_Auto9.uasset
+[2018.09.22-14.53.59:113][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Proto_controller] ([1] browsable assets)...
+[2018.09.22-14.53.59:113][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Proto_controller]
+[2018.09.22-14.53.59:120][481]LogSavePackage: Save=4.52ms
+[2018.09.22-14.53.59:120][481]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controller_Auto97860F49B49AD12EB2EA1B6B447678C4C.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto9.uasset'
+[2018.09.22-14.53.59:122][481]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto9.uasset
+[2018.09.22-14.53.59:123][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/I_AI] ([1] browsable assets)...
+[2018.09.22-14.53.59:123][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/I_AI]
+[2018.09.22-14.53.59:123][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/I_AI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/I_AI_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-14.53.59:127][481]LogSavePackage: Save=2.32ms
+[2018.09.22-14.53.59:128][481]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/I_AI_Auto9B230D2174DBC0DC6452980970EE07F81.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/I_AI_Auto9.uasset'
+[2018.09.22-14.53.59:129][481]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/I_AI_Auto9.uasset
+[2018.09.22-14.53.59:129][481]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.09.22-15.00.11:821][817]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.22-15.00.11:837][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.00.11:840][817]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.22-15.00.11:844][817]LogPlayLevel: [PlayLevel] Compiling Proto_controller before play...
+[2018.09.22-15.00.12:007][817]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (1 blueprints)
+[2018.09.22-15.00.12:007][817]PIE: New page: PIE session: TopDownExampleMap (22 Sep 2018 17:00:12)
+[2018.09.22-15.00.12:007][817]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-15.00.12:021][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013805s)
+[2018.09.22-15.00.12:022][817]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-15.00.12:022][817]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2018.09.22-15.00.12:022][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014776s)
+[2018.09.22-15.00.12:047][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-15.00.12:061][817]LogInit: FAudioDevice initialized.
+[2018.09.22-15.00.12:099][817]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-15.00.12:101][817]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.09.22-16.00.12
+[2018.09.22-15.00.12:101][817]LogWorld: Bringing up level for play took: 0.001846
+[2018.09.22-15.00.12:102][817]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.092
+[2018.09.22-15.00.12:102][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.00.19:748][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.00.19:787][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.00.27:820][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-15.01.14:922][733]BlueprintLog: New page: Compile I_AI
+[2018.09.22-15.01.18:319][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/I_AI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset" SILENT=true
+[2018.09.22-15.01.18:323][135]LogSavePackage: Save=2.63ms
+[2018.09.22-15.01.18:323][135]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/I_AI89736B224A5A2DE41D3FBF9739A17D23.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset'
+[2018.09.22-15.01.18:326][135]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset
+[2018.09.22-15.01.18:418][146]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/I_AI.
+[2018.09.22-15.02.02:587][407]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.02.27:709][382]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.02.53:216][385]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.03.18:483][364]BlueprintLog: New page: Compile I_AI
+[2018.09.22-15.03.36:897][558]BlueprintLog: New page: Compile I_AI
+[2018.09.22-15.03.40:394][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/I_AI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset" SILENT=true
+[2018.09.22-15.03.40:401][957]LogSavePackage: Save=2.90ms
+[2018.09.22-15.03.40:401][957]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/I_AIC41AA2324CE09CB1365D508DBA4A93FD.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset'
+[2018.09.22-15.03.40:404][957]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/I_AI.uasset
+[2018.09.22-15.03.58:481][109]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.04.20:465][711]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.04.21:173][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Proto_controller" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset" SILENT=true
+[2018.09.22-15.04.21:185][774]LogSavePackage: Save=7.87ms
+[2018.09.22-15.04.21:185][774]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controllerF091C945429F99AC170E1A99B793EE0F.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset'
+[2018.09.22-15.04.21:187][774]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset
+[2018.09.22-15.05.12:796][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Proto_controller" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset" SILENT=true
+[2018.09.22-15.05.12:807][280]LogSavePackage: Save=7.98ms
+[2018.09.22-15.05.12:807][280]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controller9F6DF246497E19844D2BB4974E0AB9FB.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset'
+[2018.09.22-15.05.12:810][280]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset
+[2018.09.22-15.06.50:458][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.020
+[2018.09.22-15.06.50:460][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Proto_controller] ([1] browsable assets)...
+[2018.09.22-15.06.50:460][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Proto_controller]
+[2018.09.22-15.06.50:471][464]LogSavePackage: Save=8.19ms
+[2018.09.22-15.06.50:471][464]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controller_Auto03C1DED714C9D3107DA6CC2954E2D2C0A.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto0.uasset'
+[2018.09.22-15.06.50:472][464]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto0.uasset
+[2018.09.22-15.06.50:472][464]LogFileHelpers: Auto-saving content packages took 0.013
+[2018.09.22-15.08.11:401][752]BlueprintLog: New page: Compile Proto_controller
+[2018.09.22-15.14.28:863][375]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AIAgent/BTTask_BlueprintBase_New.
+[2018.09.22-15.14.40:670][785]LogMetaData: Removing '/Game/AIAgent/MOveToTarget.SKEL_MOveToTarget_C' ref from Metadata '/Game/AIAgent/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.09.22-15.14.40:670][785]LogMetaData: Removing '/Game/AIAgent/MOveToTarget.MOveToTarget_C' ref from Metadata '/Game/AIAgent/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.09.22-15.14.40:685][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/MOveToTarget" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset" SILENT=true
+[2018.09.22-15.14.40:689][785]LogSavePackage: Save=1.97ms
+[2018.09.22-15.14.40:689][785]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/MOveToTarget5D8B89FE4777B741388871A99F815B9F.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset'
+[2018.09.22-15.14.40:691][785]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset
+[2018.09.22-15.14.40:877][790]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/MOveToTarget.
+[2018.09.22-15.14.46:413][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/MOveToTarget" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset" SILENT=true
+[2018.09.22-15.14.46:418][451]LogSavePackage: Save=1.64ms
+[2018.09.22-15.14.46:418][451]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/MOveToTarget5E397C974DF4EDD3E5ED2792A73D76A0.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset'
+[2018.09.22-15.14.46:420][451]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset
+[2018.09.22-15.16.16:949][645]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5316390e0, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.22:663][310]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5316390e0, Size=4
+[2018.09.22-15.16.22:663][310]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5311af820, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_402:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.22:664][310]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5311aca48, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.34:909][776]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5311aca48, Size=4
+[2018.09.22-15.16.34:909][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c531639020, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_404:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.34:910][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c531639f10, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.39:289][296]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c531639f10, Size=4
+[2018.09.22-15.16.39:289][296]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84af38, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_406:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.39:290][296]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84aad8, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.47:624][294]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84aad8, Size=4
+[2018.09.22-15.16.47:624][294]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84aad8, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_408:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.47:625][294]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84ac68, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.49:335][498]BlueprintLog: New page: Compile MoveToTarget
+[2018.09.22-15.16.49:335][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84ac68, Size=4
+[2018.09.22-15.16.49:335][498]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84ac68, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_410:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.49:337][498]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c53158f0a0, Size=48, Default__MoveToTarget_C Function /Game/AIAgent/MOveToTarget.MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.16.49:357][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84ac68, Size=4
+[2018.09.22-15.16.49:357][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84aad8, Size=4
+[2018.09.22-15.16.49:357][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84af38, Size=4
+[2018.09.22-15.16.49:357][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c531639020, Size=4
+[2018.09.22-15.16.49:357][498]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5311af820, Size=4
+[2018.09.22-15.17.06:344][521]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5316399d0, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.17.54:700][288]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5316399d0, Size=4
+[2018.09.22-15.17.54:700][288]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5316399d0, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_416:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.17.54:701][288]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c53163b5c8, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.19.06:907][ 26]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5316399d0, Size=4
+[2018.09.22-15.19.06:907][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.022
+[2018.09.22-15.19.06:909][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/ProtoTree] ([1] browsable assets)...
+[2018.09.22-15.19.06:909][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/ProtoTree]
+[2018.09.22-15.19.06:909][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-15.19.06:916][ 26]LogSavePackage: Save=3.69ms
+[2018.09.22-15.19.06:916][ 26]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTree_Auto13B4FF02C4815351891924CB626F78826.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset'
+[2018.09.22-15.19.06:917][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto1.uasset
+[2018.09.22-15.19.06:918][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/Proto_controller] ([1] browsable assets)...
+[2018.09.22-15.19.06:918][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/Proto_controller]
+[2018.09.22-15.19.06:929][ 26]LogSavePackage: Save=7.79ms
+[2018.09.22-15.19.06:929][ 26]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controller_Auto1A31F24764135F3086496849F763CA232.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto1.uasset'
+[2018.09.22-15.19.06:930][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/Proto_controller_Auto1.uasset
+[2018.09.22-15.19.06:932][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/MOveToTarget] ([1] browsable assets)...
+[2018.09.22-15.19.06:932][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/MOveToTarget]
+[2018.09.22-15.19.06:942][ 26]LogSavePackage: Save=8.00ms
+[2018.09.22-15.19.06:942][ 26]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/MOveToTarget_Auto1FED900B945350BF8AF75AFB422DECC45.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/MOveToTarget_Auto1.uasset'
+[2018.09.22-15.19.06:943][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/MOveToTarget_Auto1.uasset
+[2018.09.22-15.19.06:943][ 26]LogFileHelpers: Auto-saving content packages took 0.035
+[2018.09.22-15.23.28:558][238]BlueprintLog: New page: Compile MoveToTarget
+[2018.09.22-15.23.28:562][238]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c53163b5c8, Size=4
+[2018.09.22-15.23.28:562][238]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c5311afa28, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_418:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.23.28:565][238]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c53158f0a0, Size=48
+[2018.09.22-15.23.28:565][238]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c53166a2f0, Size=48, Default__MoveToTarget_C Function /Engine/Transient.REINST_MoveToTarget_C_420:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.23.28:589][238]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c540718c80, Size=128, Default__MoveToTarget_C Function /Game/AIAgent/MOveToTarget.MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.23.28:610][238]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5311afa28, Size=4
+[2018.09.22-15.25.00:965][229]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84a0d0, Size=4, Default__SKEL_MoveToTarget_C Function /Game/AIAgent/MOveToTarget.SKEL_MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.25.01:927][343]BlueprintLog: New page: Compile MoveToTarget
+[2018.09.22-15.25.01:930][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84a0d0, Size=4
+[2018.09.22-15.25.01:930][343]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c52d84a0d0, Size=4, Default__SKEL_MoveToTarget_C Function /Engine/Transient.REINST_SKEL_MoveToTarget_C_424:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.25.01:933][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c540718c80, Size=128
+[2018.09.22-15.25.01:933][343]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c540718c80, Size=128, MoveToTarget_C_0 Function /Engine/Transient.REINST_MoveToTarget_C_426:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.25.01:935][343]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c540718580, Size=128, Default__MoveToTarget_C Function /Game/AIAgent/MOveToTarget.MoveToTarget_C:ExecuteUbergraph_MoveToTarget
+[2018.09.22-15.25.01:954][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c53166a2f0, Size=48
+[2018.09.22-15.25.01:954][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c52d84a0d0, Size=4
+[2018.09.22-15.25.04:023][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/MOveToTarget" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset" SILENT=true
+[2018.09.22-15.25.04:035][588]LogSavePackage: Save=8.64ms
+[2018.09.22-15.25.04:035][588]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/MOveToTargetBE3C4438463BA291DF4CCE8E214DE305.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset'
+[2018.09.22-15.25.04:038][588]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/MOveToTarget.uasset
+[2018.09.22-15.27.11:119][894]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.22-15.29.24:418][168]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c540718c80, Size=128
+[2018.09.22-15.29.24:418][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.022
+[2018.09.22-15.29.24:420][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AIAgent/ProtoTree] ([1] browsable assets)...
+[2018.09.22-15.29.24:420][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/ProtoTree]
+[2018.09.22-15.29.24:420][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.09.22-15.29.24:429][168]LogSavePackage: Save=5.24ms
+[2018.09.22-15.29.24:429][168]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTree_Auto23F7930CA4B1108EDB913679B1B17CF3B.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto2.uasset'
+[2018.09.22-15.29.24:431][168]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Autosaves/Game/AIAgent/ProtoTree_Auto2.uasset
+[2018.09.22-15.29.24:431][168]LogFileHelpers: Auto-saving content packages took 0.012
+[2018.09.22-15.32.03:225][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoTree" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset" SILENT=true
+[2018.09.22-15.32.03:234][ 81]LogSavePackage: Save=6.39ms
+[2018.09.22-15.32.03:234][ 81]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoTree403C539B464E1AD3AE111092720642DB.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset'
+[2018.09.22-15.32.03:236][ 81]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoTree.uasset
+[2018.09.22-15.35.42:390][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/ProtoAI" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset" SILENT=true
+[2018.09.22-15.35.42:398][290]LogSavePackage: Save=2.24ms
+[2018.09.22-15.35.42:398][290]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/ProtoAI13C9DBD84ECD7528038383BB1733DAAD.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset'
+[2018.09.22-15.35.42:401][290]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/ProtoAI.uasset
+[2018.09.22-15.35.42:403][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/Proto_controller" FILE="../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset" SILENT=true
+[2018.09.22-15.35.42:418][290]LogSavePackage: Save=10.37ms
+[2018.09.22-15.35.42:418][290]LogSavePackage: Moving '../../../../../My Documents/Unreal Projects/SP_Prototype/Saved/Proto_controllerC5A14C014599922B5A973B807654F496.tmp' to '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset'
+[2018.09.22-15.35.42:420][290]LogSavePackage: Display: Finished SavePackage ../../../../../My Documents/Unreal Projects/SP_Prototype/Content/AIAgent/Proto_controller.uasset
+[2018.09.22-15.36.24:810][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-15.36.24:860][607]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.22-15.36.24:876][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.36.24:879][607]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.22-15.36.24:884][607]LogPlayLevel: [PlayLevel] Compiling Proto_controller before play...
+[2018.09.22-15.36.25:050][607]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (1 blueprints)
+[2018.09.22-15.36.25:050][607]PIE: New page: PIE session: TopDownExampleMap (22 Sep 2018 17:36:25)
+[2018.09.22-15.36.25:050][607]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-15.36.25:062][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011593s)
+[2018.09.22-15.36.25:062][607]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-15.36.25:062][607]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.09.22-15.36.25:062][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012476s)
+[2018.09.22-15.36.25:088][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-15.36.25:101][607]LogInit: FAudioDevice initialized.
+[2018.09.22-15.36.25:131][607]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-15.36.25:133][607]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.09.22-16.36.25
+[2018.09.22-15.36.25:133][607]LogWorld: Bringing up level for play took: 0.001552
+[2018.09.22-15.36.25:134][607]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.123
+[2018.09.22-15.36.25:134][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.36.46:804][652]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.22-15.36.47:632][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.36.47:667][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-15.36.50:989][109]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
+[2018.09.22-15.36.51:193][110]Cmd: QUIT_EDITOR
+[2018.09.22-15.36.51:559][110]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.22-15.36.51:569][110]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.22-15.36.51:570][110]LogExit: Preparing to exit.
+[2018.09.22-15.36.51:737][110]LogDirectoryWatcher: A directory notification for 'E:/My Documents/Unreal Projects/SP_Prototype/Content/' was aborted.
+[2018.09.22-15.36.51:807][110]LogExit: Editor shut down
+[2018.09.22-15.36.51:830][110]LogExit: Transaction tracking system shut down
+[2018.09.22-15.36.51:831][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c540718580, Size=128
+[2018.09.22-15.36.51:831][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ed79a250, Size=72
+[2018.09.22-15.36.51:831][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c5149faec0, Size=96
+[2018.09.22-15.36.51:832][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ed232b00, Size=1200
+[2018.09.22-15.36.51:834][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4882cf000, Size=504
+[2018.09.22-15.36.51:837][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ba931218, Size=4
+[2018.09.22-15.36.51:837][110]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c4ba931210, Size=4
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../../../../My Documents/Unreal Projects/SP_Prototype/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.09.22-15.36.51:967][110]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.09.22-15.36.51:968][110]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.09.22-15.36.52:073][110]LogExit: Object subsystem successfully closed.
+[2018.09.22-15.36.52:088][110]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.22-15.36.52:093][110]LogD3D11RHI: Shutdown
+[2018.09.22-15.36.52:093][110]LogD3D11RHI: CleanupD3DDevice
+[2018.09.22-15.36.52:097][110]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.22-15.36.52:106][110]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (578)
+[2018.09.22-15.36.52:106][110]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
+[2018.09.22-15.36.52:106][110]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2018.09.22-15.36.52:106][110]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.09.22-15.36.52:106][110]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.09.22-15.36.52:107][110]LogDirectoryWatcher: A directory notification for 'E:/Program Files/UE_4.19/FeaturePacks/' was aborted.
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.09.22-15.36.52:110][110]LogDirectoryWatcher: A directory notification for 'E:/My Documents/Unreal Projects/SP_Prototype/Content/Collections/' was aborted.
+[2018.09.22-15.36.52:110][110]LogDirectoryWatcher: A directory notification for 'E:/My Documents/Unreal Projects/SP_Prototype/Content/Developers/Tony/Collections/' was aborted.
+[2018.09.22-15.36.52:110][110]LogDirectoryWatcher: A directory notification for 'E:/My Documents/Unreal Projects/SP_Prototype/Saved/Collections/' was aborted.
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.09.22-15.36.52:110][110]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.09.22-15.36.52:111][110]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.09.22-15.36.52:181][110]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.09.22-15.36.52:234][110]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.09.22-15.36.52:239][110]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.09.22-15.36.52:239][110]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2018.09.22-15.36.52:241][110]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.09.22-15.36.52:389][110]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.09.22-15.36.52:392][110]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.09.22-15.36.52:393][110]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.09.22-15.36.52:494][110]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.09.22-15.36.52:594][110]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.09.22-15.36.52:595][110]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.09.22-15.36.52:595][110]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.09.22-15.36.52:596][110]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.09.22-15.36.52:596][110]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.09.22-15.36.52:596][110]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.09.22-15.36.52:598][110]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.09.22-15.36.52:598][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.09.22-15.36.52:598][110]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.09.22-15.36.52:598][110]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.09.22-15.36.53:185][110]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.09.22-15.36.53:185][110]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.09.22-15.36.53:185][110]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.09.22-15.36.53:186][110]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.09.22-15.36.53:192][110]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.09.22-15.36.53:193][110]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.09.22-15.36.53:194][110]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.09.22-15.36.53:197][110]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.09.22-15.36.53:240][110]LogDerivedDataCache: Shutdown
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.09.22-15.36.53:240][110]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.09.22-15.36.53:241][110]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.22-15.36.53:242][110]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.22-15.36.53:242][110]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.09.22-15.36.53:242][110]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2655A0A0-4094-CE98-4184-79B3DE3D5281%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=84db1b124787cb0c1b5ac191a4f1d48a%7C14e80ed0bb064eb49e15c77ad9af4df7%7C8bebd179-1d28-4297-ba36-c838396191e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.22-15.36.53:242][110]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2655A0A0-4094-CE98-4184-79B3DE3D5281%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=84db1b124787cb0c1b5ac191a4f1d48a%7C14e80ed0bb064eb49e15c77ad9af4df7%7C8bebd179-1d28-4297-ba36-c838396191e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.22-15.36.53:268][110]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.22-15.36.53:270][110]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.22-15.36.53:272][110]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.22-15.36.53:276][110]LogExit: Exiting.
+[2018.09.22-15.36.53:315][110]Log file closed, 09/22/18 16:36:53
