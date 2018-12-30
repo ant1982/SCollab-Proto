@@ -3,7 +3,7 @@ Senior Collaborative Project - Duel of Fates
 
 Duel of fates is a local co-op / single player top-down hack and slash themed around desert tombs.
 Players will face waves of enemies as they progress through the level and reach the end.
-**More description about the game goes hear**
+**More description about the game goes here**
 
 # Coding standards
 
