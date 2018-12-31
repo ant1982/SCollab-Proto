@@ -1640,3 +1640,17 @@ LogInit: Object subsystem initialized
 [2018.12.31-02.43.39:688][259]SourceControl:  create mode 100644 SP_Prototype/Content/Materials/YellowGreen.uasset
 [2018.12.31-02.43.39:688][259]SourceControl:  create mode 100644 SP_Prototype/Content/Materials/YellowOrange.uasset
 [2018.12.31-02.43.39:700][259]SourceControl: Commited [LevelDesign-Will 9af61a9] Mock Level.
+[2018.12.31-03.54.28:525][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.54.36:768][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.54.38:713][522]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.19/Engine/Content: 'C:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2018.12.31-03.54.39:076][522]EditorErrors: Warning: No assets to check in!
+[2018.12.31-03.54.45:939][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.31-03.54.46:139][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.54.49:404][ 67]LogSavePackage: Save=3081.99ms
+[2018.12.31-03.54.49:404][ 67]LogSavePackage: Moving '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Saved/BlockOutE3979593408B91522F7309BC2379855F.tmp' to '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap'
+[2018.12.31-03.54.49:424][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap
+[2018.12.31-03.56.10:336][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.56.10:441][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.56.13:565][485]LogSavePackage: Save=3074.22ms
+[2018.12.31-03.56.13:565][485]LogSavePackage: Moving '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Saved/BlockOut2C1633C04A1A928D701DE1BF2430DD6A.tmp' to '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap'
+[2018.12.31-03.56.13:581][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap
