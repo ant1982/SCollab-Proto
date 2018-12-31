@@ -1654,3 +1654,9 @@ LogInit: Object subsystem initialized
 [2018.12.31-03.56.13:565][485]LogSavePackage: Save=3074.22ms
 [2018.12.31-03.56.13:565][485]LogSavePackage: Moving '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Saved/BlockOut2C1633C04A1A928D701DE1BF2430DD6A.tmp' to '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap'
 [2018.12.31-03.56.13:581][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap
+[2018.12.31-03.57.35:883][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.31-03.57.36:069][920]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.31-03.57.39:111][920]LogSavePackage: Save=2997.70ms
+[2018.12.31-03.57.39:111][920]LogSavePackage: Moving '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Saved/BlockOut375F93E447FCDC0A110DA38641A0DB25.tmp' to '../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap'
+[2018.12.31-03.57.39:125][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wstan/Desktop/Github/SCollab-Proto/SP_Prototype/Content/Levels/BlockOut.umap
+[2018.12.31-03.58.09:782][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
