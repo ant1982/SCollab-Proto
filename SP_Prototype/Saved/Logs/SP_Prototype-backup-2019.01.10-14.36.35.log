@@ -1,0 +1,1219 @@
+﻿Log file open, 01/10/19 13:35:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SP_Prototype
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(582946727) SRandInit(582946727).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.312544
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  2.138s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am c115-14 (10.6.118.14:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Epic/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.10-13.35.08:146][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-13.35.08:146][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.10-13.35.08:184][  0]LogInit: Computer: C115-14
+[2019.01.10-13.35.08:184][  0]LogInit: User: s017290g
+[2019.01.10-13.35.08:184][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.10-13.35.08:185][  0]LogInit: High frequency timer resolution =3.410074 MHz
+[2019.01.10-13.35.08:185][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.10-13.35.08:185][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.10-13.35.08:185][  0]LogMemory: Process Physical Memory: 274.45 MB used, 274.45 MB peak
+[2019.01.10-13.35.08:185][  0]LogMemory: Process Virtual Memory: 264.54 MB used, 264.54 MB peak
+[2019.01.10-13.35.08:185][  0]LogMemory: Physical Memory: 5851.85 MB used,  10448.39 MB free, 16300.24 MB total
+[2019.01.10-13.35.08:185][  0]LogMemory: Virtual Memory: 4790.45 MB used,  10448.39 MB free, 134217728.00 MB total
+[2019.01.10-13.35.08:237][  0]LogInit: Using OS detected language (en-US).
+[2019.01.10-13.35.08:238][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.10-13.35.08:243][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.10-13.35.08:685][  0]LogStreaming: Display: Took  0.447s to EndInitTextLocalization.
+[2019.01.10-13.35.08:685][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.10-13.35.08:735][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.10-13.35.08:735][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.10-13.35.09:085][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.10-13.35.09:179][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.10-13.35.09:179][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.10-13.35.09:182][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.10-13.35.09:182][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.10-13.35.09:182][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.10-13.35.09:190][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.10-13.35.09:190][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.10-13.35.09:190][  0]LogWindows: EnumDisplayDevices:
+[2019.01.10-13.35.09:191][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.10-13.35.09:191][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.10-13.35.09:191][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.10-13.35.09:192][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.10-13.35.09:192][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.10-13.35.09:192][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.10-13.35.09:192][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.10-13.35.09:192][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.10-13.35.09:192][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.10-13.35.09:240][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.01.10-13.35.09:240][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.01.10-13.35.09:240][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.10-13.35.09:260][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.10-13.35.09:305][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Intermediate/Shaders/WorkingDirectory/4868/).
+[2019.01.10-13.35.09:306][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s017290g/AppData/Local/Temp/UnrealShaderWorkingDir/9ADC22C647A4B004183290BE73D01D99/'.
+[2019.01.10-13.35.09:589][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.10-13.35.09:607][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.10-13.35.09:624][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.10-13.35.09:642][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.10-13.35.09:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.10-13.35.09:678][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.10-13.35.09:695][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.10-13.35.09:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.10-13.35.09:723][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.10-13.35.09:737][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.10-13.35.09:752][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.10-13.35.09:766][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.10-13.35.09:780][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.01.10-13.35.09:794][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.10-13.35.09:809][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.10-13.35.09:839][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.10-13.35.09:839][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.10-13.35.09:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-13.35.09:857][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.10-13.35.09:906][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.10-13.35.09:931][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.10-13.35.09:960][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.10-13.35.09:975][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.10-13.35.09:989][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.10-13.35.10:004][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.10-13.35.10:004][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.10-13.35.10:248][  0]LogXGEController: Cleaning working directory: C:/Users/s017290g/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.10-13.35.10:249][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.10-13.35.10:249][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.10-13.35.10:249][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.10-13.35.11:353][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.10-13.35.11:480][  0]LogDerivedDataCache: Loaded boot cache 0.13s 74MB C:/Users/s017290g/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.01.10-13.35.11:480][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s017290g/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.01.10-13.35.11:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.10-13.35.11:481][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.10-13.35.11:481][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.10-13.35.11:481][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.10-13.35.11:499][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.10-13.35.11:512][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s017290g/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.10-13.35.11:512][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.10-13.35.11:512][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.10-13.35.11:541][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.10-13.35.11:542][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.10-13.35.11:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-13.35.11:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-13.35.11:752][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2019.01.10-13.35.12:179][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-13.35.12:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.10-13.35.12:391][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.10-13.35.12:391][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.10-13.35.12:391][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.10-13.35.12:391][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.01.10-13.35.12:391][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.01.10-13.35.12:448][  0]LogNetVersion: SP_Prototype , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4173178018)
+[2019.01.10-13.35.12:966][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104029 seconds
+[2019.01.10-13.35.12:972][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.01.10-13.35.12:972][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.01.10-13.35.12:972][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.10-13.35.15:384][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.10-13.35.15:432][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.10-13.35.16:133][  0]SourceControl: Source control is disabled
+[2019.01.10-13.35.16:135][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:135][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.01.10-13.35.16:136][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:136][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.01.10-13.35.16:137][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:137][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.01.10-13.35.16:138][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:138][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.01.10-13.35.16:139][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:139][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.01.10-13.35.16:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:140][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.01.10-13.35.16:142][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:142][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.01.10-13.35.16:221][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:221][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.01.10-13.35.16:222][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:222][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.01.10-13.35.16:223][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:223][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.01.10-13.35.16:224][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:224][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.01.10-13.35.16:226][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:226][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.01.10-13.35.16:226][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:226][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.01.10-13.35.16:228][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:228][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.01.10-13.35.16:294][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:294][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.01.10-13.35.16:295][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:295][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.01.10-13.35.16:295][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:295][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.01.10-13.35.16:296][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:296][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.01.10-13.35.16:297][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:297][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.01.10-13.35.16:297][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:297][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.01.10-13.35.16:298][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.16:298][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.01.10-13.35.17:317][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.10-13.35.17:659][  0]LogOcInput: OculusInput pre-init called
+[2019.01.10-13.35.17:896][  0]LogEngine: Initializing Engine...
+[2019.01.10-13.35.17:898][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.10-13.35.17:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-13.35.17:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-13.35.18:200][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.10-13.35.18:231][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.35.18:251][  0]LogInit: FAudioDevice initialized.
+[2019.01.10-13.35.18:353][  0]LogDerivedDataCache: Saved boot cache 0.10s 74MB C:/Users/s017290g/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.01.10-13.35.18:373][  0]LogInit: Texture streaming: Enabled
+[2019.01.10-13.35.18:433][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.10-13.35.18:467][  0]LogInit: Transaction tracking system initialized
+[2019.01.10-13.35.18:542][  0]BlueprintLog: New page: Editor Load
+[2019.01.10-13.35.18:714][  0]LocalizationService: Localization service is disabled
+[2019.01.10-13.35.18:884][  0]LogConsoleResponse: Display: 
+[2019.01.10-13.35.19:078][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.10-13.35.19:078][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.10-13.35.19:078][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.10-13.35.19:078][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-13.35.19:078][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-13.35.19:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/' took 0.03s
+[2019.01.10-13.35.19:791][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:791][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.01.10-13.35.19:792][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:792][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.01.10-13.35.19:792][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:792][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:793][  0]LogWindows: Warning: URL: C:\Users\s017290g\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.01.10-13.35.19:794][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.01.10-13.35.19:794][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.01.10-13.35.19:794][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.10-13.35.19:795][  0]LightingResults: New page: Lighting Build
+[2019.01.10-13.35.19:800][  0]MapCheck: New page: Map Check
+[2019.01.10-13.35.19:800][  0]LightingResults: New page: Lighting Build
+[2019.01.10-13.35.19:863][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474b55d800, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.01.10-13.35.19:873][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474b55d800, Size=64
+[2019.01.10-13.35.19:873][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474b55d940, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.01.10-13.35.19:881][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746c75120, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.01.10-13.35.19:885][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746ca0100, Size=1848, Default__TopDownCharacter_C Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+[2019.01.10-13.35.19:938][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746c636e8, Size=24, Default__Ingame_C Function /Game/TopDownBP/Hud/Ingame.Ingame_C:ExecuteUbergraph_Ingame
+[2019.01.10-13.35.19:953][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746c636e8, Size=24
+[2019.01.10-13.35.19:953][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746c636e8, Size=24, Default__Ingame_C Function /Engine/Transient.REINST_Ingame_C_0:ExecuteUbergraph_Ingame
+[2019.01.10-13.35.19:954][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746ca0100, Size=1848
+[2019.01.10-13.35.19:954][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746855600, Size=1848, Default__TopDownCharacter_C Function /Engine/Transient.REINST_TopDownCharacter_C_6:ExecuteUbergraph_TopDownCharacter
+[2019.01.10-13.35.19:963][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746c61480, Size=24, Default__Ingame_C Function /Game/TopDownBP/Hud/Ingame.Ingame_C:ExecuteUbergraph_Ingame
+[2019.01.10-13.35.19:967][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474677c100, Size=1848, Default__TopDownCharacter_C Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+[2019.01.10-13.35.20:056][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746b42d80, Size=64, Default__AIbot_C Function /Game/AIAgent/AIbot.AIbot_C:ExecuteUbergraph_AIbot
+[2019.01.10-13.35.20:058][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746b42d80, Size=64
+[2019.01.10-13.35.20:058][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746b42340, Size=64, Default__AIbot_C Function /Engine/Transient.REINST_AIbot_C_13:ExecuteUbergraph_AIbot
+[2019.01.10-13.35.20:060][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746b414c0, Size=64, Default__AIbot_C Function /Game/AIAgent/AIbot.AIbot_C:ExecuteUbergraph_AIbot
+[2019.01.10-13.35.20:063][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247464948b0, Size=80, Default__SpawnPoint_C Function /Game/SpawnActor/SpawnPoint.SpawnPoint_C:ExecuteUbergraph_SpawnPoint
+[2019.01.10-13.35.20:064][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247464948b0, Size=80
+[2019.01.10-13.35.20:064][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247464954e0, Size=80, Default__SpawnPoint_C Function /Engine/Transient.REINST_SpawnPoint_C_15:ExecuteUbergraph_SpawnPoint
+[2019.01.10-13.35.20:066][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024747fcb650, Size=80, Default__SpawnPoint_C Function /Game/SpawnActor/SpawnPoint.SpawnPoint_C:ExecuteUbergraph_SpawnPoint
+[2019.01.10-13.35.20:071][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474645a080, Size=128, Default__PlayerControl_C Function /Game/TopDownBP/Blueprints/PlayerControl.PlayerControl_C:ExecuteUbergraph_PlayerControl
+[2019.01.10-13.35.20:073][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474645a080, Size=128
+[2019.01.10-13.35.20:073][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474645a080, Size=128, Default__PlayerControl_C Function /Engine/Transient.REINST_PlayerControl_C_17:ExecuteUbergraph_PlayerControl
+[2019.01.10-13.35.20:075][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746459500, Size=128, Default__PlayerControl_C Function /Game/TopDownBP/Blueprints/PlayerControl.PlayerControl_C:ExecuteUbergraph_PlayerControl
+[2019.01.10-13.35.20:080][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024747fc4480, Size=200, Default__damagetest_C Function /Game/TopDownBP/Hud/damagetest.damagetest_C:ExecuteUbergraph_damagetest
+[2019.01.10-13.35.20:082][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024747fc4480, Size=200
+[2019.01.10-13.35.20:082][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746e03900, Size=200, Default__damagetest_C Function /Engine/Transient.REINST_damagetest_C_21:ExecuteUbergraph_damagetest
+[2019.01.10-13.35.20:083][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024746e02b00, Size=200, Default__damagetest_C Function /Game/TopDownBP/Hud/damagetest.damagetest_C:ExecuteUbergraph_damagetest
+[2019.01.10-13.35.20:086][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474674e808, Size=4, Default__test_C Function /Game/TopDownBP/Hud/test.test_C:ExecuteUbergraph_test
+[2019.01.10-13.35.20:088][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474674e808, Size=4
+[2019.01.10-13.35.20:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474674e808, Size=4, Default__test_C Function /Engine/Transient.REINST_test_C_23:ExecuteUbergraph_test
+[2019.01.10-13.35.20:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002474674ea28, Size=4, Default__test_C Function /Game/TopDownBP/Hud/test.test_C:ExecuteUbergraph_test
+[2019.01.10-13.35.20:233][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [11.947835ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.01.10-13.35.20:344][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-13.35.20:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.10-13.35.20:384][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474b55d940, Size=64
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746855600, Size=1848
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746c636e8, Size=24
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746b42340, Size=64
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247464954e0, Size=80
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474645a080, Size=128
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746e03900, Size=200
+[2019.01.10-13.35.20:385][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474674e808, Size=4
+[2019.01.10-13.35.20:386][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.10-13.35.20:487][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.487ms to complete.
+[2019.01.10-13.35.20:487][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.692
+[2019.01.10-13.35.20:675][  0]LogCollectionManager: Loaded 0 collections in 0.004041 seconds
+[2019.01.10-13.35.20:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Collections/' took 0.01s
+[2019.01.10-13.35.20:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Developers/s017290g/Collections/' took 0.01s
+[2019.01.10-13.35.20:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Collections/' took 0.01s
+[2019.01.10-13.35.20:745][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.10-13.35.20:761][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2452 classes and 558 folders.
+[2019.01.10-13.35.20:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.35.20:866][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.35.20:874][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.10-13.35.20:893][  0]LogSlate: Took 0.000716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.10-13.35.20:899][  0]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.10-13.35.20:911][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.10-13.35.21:033][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-13.35.21:272][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.35.21:272][  0]LogLoad: (Engine Initialization) Total time: 18.16 seconds
+[2019.01.10-13.35.21:272][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.10-13.35.21:650][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.10-13.35.21:712][  0]LogSlate: Took 0.000623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-13.35.22:649][  3]LogAssetRegistry: Asset discovery search completed in 10.9201 seconds
+[2019.01.10-13.35.22:653][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.10-13.35.22:653][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2019.01.10-13.35.22:669][  3]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-13.35.41:289][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.35.48:767][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.35.48:825][975]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247046e9000, Size=64, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.35.48:827][975]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247046e9000, Size=64
+[2019.01.10-13.35.48:827][975]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247046e8a00, Size=64, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_25:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.35.48:828][975]LogUObjectGlobals: Created PersistentFrame Addr=0x000002477fde1440, Size=64, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.36.01:699][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.36.02:514][526]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.01.10-13.36.02:831][526]LogUObjectGlobals: Created PersistentFrame Addr=0x000002475a181a20, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.01.10-13.36.02:832][526]LogUObjectGlobals: Created PersistentFrame Addr=0x000002475a181a18, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.01.10-13.36.03:328][526]LogSlate: Took 0.004576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.10-13.36.05:026][659]LogSlate: Window 'TargetDummy' being destroyed
+[2019.01.10-13.36.19:042][231]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-13.36.19:049][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002477fde1440, Size=64
+[2019.01.10-13.36.19:049][231]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024783e5c0c0, Size=64, TargetDummy_C_2 Function /Engine/Transient.REINST_TargetDummy_C_41:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.36.19:049][231]LogBlueprint: Error: [Compiler TargetDummy] Spawn node  Create Widget  must have a class specified.
+[2019.01.10-13.36.19:050][231]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024784602198, Size=56, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.36.19:172][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247046e8a00, Size=64
+[2019.01.10-13.36.19:179][231]LogBlueprint: Warning: [Compiler TargetDummy] [0076.06] Compile of TargetDummy failed. 1 Fatal Issue(s) 0 Warning(s) [in 136 ms] (/Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy)
+[2019.01.10-13.41.22:173][726]LogSlate: Took 0.011056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.10-13.41.22:602][776]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-13.41.22:609][776]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024784602198, Size=56
+[2019.01.10-13.41.22:609][776]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024783e75e18, Size=56, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_45:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.41.22:610][776]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024783e757c0, Size=56, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.41.23:253][819]LogSavePackage: Save=30.80ms
+[2019.01.10-13.41.23:253][819]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummy296D5E45453CFAEA54B349B8B372EBFE.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-13.41.23:261][819]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-13.43.57:275][ 84]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57048, Size=4, Default__SKEL_TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.SKEL_TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.00:560][473]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57048, Size=4
+[2019.01.10-13.44.00:560][473]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57048, Size=4, Default__SKEL_TargetDummy_C Function /Engine/Transient.REINST_SKEL_TargetDummy_C_55:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.00:561][473]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57540, Size=4, Default__SKEL_TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.SKEL_TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.20:397][240]LogSlate: Took 0.008851 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.10-13.44.21:189][335]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57540, Size=4
+[2019.01.10-13.44.21:189][335]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57540, Size=4, Default__SKEL_TargetDummy_C Function /Engine/Transient.REINST_SKEL_TargetDummy_C_57:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.21:190][335]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57788, Size=4, Default__SKEL_TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.SKEL_TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.58:130][748]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-13.44.58:133][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57788, Size=4
+[2019.01.10-13.44.58:133][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478ed57788, Size=4, Default__SKEL_TargetDummy_C Function /Engine/Transient.REINST_SKEL_TargetDummy_C_59:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.58:137][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024783e757c0, Size=56
+[2019.01.10-13.44.58:137][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478e4e5e18, Size=56, TargetDummy_C_45 Function /Engine/Transient.REINST_TargetDummy_C_61:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.58:138][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000002476ea4cd40, Size=64, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.44.58:505][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57788, Size=4
+[2019.01.10-13.44.58:505][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57540, Size=4
+[2019.01.10-13.44.58:505][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478ed57048, Size=4
+[2019.01.10-13.44.58:506][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024783e75e18, Size=56
+[2019.01.10-13.45.01:816][132]LogSavePackage: Save=28.24ms
+[2019.01.10-13.45.01:816][132]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummyE348CD22459624EAC89A41A52D995578.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-13.45.01:822][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-13.45.04:298][428]BlueprintLog: New page: Compile DamageText
+[2019.01.10-13.45.04:320][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478e4e5e18, Size=56
+[2019.01.10-13.45.05:053][510]LogSavePackage: Save=16.78ms
+[2019.01.10-13.45.05:053][510]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageTextD9E6BDBD45C56C25EBEA22A9400AFECC.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-13.45.05:058][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-13.46.40:969][543]BlueprintLog: New page: Compile DamageText
+[2019.01.10-13.46.41:500][595]LogSavePackage: Save=16.85ms
+[2019.01.10-13.46.41:501][595]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText86E705F34312FCA21141188215513DFD.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-13.46.41:510][595]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-13.46.45:994][ 99]LogSavePackage: Save=158.63ms
+[2019.01.10-13.46.45:994][ 99]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMapF965F09143B4D73C4BC52796FCBD6986.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.10-13.46.46:000][ 99]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.10-13.46.57:013][326]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.10-13.47.07:325][535]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-13.47.07:338][535]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002476ea4cd40, Size=64
+[2019.01.10-13.47.07:338][535]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478f4c33c0, Size=64, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_75:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.47.07:339][535]LogUObjectGlobals: Created PersistentFrame Addr=0x000002479eb56070, Size=72, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.47.07:706][535]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024783e5c0c0, Size=64
+[2019.01.10-13.47.51:470][122]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-13.47.51:501][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-13.47.51:501][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.47.51:502][122]PIE: New page: PIE session: TopDownExampleMap (10 Jan 2019 13:47:51)
+[2019.01.10-13.47.51:502][122]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.10-13.47.51:529][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026815s)
+[2019.01.10-13.47.51:530][122]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-13.47.51:530][122]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2019.01.10-13.47.51:530][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027858s)
+[2019.01.10-13.47.51:560][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478f4c33c0, Size=64
+[2019.01.10-13.47.51:566][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.47.51:579][122]LogInit: FAudioDevice initialized.
+[2019.01.10-13.47.51:626][122]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.10-13.47.51:631][122]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.10-13.47.51
+[2019.01.10-13.47.51:632][122]LogWorld: Bringing up level for play took: 0.004931
+[2019.01.10-13.47.51:648][122]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2019.01.10-13.47.51:651][122]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.279
+[2019.01.10-13.47.51:651][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-13.47.52:924][266]LogBlueprintUserMessages: [TargetDummy_130] 980.0
+[2019.01.10-13.47.53:714][361]LogBlueprintUserMessages: [TargetDummy_130] 960.0
+[2019.01.10-13.47.55:056][522]LogBlueprintUserMessages: [TargetDummy_130] 940.0
+[2019.01.10-13.47.55:640][592]LogBlueprintUserMessages: [TargetDummy_130] 920.0
+[2019.01.10-13.47.56:391][682]LogBlueprintUserMessages: [TargetDummy_130] 900.0
+[2019.01.10-13.47.57:949][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-13.47.57:981][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-13.49.03:199][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.51.40:097][364]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-13.51.40:103][364]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002479eb56070, Size=72
+[2019.01.10-13.51.40:103][364]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478c6320c0, Size=72, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_88:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.51.40:105][364]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247179d2f00, Size=64, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-13.51.41:074][423]LogSavePackage: Save=26.85ms
+[2019.01.10-13.51.41:074][423]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummy7F6B396546B81C6EEF6A77B5B48529F5.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-13.51.41:078][423]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-13.51.48:813][294]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478c6320c0, Size=72
+[2019.01.10-13.51.52:961][294]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.10-13.52.30:278][636]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Damagetextblock' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:280][636]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:281][636]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:289][637]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:291][637]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:297][638]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:298][638]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:305][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:307][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:314][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:316][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:317][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:323][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:331][642]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:339][643]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:348][644]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:357][645]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:367][646]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:375][647]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:383][648]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:392][649]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:400][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:408][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:417][652]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:425][653]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:433][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:442][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:450][656]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:458][657]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:467][658]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:475][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:483][660]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:492][661]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:500][662]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:508][663]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:517][664]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:525][665]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:533][666]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:542][667]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:551][668]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:560][669]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:568][670]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:576][671]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:585][672]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:593][673]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.52.30:601][674]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.TextBlock_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2019.01.10-13.57.36:090][380]LogSavePackage: Save=183.15ms
+[2019.01.10-13.57.36:090][380]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap_Auto1E7811BCF4F45526BB5D2D6866A635F3E.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2019.01.10-13.57.36:093][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2019.01.10-13.57.36:097][380]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.262
+[2019.01.10-13.57.36:097][380]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.262
+[2019.01.10-13.57.36:102][380]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/TargetDummy/DamageText] ([1] browsable assets)...
+[2019.01.10-13.57.36:102][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/TargetDummy/DamageText]
+[2019.01.10-13.57.36:116][380]LogSavePackage: Save=11.85ms
+[2019.01.10-13.57.36:116][380]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText_Auto1A910B2A341490B12794ECBB5CD5A8D88.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/DamageText_Auto1.uasset'
+[2019.01.10-13.57.36:123][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/DamageText_Auto1.uasset
+[2019.01.10-13.57.36:123][380]LogFileHelpers: Auto-saving content packages took 0.024
+[2019.01.10-14.01.11:472][614]LogSavePackage: Save=17.61ms
+[2019.01.10-14.01.11:472][614]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText63314E64426D6AA4C880F2A4ACB89BF4.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-14.01.11:482][614]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-14.01.12:548][742]BlueprintLog: New page: Compile DamageText
+[2019.01.10-14.01.24:239][971]LogSavePackage: Save=14.54ms
+[2019.01.10-14.01.24:239][971]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText92FC0D834115B4E74675F0AF5FB41300.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-14.01.24:244][971]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-14.01.27:099][313]BlueprintLog: New page: Compile DamageText
+[2019.01.10-14.01.27:704][376]LogSavePackage: Save=17.78ms
+[2019.01.10-14.01.27:704][376]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText98ACD3D84E71036C7D65C1B5DA9E67FB.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-14.01.27:706][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-14.01.35:419][271]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024785fc49e8, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.12:974][710]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024785fc49e8, Size=4
+[2019.01.10-14.02.12:974][710]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247787639f0, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_42:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.12:975][710]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024778763c08, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.27:391][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024778763c08, Size=4
+[2019.01.10-14.02.27:391][433]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024785fc51f0, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_43:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.27:392][433]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024785fc5810, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.33:992][220]BlueprintLog: New page: Compile DamageText
+[2019.01.10-14.02.33:994][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024785fc5810, Size=4
+[2019.01.10-14.02.33:994][220]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024785fc5810, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_44:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.33:997][220]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024785fc5060, Size=4, Default__DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.02.34:016][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024785fc5810, Size=4
+[2019.01.10-14.02.34:016][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024785fc51f0, Size=4
+[2019.01.10-14.02.34:016][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247787639f0, Size=4
+[2019.01.10-14.03.08:546][583]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024788b28a10, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.07.36:964][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.028
+[2019.01.10-14.07.36:967][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/TargetDummy/DamageText] ([1] browsable assets)...
+[2019.01.10-14.07.36:967][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/TargetDummy/DamageText]
+[2019.01.10-14.07.37:018][471]LogSavePackage: Save=27.80ms
+[2019.01.10-14.07.37:018][471]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText_Auto2628803574B026EA510BA6E91D184E9A0.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/DamageText_Auto2.uasset'
+[2019.01.10-14.07.37:023][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/DamageText_Auto2.uasset
+[2019.01.10-14.07.37:023][471]LogFileHelpers: Auto-saving content packages took 0.058
+[2019.01.10-14.08.22:535][289]BlueprintLog: New page: Compile DamageText
+[2019.01.10-14.08.22:539][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024788b28a10, Size=4
+[2019.01.10-14.08.22:539][289]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b135aea0, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_47:ExecuteUbergraph_DamageText
+[2019.01.10-14.08.22:544][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024785fc5060, Size=4
+[2019.01.10-14.08.22:544][289]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b135af90, Size=4, DamageText_C_77 Function /Engine/Transient.REINST_DamageText_C_48:ExecuteUbergraph_DamageText
+[2019.01.10-14.08.22:546][289]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024789fcd700, Size=120, Default__DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.08.22:566][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b135aea0, Size=4
+[2019.01.10-14.08.25:719][655]LogSavePackage: Save=26.14ms
+[2019.01.10-14.08.25:719][655]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText36151DA8437B94D346398B812678FA59.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-14.08.25:724][655]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-14.08.28:337][940]LogSavePackage: Save=147.56ms
+[2019.01.10-14.08.28:338][940]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap1E49D68D45DFAAC66E4298955B603385.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.10-14.08.28:353][940]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.10-14.08.42:642][604]LogUObjectGlobals: Created PersistentFrame Addr=0x000002478bb5fb78, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.08.42:666][604]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002478bb5fb78, Size=4
+[2019.01.10-14.08.42:666][604]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247a258f8f0, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_50:ExecuteUbergraph_DamageText
+[2019.01.10-14.08.42:668][604]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247a258f020, Size=4, Default__SKEL_DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.SKEL_DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.09.02:027][859]LogSavePackage: Save=47.42ms
+[2019.01.10-14.09.02:027][859]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/DamageText57B2090446B894787E7CECA12702940F.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset'
+[2019.01.10-14.09.02:039][859]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/DamageText.uasset
+[2019.01.10-14.09.02:995][973]BlueprintLog: New page: Compile DamageText
+[2019.01.10-14.09.03:003][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247a258f020, Size=4
+[2019.01.10-14.09.03:003][973]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b14ca0c0, Size=4, Default__SKEL_DamageText_C Function /Engine/Transient.REINST_SKEL_DamageText_C_51:ExecuteUbergraph_DamageText
+[2019.01.10-14.09.03:010][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024789fcd700, Size=120
+[2019.01.10-14.09.03:010][973]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1ccbe80, Size=120, DamageText_C_85 Function /Engine/Transient.REINST_DamageText_C_52:ExecuteUbergraph_DamageText
+[2019.01.10-14.09.03:013][973]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1ccbd80, Size=120, Default__DamageText_C Function /Game/TopDownBP/TargetDummy/DamageText.DamageText_C:ExecuteUbergraph_DamageText
+[2019.01.10-14.09.03:034][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b135af90, Size=4
+[2019.01.10-14.09.03:034][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247a258f8f0, Size=4
+[2019.01.10-14.09.03:034][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b14ca0c0, Size=4
+[2019.01.10-14.18.28:066][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.020
+[2019.01.10-14.18.28:068][442]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/TargetDummy/TargetDummy] ([1] browsable assets)...
+[2019.01.10-14.18.28:080][442]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy]
+[2019.01.10-14.18.28:080][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/TargetDummy/TargetDummy]
+[2019.01.10-14.18.28:126][442]LogSavePackage: Save=26.71ms
+[2019.01.10-14.18.28:126][442]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummy_Auto37E740E59441CD8009CD72D83017F3710.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/TargetDummy_Auto3.uasset'
+[2019.01.10-14.18.28:128][442]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/TargetDummy/TargetDummy_Auto3.uasset
+[2019.01.10-14.18.28:128][442]LogFileHelpers: Auto-saving content packages took 0.062
+[2019.01.10-14.19.22:722][592]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.10-14.21.46:088][855]LogEditorViewport: Clicking on Actor (LMB): TargetDummy_C (TargetDummy)
+[2019.01.10-14.21.46:918][948]Cmd: SELECT NONE
+[2019.01.10-14.22.08:430][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.22.49:212][360]LogSavePackage: Save=33.93ms
+[2019.01.10-14.22.49:212][360]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummy96210A914C1635CAF7C861A3E7EEF0E5.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-14.22.49:217][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-14.22.51:872][678]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-14.22.51:879][678]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247179d2f00, Size=64
+[2019.01.10-14.22.51:879][678]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247a079b9c0, Size=64, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_135:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.22.51:881][678]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b0465620, Size=72, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.23.20:492][995]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b0ecb170, Size=4, Default__SKEL_TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.SKEL_TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.23.20:493][995]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.01.10-14.23.20:494][995]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.01.10-14.23.23:734][359]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-14.23.40:301][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.25.59:994][398]LogSlate: Window 'Delete Variable' being destroyed
+[2019.01.10-14.26.05:194][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b0ecb170, Size=4
+[2019.01.10-14.26.05:194][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1ce75b0, Size=4, Default__SKEL_TargetDummy_C Function /Engine/Transient.REINST_SKEL_TargetDummy_C_139:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.26.05:196][997]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1ce7808, Size=4, Default__SKEL_TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.SKEL_TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.26.10:998][682]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-14.26.11:003][682]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1ce7808, Size=4
+[2019.01.10-14.26.11:003][682]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1ce7808, Size=4, Default__SKEL_TargetDummy_C Function /Engine/Transient.REINST_SKEL_TargetDummy_C_141:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.26.11:007][682]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b0465620, Size=72
+[2019.01.10-14.26.11:007][682]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b0cee2a0, Size=72, TargetDummy_C_302 Function /Engine/Transient.REINST_TargetDummy_C_143:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.26.11:009][682]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b0464bd0, Size=72, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.26.11:401][682]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247a079b9c0, Size=64
+[2019.01.10-14.26.11:401][682]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1ce7808, Size=4
+[2019.01.10-14.26.11:402][682]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1ce75b0, Size=4
+[2019.01.10-14.26.11:963][732]LogSavePackage: Save=31.75ms
+[2019.01.10-14.26.11:963][732]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummyA37FAD5E4C7A424470A4C3BC3AA797A7.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-14.26.11:968][732]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-14.26.13:218][877]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-14.26.13:259][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.13:259][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-14.26.13:260][877]PIE: New page: PIE session: TopDownExampleMap (10 Jan 2019 14:26:13)
+[2019.01.10-14.26.13:260][877]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.10-14.26.13:278][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018425s)
+[2019.01.10-14.26.13:279][877]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-14.26.13:279][877]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2019.01.10-14.26.13:279][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019493s)
+[2019.01.10-14.26.13:305][877]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b0cee2a0, Size=72
+[2019.01.10-14.26.13:321][877]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-14.26.13:334][877]LogInit: FAudioDevice initialized.
+[2019.01.10-14.26.13:370][877]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.10-14.26.13:372][877]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.10-14.26.13
+[2019.01.10-14.26.13:372][877]LogWorld: Bringing up level for play took: 0.002169
+[2019.01.10-14.26.13:374][877]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.553
+[2019.01.10-14.26.13:375][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.14:480][  2]LogBlueprintUserMessages: [TargetDummy_130] 980.0
+[2019.01.10-14.26.15:090][ 75]LogBlueprintUserMessages: [TargetDummy_130] 960.0
+[2019.01.10-14.26.15:790][159]LogBlueprintUserMessages: [TargetDummy_130] 940.0
+[2019.01.10-14.26.22:269][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.22:306][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.31:166][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.26.31:241][795]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-14.26.31:263][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.31:264][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-14.26.31:264][795]PIE: New page: PIE session: TopDownExampleMap (10 Jan 2019 14:26:31)
+[2019.01.10-14.26.31:264][795]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.10-14.26.31:283][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019355s)
+[2019.01.10-14.26.31:284][795]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-14.26.31:284][795]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.01.10-14.26.31:284][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020362s)
+[2019.01.10-14.26.31:311][795]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-14.26.31:324][795]LogInit: FAudioDevice initialized.
+[2019.01.10-14.26.31:352][795]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.10-14.26.31:355][795]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.10-14.26.31
+[2019.01.10-14.26.31:355][795]LogWorld: Bringing up level for play took: 0.002022
+[2019.01.10-14.26.31:357][795]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.57
+[2019.01.10-14.26.31:357][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.33:324][ 24]LogBlueprintUserMessages: [TargetDummy_130] 980.0
+[2019.01.10-14.26.34:106][118]LogBlueprintUserMessages: [TargetDummy_130] 960.0
+[2019.01.10-14.26.35:916][335]LogBlueprintUserMessages: [TargetDummy_130] 940.0
+[2019.01.10-14.26.37:949][579]LogBlueprintUserMessages: [TargetDummy_130] 920.0
+[2019.01.10-14.26.48:212][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.48:247][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.26.49:029][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.28.54:379][221]LogSavePackage: Save=181.12ms
+[2019.01.10-14.28.54:379][221]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap_Auto4A32F04DF4C27B8BB84BCF3ADFFFB9344.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap'
+[2019.01.10-14.28.54:382][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap
+[2019.01.10-14.28.54:386][221]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.247
+[2019.01.10-14.28.54:386][221]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2019.01.10-14.30.13:700][163]LogSavePackage: Save=24.05ms
+[2019.01.10-14.30.13:700][163]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummyA4A17DD94D74AF017C3CBBB14B45A6EF.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-14.30.13:705][163]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-14.31.52:339][813]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-14.31.52:361][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.31.52:361][813]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.10-14.31.52:366][813]LogPlayLevel: [PlayLevel] Compiling TargetDummy before play...
+[2019.01.10-14.31.52:371][813]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b0464bd0, Size=72
+[2019.01.10-14.31.52:371][813]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1682c00, Size=72, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_151:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.31.52:374][813]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b1683ba0, Size=72, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.31.52:733][813]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1682c00, Size=72
+[2019.01.10-14.31.52:734][813]LogPlayLevel: PlayLevel: Blueprint regeneration took 372 ms (1 blueprints)
+[2019.01.10-14.31.52:734][813]PIE: New page: PIE session: TopDownExampleMap (10 Jan 2019 14:31:52)
+[2019.01.10-14.31.52:734][813]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.10-14.31.52:753][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019076s)
+[2019.01.10-14.31.52:754][813]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-14.31.52:754][813]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2019.01.10-14.31.52:754][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020297s)
+[2019.01.10-14.31.52:785][813]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-14.31.52:800][813]LogInit: FAudioDevice initialized.
+[2019.01.10-14.31.52:837][813]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.10-14.31.52:839][813]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.10-14.31.52
+[2019.01.10-14.31.52:840][813]LogWorld: Bringing up level for play took: 0.002115
+[2019.01.10-14.31.52:842][813]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.922
+[2019.01.10-14.31.52:842][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.31.53:921][927]LogBlueprintUserMessages: [TargetDummy_130] 980.0
+[2019.01.10-14.31.54:595][  8]LogBlueprintUserMessages: [TargetDummy_130] 960.0
+[2019.01.10-14.31.55:346][ 98]LogBlueprintUserMessages: [TargetDummy_130] 940.0
+[2019.01.10-14.31.55:597][128]LogBlueprintUserMessages: [TargetDummy_130] 920.0
+[2019.01.10-14.31.56:130][192]LogBlueprintUserMessages: [TargetDummy_130] 900.0
+[2019.01.10-14.31.56:863][280]LogBlueprintUserMessages: [TargetDummy_130] 880.0
+[2019.01.10-14.31.58:564][484]LogBlueprintUserMessages: [TargetDummy_130] 860.0
+[2019.01.10-14.31.59:440][589]LogBlueprintUserMessages: [TargetDummy_130] 840.0
+[2019.01.10-14.32.06:134][392]LogBlueprintUserMessages: [TargetDummy_130] 820.0
+[2019.01.10-14.32.07:143][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.32.07:178][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.33.15:966][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.34.20:448][550]BlueprintLog: New page: Compile TargetDummy
+[2019.01.10-14.34.20:458][550]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1683ba0, Size=72
+[2019.01.10-14.34.20:459][550]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b655ed40, Size=72, Default__TargetDummy_C Function /Engine/Transient.REINST_TargetDummy_C_155:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.34.20:461][550]LogUObjectGlobals: Created PersistentFrame Addr=0x00000247b655e0c0, Size=72, Default__TargetDummy_C Function /Game/TopDownBP/TargetDummy/TargetDummy.TargetDummy_C:ExecuteUbergraph_TargetDummy
+[2019.01.10-14.34.23:733][867]LogSavePackage: Save=34.53ms
+[2019.01.10-14.34.23:733][867]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummyF24E4ADC4CC5F3FFBC12A5B0ECFC82D4.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-14.34.23:738][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-14.34.32:244][884]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-14.34.32:274][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.34.32:274][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-14.34.32:274][884]PIE: New page: PIE session: TopDownExampleMap (10 Jan 2019 14:34:32)
+[2019.01.10-14.34.32:274][884]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.10-14.34.32:297][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022377s)
+[2019.01.10-14.34.32:298][884]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.10-14.34.32:298][884]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2019.01.10-14.34.32:298][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023548s)
+[2019.01.10-14.34.32:326][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b655ed40, Size=72
+[2019.01.10-14.34.32:334][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-14.34.32:348][884]LogInit: FAudioDevice initialized.
+[2019.01.10-14.34.32:384][884]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.01.10-14.34.32:386][884]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.01.10-14.34.32
+[2019.01.10-14.34.32:387][884]LogWorld: Bringing up level for play took: 0.001966
+[2019.01.10-14.34.32:389][884]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.471
+[2019.01.10-14.34.32:389][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.34.33:586][ 23]LogBlueprintUserMessages: [TargetDummy_130] 980.0
+[2019.01.10-14.34.35:001][193]LogBlueprintUserMessages: [TargetDummy_130] 960.0
+[2019.01.10-14.34.35:228][220]LogBlueprintUserMessages: [TargetDummy_130] 940.0
+[2019.01.10-14.34.35:870][297]LogBlueprintUserMessages: [TargetDummy_130] 920.0
+[2019.01.10-14.34.36:103][325]LogBlueprintUserMessages: [TargetDummy_130] 900.0
+[2019.01.10-14.34.36:528][376]LogBlueprintUserMessages: [TargetDummy_130] 880.0
+[2019.01.10-14.34.37:011][434]LogBlueprintUserMessages: [TargetDummy_130] 860.0
+[2019.01.10-14.34.37:187][455]LogBlueprintUserMessages: [TargetDummy_130] 840.0
+[2019.01.10-14.34.38:113][566]LogBlueprintUserMessages: [TargetDummy_130] 820.0
+[2019.01.10-14.34.38:354][595]LogBlueprintUserMessages: [TargetDummy_130] 800.0
+[2019.01.10-14.34.39:104][685]LogBlueprintUserMessages: [TargetDummy_130] 780.0
+[2019.01.10-14.34.39:296][708]LogBlueprintUserMessages: [TargetDummy_130] 760.0
+[2019.01.10-14.34.39:864][776]LogBlueprintUserMessages: [TargetDummy_130] 740.0
+[2019.01.10-14.34.40:438][845]LogBlueprintUserMessages: [TargetDummy_130] 720.0
+[2019.01.10-14.34.40:998][912]LogBlueprintUserMessages: [TargetDummy_130] 700.0
+[2019.01.10-14.34.41:364][956]LogBlueprintUserMessages: [TargetDummy_130] 680.0
+[2019.01.10-14.34.41:599][984]LogBlueprintUserMessages: [TargetDummy_130] 660.0
+[2019.01.10-14.34.42:800][128]LogBlueprintUserMessages: [TargetDummy_130] 640.0
+[2019.01.10-14.34.43:450][206]LogBlueprintUserMessages: [TargetDummy_130] 620.0
+[2019.01.10-14.34.44:750][362]LogBlueprintUserMessages: [TargetDummy_130] 600.0
+[2019.01.10-14.34.45:908][501]LogBlueprintUserMessages: [TargetDummy_130] 580.0
+[2019.01.10-14.34.46:786][604]LogBlueprintUserMessages: [TargetDummy_130] 560.0
+[2019.01.10-14.34.47:844][731]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2019.01.10-14.34.48:720][836]LogBlueprintUserMessages: [TargetDummy_130] 540.0
+[2019.01.10-14.34.50:511][ 51]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2019.01.10-14.34.51:361][153]LogBlueprintUserMessages: [TargetDummy_130] 520.0
+[2019.01.10-14.34.52:337][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.34.52:375][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.10-14.34.55:875][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-14.34.56:174][690]LogSavePackage: Save=168.27ms
+[2019.01.10-14.34.56:174][690]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap7506A7E94E4B8D741BCF88B3EF61F4E0.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.10-14.34.56:182][690]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.10-14.36.14:921][256]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1ccbe80, Size=120
+[2019.01.10-14.36.15:092][256]LogSavePackage: Save=158.46ms
+[2019.01.10-14.36.15:094][256]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap1DE10E0D4607FFDC1D8AE4964B65DBDE.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.10-14.36.15:110][256]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.10-14.36.16:221][359]LogSavePackage: Save=25.78ms
+[2019.01.10-14.36.16:221][359]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TargetDummyEB06823346DFB1B53FB295A49B32EDD7.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset'
+[2019.01.10-14.36.16:226][359]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/TargetDummy/TargetDummy.uasset
+[2019.01.10-14.36.19:110][671]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
+[2019.01.10-14.36.19:112][671]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.10-14.36.19:362][672]Cmd: QUIT_EDITOR
+[2019.01.10-14.36.20:113][672]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.10-14.36.20:113][672]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2019.01.10-14.36.20:113][672]LogExit: Preparing to exit.
+[2019.01.10-14.36.21:226][672]LogDirectoryWatcher: A directory notification for 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/' was aborted.
+[2019.01.10-14.36.21:281][672]LogExit: Editor shut down
+[2019.01.10-14.36.21:298][672]LogExit: Transaction tracking system shut down
+[2019.01.10-14.36.21:299][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746c75120, Size=72
+[2019.01.10-14.36.21:299][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746c61480, Size=24
+[2019.01.10-14.36.21:299][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474677c100, Size=1848
+[2019.01.10-14.36.21:300][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746b414c0, Size=64
+[2019.01.10-14.36.21:300][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024747fcb650, Size=80
+[2019.01.10-14.36.21:300][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746459500, Size=128
+[2019.01.10-14.36.21:301][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024746e02b00, Size=200
+[2019.01.10-14.36.21:301][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002474674ea28, Size=4
+[2019.01.10-14.36.21:310][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002475a181a20, Size=4
+[2019.01.10-14.36.21:310][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002475a181a18, Size=4
+[2019.01.10-14.36.21:311][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b655e0c0, Size=72
+[2019.01.10-14.36.21:311][672]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000247b1ccbd80, Size=120
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.01.10-14.36.21:395][672]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.01.10-14.36.21:523][672]LogExit: Object subsystem successfully closed.
+[2019.01.10-14.36.21:549][672]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.10-14.36.21:562][672]LogD3D11RHI: Shutdown
+[2019.01.10-14.36.21:562][672]LogD3D11RHI: CleanupD3DDevice
+[2019.01.10-14.36.21:571][672]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module SequencerWidgets (578)
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2019.01.10-14.36.21:628][672]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2019.01.10-14.36.21:628][672]LogDirectoryWatcher: A directory notification for 'C:/Epic/UE4/UE_4.19/FeaturePacks/' was aborted.
+[2019.01.10-14.36.21:629][672]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2019.01.10-14.36.21:629][672]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2019.01.10-14.36.21:629][672]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2019.01.10-14.36.21:630][672]LogDirectoryWatcher: A directory notification for 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Collections/' was aborted.
+[2019.01.10-14.36.21:630][672]LogDirectoryWatcher: A directory notification for 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Developers/s017290g/Collections/' was aborted.
+[2019.01.10-14.36.21:630][672]LogDirectoryWatcher: A directory notification for 'C:/Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Collections/' was aborted.
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2019.01.10-14.36.21:630][672]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2019.01.10-14.36.21:631][672]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2019.01.10-14.36.21:632][672]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2019.01.10-14.36.21:632][672]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2019.01.10-14.36.21:632][672]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2019.01.10-14.36.21:632][672]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2019.01.10-14.36.21:632][672]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2019.01.10-14.36.21:659][672]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2019.01.10-14.36.21:660][672]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2019.01.10-14.36.21:661][672]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2019.01.10-14.36.21:661][672]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2019.01.10-14.36.21:661][672]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2019.01.10-14.36.21:661][672]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2019.01.10-14.36.21:661][672]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2019.01.10-14.36.21:727][672]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2019.01.10-14.36.21:728][672]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2019.01.10-14.36.21:728][672]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2019.01.10-14.36.21:728][672]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2019.01.10-14.36.21:728][672]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2019.01.10-14.36.21:741][672]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2019.01.10-14.36.21:741][672]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2019.01.10-14.36.21:745][672]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2019.01.10-14.36.21:745][672]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2019.01.10-14.36.21:745][672]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2019.01.10-14.36.21:745][672]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2019.01.10-14.36.21:745][672]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2019.01.10-14.36.21:746][672]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2019.01.10-14.36.21:836][672]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2019.01.10-14.36.21:837][672]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2019.01.10-14.36.21:844][672]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2019.01.10-14.36.21:845][672]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2019.01.10-14.36.21:846][672]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2019.01.10-14.36.21:948][672]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2019.01.10-14.36.22:049][672]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2019.01.10-14.36.22:050][672]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2019.01.10-14.36.22:050][672]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2019.01.10-14.36.22:050][672]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.01.10-14.36.22:051][672]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.01.10-14.36.22:051][672]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2019.01.10-14.36.22:054][672]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2019.01.10-14.36.22:054][672]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.01.10-14.36.22:054][672]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2019.01.10-14.36.22:054][672]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2019.01.10-14.36.22:684][672]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2019.01.10-14.36.22:684][672]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2019.01.10-14.36.22:684][672]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2019.01.10-14.36.22:687][672]LogModuleManager: Shutting down and abandoning module Media (233)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2019.01.10-14.36.22:694][672]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2019.01.10-14.36.22:695][672]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module Core (178)
+[2019.01.10-14.36.22:699][672]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.01.10-14.36.22:700][672]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2019.01.10-14.36.22:700][672]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.01.10-14.36.22:701][672]LogDirectoryWatcher: A directory notification for '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/' was aborted.
+[2019.01.10-14.36.22:706][672]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.01.10-14.36.22:752][672]LogDerivedDataCache: Shutdown
+[2019.01.10-14.36.22:752][672]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.01.10-14.36.22:752][672]LogXGEController: Cleaning working directory: C:/Users/s017290g/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2019.01.10-14.36.22:753][672]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.01.10-14.36.22:754][672]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.01.10-14.36.22:754][672]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.01.10-14.36.22:754][672]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B96EE2A6F-429B-C51D-FE1A-5AB2CCDF1DDA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=7ea3f00642fd1ae23738308b8b78a7f7%7C%7Cdf0f6c08-f7ea-4b40-a888-18c6b4d49b12&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.10-14.36.22:754][672]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B96EE2A6F-429B-C51D-FE1A-5AB2CCDF1DDA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=7ea3f00642fd1ae23738308b8b78a7f7%7C%7Cdf0f6c08-f7ea-4b40-a888-18c6b4d49b12&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.10-14.36.22:769][672]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.01.10-14.36.22:770][672]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.10-14.36.22:770][672]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.10-14.36.22:770][672]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.10-14.36.22:770][672]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.10-14.36.22:771][672]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.10-14.36.22:771][672]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.10-14.36.22:771][672]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.10-14.36.22:772][672]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.10-14.36.22:778][672]LogExit: Exiting.
+[2019.01.10-14.36.22:798][672]Log file closed, 01/10/19 14:36:22
