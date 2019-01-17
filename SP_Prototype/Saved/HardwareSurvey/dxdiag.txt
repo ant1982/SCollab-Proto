@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/9/2019, 10:10:21
-             Machine name: C115-10
-               Machine Id: {77FF8240-DEE4-4357-8559-C212F8C1C5BB}
+      Time of this report: 1/11/2019, 11:25:17
+             Machine name: C115-13
+               Machine Id: {9DD5B1AE-FDE2-437D-BAA1-8AAD4C446664}
          Operating System: Windows 10 Education 64-bit (10.0, Build 17134) (17134.rs4_release.180410-1804)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz (8 CPUs), ~3.5GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16300MB RAM
-                Page File: 7752MB used, 10979MB available
+                Page File: 8119MB used, 10612MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -58,7 +58,7 @@ Display Devices
       Display Memory: 12193 MB
     Dedicated Memory: 4043 MB
        Shared Memory: 8150 MB
-        Current Mode: 1080 x 1920 (32 bit) (60Hz)
+        Current Mode: 1920 x 1080 (32 bit) (60Hz)
          HDR Support: Not Supported
     Display Topology: Extend
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
@@ -332,8 +332,8 @@ USB Devices
 | Driver: USBHUB3.SYS, 11/9/2018 02:49:37, 565048 bytes
 | 
 +-+ USB Input Device
-| | Vendor/Product ID: 0x03F0, 0x094A
-| | Location: Port_#0006.Hub_#0003
+| | Vendor/Product ID: 0x03F0, 0x134A
+| | Location: Port_#0004.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 4/11/2018 23:33:52, 42496 bytes
@@ -341,7 +341,7 @@ USB Devices
 | | Driver: hidparse.sys, 6/8/2018 09:01:36, 46080 bytes
 | | 
 | +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x03F0, 0x094A
+| | | Vendor/Product ID: 0x03F0, 0x134A
 | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | Service: mouhid
 | | | Driver: mouhid.sys, 4/11/2018 23:33:52, 33280 bytes
@@ -349,14 +349,14 @@ USB Devices
 | | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0005.Hub_#0003
+| | Location: Port_#0006.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
 | | Driver: usbccgp.sys, 4/11/2018 23:33:52, 168864 bytes
 | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.005.000.000.000.000.000
+| | | Location: 0000.0014.0000.006.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 4/11/2018 23:33:52, 42496 bytes
@@ -382,16 +382,22 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 209.4 GB
+ Free Space: 120.1 GB
 Total Space: 487.5 GB
 File System: NTFS
       Model: SKhynix SC300 HFS512G32MND-3210A
 
       Drive: D:
- Free Space: 851.8 GB
+ Free Space: 939.8 GB
 Total Space: 953.7 GB
 File System: NTFS
       Model: ST1000DM003-1SB102
+
+      Drive: F:
+ Free Space: 834.5 GB
+Total Space: 953.9 GB
+File System: NTFS
+      Model: Seagate Expansion SCSI Disk Device
 
       Drive: E:
       Model: hp TSST DVDRW  SU-208HB
