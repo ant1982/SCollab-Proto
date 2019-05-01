@@ -643,3 +643,726 @@ Make sure 'HUD_Proto_C' has been compiled for  Get GridPanel_131
 [2019.05.01-08.55.31:145][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.05.01-08.55.31:172][988]LogPlayLevel: Display: Destroying online subsystem :Context_12
 [2019.05.01-08.55.32:201][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-08.59.04:972][491]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-08.59.54:850][624]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-08.59.56:040][747]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-08.59.56:087][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-08.59.56:087][747]PIE: New page: PIE session: MechanicsLevel (1 May 2019 10:59:56)
+[2019.05.01-08.59.56:087][747]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-08.59.56:092][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004357s)
+[2019.05.01-08.59.56:092][747]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-08.59.56:093][747]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2019.05.01-08.59.56:093][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.005704s)
+[2019.05.01-08.59.56:143][747]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-08.59.56:158][747]LogInit: FAudioDevice initialized.
+[2019.05.01-08.59.56:188][747]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-08.59.56:190][747]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-09.59.56
+[2019.05.01-08.59.56:190][747]LogWorld: Bringing up level for play took: 0.000960
+[2019.05.01-08.59.56:205][747]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-08.59.56:208][747]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.029
+[2019.05.01-08.59.57:330][863]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-08.59.57:905][932]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-08.59.58:430][995]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-08.59.59:105][ 76]LogBlueprintUserMessages: [TopDownCharacter_C_0] 20.0
+[2019.05.01-08.59.59:538][128]LogBlueprintUserMessages: [SpawnPoint_5] 1.510636
+[2019.05.01-08.59.59:823][162]LogBlueprintUserMessages: [TopDownCharacter_C_0] 0.0
+[2019.05.01-08.59.59:823][162]LogBlueprintUserMessages: [TopDownCharacter_C_0] Death Event
+[2019.05.01-09.00.00:934][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.00.00:969][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.00.01:004][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.00.01:039][298]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.01-09.00.01:557][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.00.28:177][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.00.28:248][261]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_ProtoA0C87A1D4D7E72370538049EEE100DDE.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.03.04:584][796]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.03.04:694][796]LogBlueprint: Error: [Compiler HUD_Proto] Binding: Property ' Percent Delegate ' on Widget ' ProgressBar_19 ': Member:Get_HealthBar_Percent_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2019.05.01-09.03.04:945][796]LogBlueprint: Warning: [Compiler HUD_Proto] [1153.47] Compile of HUD_Proto failed. 1 Fatal Issue(s) 0 Warning(s) [in 361 ms] (/Game/Chloe/UI/HUD_Proto.HUD_Proto)
+[2019.05.01-09.03.08:935][270]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar_19), cannot focus it
+[2019.05.01-09.03.19:825][378]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.01-09.03.20:859][500]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar_19), cannot focus it
+[2019.05.01-09.03.21:426][568]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar_19), cannot focus it
+[2019.05.01-09.03.22:159][656]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.01-09.03.32:567][887]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.03.33:694][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.03.33:754][979]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_ProtoC50C99AA4F0F283732DC358249EEAA34.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.03.34:959][115]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.03.35:002][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.03.35:002][115]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:03:35)
+[2019.05.01-09.03.35:002][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.03.35:004][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002366s)
+[2019.05.01-09.03.35:005][115]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.03.35:005][115]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2019.05.01-09.03.35:005][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003108s)
+[2019.05.01-09.03.35:041][115]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.03.35:055][115]LogInit: FAudioDevice initialized.
+[2019.05.01-09.03.35:087][115]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.03.35:088][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.03.35
+[2019.05.01-09.03.35:088][115]LogWorld: Bringing up level for play took: 0.000537
+[2019.05.01-09.03.35:104][115]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.35:108][115]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.874
+[2019.05.01-09.03.36:733][302]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.37:266][366]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.03.37:950][448]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-09.03.38:591][525]LogBlueprintUserMessages: [TopDownCharacter_C_0] 20.0
+[2019.05.01-09.03.39:422][623]LogBlueprintUserMessages: [SpawnPoint_5] 4.310892
+[2019.05.01-09.03.39:715][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.39:753][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.03.39:814][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.39:838][656]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.01-09.03.40:504][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.03.40:579][742]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.03.40:609][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.03.40:609][742]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:03:40)
+[2019.05.01-09.03.40:610][742]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.03.40:612][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
+[2019.05.01-09.03.40:613][742]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.03.40:613][742]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2019.05.01-09.03.40:613][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003319s)
+[2019.05.01-09.03.40:649][742]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.03.40:663][742]LogInit: FAudioDevice initialized.
+[2019.05.01-09.03.40:696][742]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.03.40:697][742]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.03.40
+[2019.05.01-09.03.40:698][742]LogWorld: Bringing up level for play took: 0.000612
+[2019.05.01-09.03.40:714][742]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.40:718][742]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.484
+[2019.05.01-09.03.41:620][838]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.42:144][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.42:185][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.03.42:255][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.42:280][902]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.01-09.03.44:636][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.03.44:694][183]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.03.44:726][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.03.44:726][183]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:03:44)
+[2019.05.01-09.03.44:727][183]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.03.44:729][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002734s)
+[2019.05.01-09.03.44:730][183]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.03.44:730][183]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2019.05.01-09.03.44:730][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003605s)
+[2019.05.01-09.03.44:770][183]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.03.44:784][183]LogInit: FAudioDevice initialized.
+[2019.05.01-09.03.44:820][183]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.03.44:822][183]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.03.44
+[2019.05.01-09.03.44:823][183]LogWorld: Bringing up level for play took: 0.001273
+[2019.05.01-09.03.44:840][183]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.44:843][183]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.609
+[2019.05.01-09.03.48:509][610]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.49:196][692]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.03.49:312][706]LogBlueprintUserMessages: [SpawnPoint_5] 1.348155
+[2019.05.01-09.03.50:006][789]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-09.03.50:648][866]LogBlueprintUserMessages: [TopDownCharacter_C_0] 20.0
+[2019.05.01-09.03.52:758][119]LogBlueprintUserMessages: [TopDownCharacter_C_0] 0.0
+[2019.05.01-09.03.52:758][119]LogBlueprintUserMessages: [TopDownCharacter_C_0] Death Event
+[2019.05.01-09.03.53:525][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.53:559][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.03.53:605][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.03.53:632][213]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.01-09.03.59:081][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.03.59:131][870]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.03.59:159][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.03.59:159][870]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:03:59)
+[2019.05.01-09.03.59:159][870]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.03.59:162][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002254s)
+[2019.05.01-09.03.59:162][870]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.03.59:162][870]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2019.05.01-09.03.59:162][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.002963s)
+[2019.05.01-09.03.59:193][870]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.03.59:206][870]LogInit: FAudioDevice initialized.
+[2019.05.01-09.03.59:236][870]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.03.59:236][870]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.03.59
+[2019.05.01-09.03.59:236][870]LogWorld: Bringing up level for play took: 0.000580
+[2019.05.01-09.03.59:253][870]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.03.59:256][870]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 1.022
+[2019.05.01-09.04.01:428][114]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.04.02:028][186]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.04.02:645][260]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-09.04.03:620][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.04.03:653][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.04.03:696][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.04.03:722][379]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.05.01-09.04.04:251][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.04.11:888][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.05.33:918][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MechanicsLevel' took 0.049
+[2019.05.01-09.05.33:921][865]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Chloe/UI/HUD_Proto] ([1] browsable assets)...
+[2019.05.01-09.05.33:921][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Chloe/UI/HUD_Proto]
+[2019.05.01-09.05.34:041][865]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_Proto_Auto1C22FF2984A93EA4DC089DF8AE30CB8AB.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/Chloe/UI/HUD_Proto_Auto1.uasset'
+[2019.05.01-09.05.34:048][865]LogFileHelpers: Auto-saving content packages took 0.128
+[2019.05.01-09.06.43:624][961]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.07.15:272][743]LogSlate: Window 'Color Picker' being destroyed
+[2019.05.01-09.07.37:182][841]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.07.37:676][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.07.37:739][858]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_ProtoCB7541E740198A74E5257D9534973218.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.07.39:045][973]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.07.39:093][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.07.39:094][973]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:07:39)
+[2019.05.01-09.07.39:094][973]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.07.39:099][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005534s)
+[2019.05.01-09.07.39:101][973]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.07.39:101][973]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2019.05.01-09.07.39:101][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.007127s)
+[2019.05.01-09.07.39:151][973]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.07.39:166][973]LogInit: FAudioDevice initialized.
+[2019.05.01-09.07.39:203][973]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.07.39:204][973]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.07.39
+[2019.05.01-09.07.39:205][973]LogWorld: Bringing up level for play took: 0.000660
+[2019.05.01-09.07.39:222][973]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.07.39:226][973]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.996
+[2019.05.01-09.07.41:295][212]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.07.42:687][378]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.07.43:693][496]LogBlueprintUserMessages: [SpawnPoint_5] 1.915677
+[2019.05.01-09.07.43:727][500]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.07.44:104][543]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.07.44:954][642]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.07.45:512][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.07.45:556][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.07.45:619][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.07.45:645][709]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.01-09.07.46:259][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.08.26:180][969]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.08.43:606][238]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.08.43:820][248]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.08.43:998][255]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.08.44:345][265]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.12.23:081][539]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.12.23:112][539]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.01-09.12.23:126][539]LogPlayLevel: [PlayLevel] Compiling HUD_Proto before play...
+[2019.05.01-09.12.23:435][539]LogPlayLevel: PlayLevel: Blueprint regeneration took 322 ms (1 blueprints)
+[2019.05.01-09.12.23:435][539]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:12:23)
+[2019.05.01-09.12.23:435][539]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.12.23:438][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2019.05.01-09.12.23:438][539]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.12.23:439][539]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2019.05.01-09.12.23:439][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003407s)
+[2019.05.01-09.12.23:477][539]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.12.23:493][539]LogInit: FAudioDevice initialized.
+[2019.05.01-09.12.23:526][539]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.12.23:528][539]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.12.23
+[2019.05.01-09.12.23:528][539]LogWorld: Bringing up level for play took: 0.000715
+[2019.05.01-09.12.23:543][539]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.12.23:545][539]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 1.318
+[2019.05.01-09.12.26:707][873]LogBlueprintUserMessages: [SpawnPoint_5] 4.859127
+[2019.05.01-09.12.28:165][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.12.28:234][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.12.28:300][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.12.28:487][955]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.05.01-09.13.38:837][201]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.13.38:876][201]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.01-09.13.38:945][201]LogPlayLevel: [PlayLevel] Compiling TopDownCharacter before play...
+[2019.05.01-09.13.39:292][201]LogPlayLevel: PlayLevel: Blueprint regeneration took 417 ms (1 blueprints)
+[2019.05.01-09.13.39:293][201]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:13:39)
+[2019.05.01-09.13.39:293][201]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.13.39:295][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2019.05.01-09.13.39:296][201]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.13.39:296][201]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2019.05.01-09.13.39:296][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003275s)
+[2019.05.01-09.13.39:332][201]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.13.39:346][201]LogInit: FAudioDevice initialized.
+[2019.05.01-09.13.39:375][201]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.13.39:376][201]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.13.39
+[2019.05.01-09.13.39:376][201]LogWorld: Bringing up level for play took: 0.000608
+[2019.05.01-09.13.39:393][201]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.13.39:395][201]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 1.169
+[2019.05.01-09.13.41:157][399]LogBlueprintUserMessages: [SpawnPoint_5] 1.235237
+[2019.05.01-09.13.44:440][778]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.13.44:694][807]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.13.44:912][833]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.13.45:258][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.13.45:302][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.13.45:371][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.13.45:393][875]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.05.01-09.13.46:331][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.17.44:426][908]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.17.45:726][946]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter69F04B8E4B7BEFD8572C03A3A719F72E.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.17.55:901][954]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.17.57:953][ 82]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter686CAA594AEC0845EE0CB284C23C9F5B.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.18.26:143][929]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.18.27:001][929]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter6B84159B49D71C68F53C2CAAB1E5AA30.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.18.42:899][682]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.18.43:365][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.18.43:431][700]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_ProtoF23CFCD14C86927D75C44CBE2A601D81.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.18.45:579][952]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.18.45:608][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.18.45:608][952]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:18:45)
+[2019.05.01-09.18.45:608][952]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.18.45:610][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002320s)
+[2019.05.01-09.18.45:611][952]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.18.45:611][952]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.05.01-09.18.45:611][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003106s)
+[2019.05.01-09.18.45:642][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.18.45:656][952]LogInit: FAudioDevice initialized.
+[2019.05.01-09.18.45:691][952]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.18.45:694][952]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.18.45
+[2019.05.01-09.18.45:694][952]LogWorld: Bringing up level for play took: 0.001274
+[2019.05.01-09.18.45:711][952]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.18.45:713][952]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.511
+[2019.05.01-09.18.48:611][241]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter:0746
+[2019.05.01-09.18.48:611][241]PIE: Error: Infinite loop detected. Blueprint:  TopDownCharacter Function:  Outputs Call Stack:  Show
+[2019.05.01-09.18.48:613][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.18.48:662][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.18.48:719][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.18.48:790][242]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.01-09.18.49:946][364]Cmd: SELECT NONE
+[2019.05.01-09.18.50:643][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.18.57:764][296]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2019.05.01-09.18.59:695][467]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.18.59:698][467]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.20.10:278][525]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.20.11:926][622]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.20.11:961][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.20.11:961][622]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:20:11)
+[2019.05.01-09.20.11:961][622]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.20.11:964][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2019.05.01-09.20.11:964][622]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.20.11:964][622]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2019.05.01-09.20.11:964][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003307s)
+[2019.05.01-09.20.12:015][622]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.20.12:031][622]LogInit: FAudioDevice initialized.
+[2019.05.01-09.20.12:065][622]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.20.12:067][622]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.20.12
+[2019.05.01-09.20.12:067][622]LogWorld: Bringing up level for play took: 0.000636
+[2019.05.01-09.20.12:085][622]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.20.12:087][622]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.134
+[2019.05.01-09.20.15:483][ 10]LogBlueprintUserMessages: [SpawnPoint_5] 1.393445
+[2019.05.01-09.20.19:470][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.20.19:514][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.20.19:580][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.20.19:603][471]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.05.01-09.20.20:109][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.21.33:421][795]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.21.34:236][795]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter9FD8EFD149FCE83D340D149C7D51F041.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.21.35:633][910]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter7BDBF51646C29BEAAF16C282AD246258.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.21.48:327][221]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.21.50:449][372]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.21.50:486][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.21.50:486][372]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:21:50)
+[2019.05.01-09.21.50:486][372]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.21.50:489][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002381s)
+[2019.05.01-09.21.50:489][372]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.21.50:490][372]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2019.05.01-09.21.50:490][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003142s)
+[2019.05.01-09.21.50:530][372]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.21.50:544][372]LogInit: FAudioDevice initialized.
+[2019.05.01-09.21.50:575][372]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.21.50:576][372]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.21.50
+[2019.05.01-09.21.50:576][372]LogWorld: Bringing up level for play took: 0.000559
+[2019.05.01-09.21.50:590][372]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.21.50:591][372]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.374
+[2019.05.01-09.21.54:164][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.21.54:208][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.21.54:270][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.21.54:293][788]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.01-09.22.22:070][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MechanicsLevel' took 0.056
+[2019.05.01-09.22.22:073][276]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2019.05.01-09.22.22:102][276]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2019.05.01-09.22.22:102][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2019.05.01-09.22.22:541][276]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter_Auto289834F7341BF82804B5F4C8F1FBA704F.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2019.05.01-09.22.22:549][276]LogFileHelpers: Auto-saving content packages took 0.478
+[2019.05.01-09.25.57:935][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.25.59:287][ 30]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter69C63F5E4CAA627403DB5184670413E3.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.27.00:392][350]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.27.01:132][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.27.01:200][394]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_Proto10E852124775087AEDBAB89377A66C92.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.28.25:807][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.28.25:865][992]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_Proto0053F64444474F34D75D0B875EE9133B.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.28.38:949][493]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.28.38:993][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.28.38:993][493]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:28:38)
+[2019.05.01-09.28.38:993][493]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.28.38:996][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2019.05.01-09.28.38:996][493]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.28.38:997][493]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.05.01-09.28.38:997][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003345s)
+[2019.05.01-09.28.39:034][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.28.39:049][493]LogInit: FAudioDevice initialized.
+[2019.05.01-09.28.39:079][493]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.28.39:080][493]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.28.39
+[2019.05.01-09.28.39:080][493]LogWorld: Bringing up level for play took: 0.000577
+[2019.05.01-09.28.39:098][493]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.28.39:100][493]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.894
+[2019.05.01-09.28.41:892][822]LogBlueprintUserMessages: [SpawnPoint_5] 4.747795
+[2019.05.01-09.28.43:786][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.28.43:828][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.28.43:891][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.28.43:917][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.05.01-09.28.44:772][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.29.11:206][998]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.29.16:222][510]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.29.16:251][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.29.16:252][510]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:29:16)
+[2019.05.01-09.29.16:252][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.29.16:254][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002274s)
+[2019.05.01-09.29.16:254][510]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.29.16:255][510]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2019.05.01-09.29.16:255][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003002s)
+[2019.05.01-09.29.16:288][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.29.16:301][510]LogInit: FAudioDevice initialized.
+[2019.05.01-09.29.16:336][510]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.29.16:337][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.29.16
+[2019.05.01-09.29.16:337][510]LogWorld: Bringing up level for play took: 0.000558
+[2019.05.01-09.29.16:351][510]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.29.16:353][510]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.148
+[2019.05.01-09.29.17:588][619]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter:025F
+[2019.05.01-09.29.17:588][619]PIE: Error: Infinite loop detected. Blueprint:  TopDownCharacter Function:  Outputs Call Stack:  Show
+[2019.05.01-09.29.17:590][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.29.17:637][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.29.17:696][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.29.17:757][620]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.05.01-09.30.21:483][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-09.30.25:645][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.31.18:980][654]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.31.20:057][656]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter027DA5054E320FFB4427AB965D9AB1DF.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.31.21:048][762]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.31.21:079][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.31.21:079][762]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:31:21)
+[2019.05.01-09.31.21:079][762]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.31.21:082][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002533s)
+[2019.05.01-09.31.21:083][762]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.31.21:083][762]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2019.05.01-09.31.21:083][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003324s)
+[2019.05.01-09.31.21:126][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.31.21:140][762]LogInit: FAudioDevice initialized.
+[2019.05.01-09.31.21:175][762]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.31.21:177][762]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.31.21
+[2019.05.01-09.31.21:177][762]LogWorld: Bringing up level for play took: 0.000618
+[2019.05.01-09.31.21:194][762]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.31.21:196][762]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.992
+[2019.05.01-09.31.22:462][859]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter:0125
+[2019.05.01-09.31.22:462][859]PIE: Error: Infinite loop detected. Blueprint:  TopDownCharacter Function:  Branch Call Stack:  Show
+[2019.05.01-09.31.22:464][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.31.22:505][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.31.22:559][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.31.22:617][860]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.05.01-09.31.23:866][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.31.32:239][994]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.31.32:242][994]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.32.11:393][950]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.32.12:235][950]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter5C19E3EE41F4C80802E9F4A7BFCBD2F3.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.32.13:761][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.32.13:792][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.32.13:792][ 92]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:32:13)
+[2019.05.01-09.32.13:792][ 92]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.32.13:794][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002467s)
+[2019.05.01-09.32.13:795][ 92]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.32.13:795][ 92]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2019.05.01-09.32.13:795][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003258s)
+[2019.05.01-09.32.13:834][ 92]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.32.13:848][ 92]LogInit: FAudioDevice initialized.
+[2019.05.01-09.32.13:884][ 92]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.32.13:885][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.32.13
+[2019.05.01-09.32.13:885][ 92]LogWorld: Bringing up level for play took: 0.000604
+[2019.05.01-09.32.13:902][ 92]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.32.13:904][ 92]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.299
+[2019.05.01-09.32.15:124][195]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter:0125
+[2019.05.01-09.32.15:125][195]PIE: Error: Infinite loop detected. Blueprint:  TopDownCharacter Function:  Branch Call Stack:  Show
+[2019.05.01-09.32.15:126][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.32.15:179][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.32.15:250][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.32.15:309][196]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.05.01-09.32.16:061][266]Cmd: SELECT NONE
+[2019.05.01-09.32.17:582][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.32.21:198][879]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2019.05.01-09.32.29:957][697]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.32.29:960][697]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-09.32.38:265][618]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.32.38:298][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.32.38:299][618]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:32:38)
+[2019.05.01-09.32.38:299][618]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.32.38:301][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002350s)
+[2019.05.01-09.32.38:302][618]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.32.38:302][618]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2019.05.01-09.32.38:302][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003118s)
+[2019.05.01-09.32.38:340][618]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.32.38:354][618]LogInit: FAudioDevice initialized.
+[2019.05.01-09.32.38:387][618]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.32.38:388][618]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.32.38
+[2019.05.01-09.32.38:389][618]LogWorld: Bringing up level for play took: 0.000542
+[2019.05.01-09.32.38:405][618]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.32.38:408][618]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.204
+[2019.05.01-09.32.38:988][681]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_MacroInstance', from offset 923
+[2019.05.01-09.32.38:988][681]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Start Dash Cooldown
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+
+[2019.05.01-09.32.38:994][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-09.32.59:151][681]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter:0125
+[2019.05.01-09.32.59:151][681]PIE: Error: Infinite loop detected. Blueprint:  TopDownCharacter Function:  Branch Call Stack:  Show
+[2019.05.01-09.32.59:154][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.32.59:205][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.32.59:273][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.32.59:302][682]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.05.01-09.33.02:429][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MechanicsLevel' took 0.064
+[2019.05.01-09.33.02:432][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2019.05.01-09.33.02:432][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2019.05.01-09.33.02:700][978]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter_Auto346ADBDF6466ADA3AE57556869B459E0B.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto3.uasset'
+[2019.05.01-09.33.02:707][978]LogFileHelpers: Auto-saving content packages took 0.276
+[2019.05.01-09.38.35:772][686]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.38.54:621][ 45]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.38.54:657][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.38.54:658][ 45]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:38:54)
+[2019.05.01-09.38.54:658][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.38.54:660][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002736s)
+[2019.05.01-09.38.54:661][ 45]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.38.54:661][ 45]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2019.05.01-09.38.54:661][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003633s)
+[2019.05.01-09.38.54:703][ 45]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.38.54:718][ 45]LogInit: FAudioDevice initialized.
+[2019.05.01-09.38.54:755][ 45]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.38.54:757][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.38.54
+[2019.05.01-09.38.54:757][ 45]LogWorld: Bringing up level for play took: 0.001331
+[2019.05.01-09.38.54:775][ 45]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.38.54:778][ 45]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.568
+[2019.05.01-09.38.56:207][207]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.38.57:146][318]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.38.58:324][459]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-09.38.58:665][500]LogBlueprintUserMessages: [SpawnPoint_5] 2.738456
+[2019.05.01-09.38.59:033][544]LogBlueprintUserMessages: [TopDownCharacter_C_0] 20.0
+[2019.05.01-09.38.59:241][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.38.59:282][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.38.59:342][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.38.59:370][570]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.05.01-09.38.59:927][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.39.30:115][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.39.30:157][341]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.01-09.39.30:193][341]LogPlayLevel: [PlayLevel] Compiling HUD_Proto before play...
+[2019.05.01-09.39.30:459][341]LogPlayLevel: PlayLevel: Blueprint regeneration took 301 ms (1 blueprints)
+[2019.05.01-09.39.30:459][341]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:39:30)
+[2019.05.01-09.39.30:459][341]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.39.30:462][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2019.05.01-09.39.30:463][341]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.39.30:463][341]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2019.05.01-09.39.30:463][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003444s)
+[2019.05.01-09.39.30:501][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.39.30:514][341]LogInit: FAudioDevice initialized.
+[2019.05.01-09.39.30:546][341]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.39.30:547][341]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.39.30
+[2019.05.01-09.39.30:547][341]LogWorld: Bringing up level for play took: 0.000762
+[2019.05.01-09.39.30:565][341]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.39.30:567][341]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.357
+[2019.05.01-09.39.31:678][466]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.39.31:827][484]LogBlueprintUserMessages: [SpawnPoint_5] 3.518876
+[2019.05.01-09.39.32:512][566]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.39.32:937][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.39.32:974][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.39.33:032][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.39.33:054][618]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.05.01-09.39.33:759][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.39.53:213][143]LogEditorTransaction: Undo Remove Widget
+[2019.05.01-09.40.39:932][619]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter53EC60DE4BC60F1D7D16178A76510729.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.41.09:452][582]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.41.10:814][617]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter2F57C7FE441B5A17C8841182B8FF05A7.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.41.11:808][733]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.41.11:851][733]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.01-09.41.11:890][733]LogPlayLevel: [PlayLevel] Compiling HUD_Proto before play...
+[2019.05.01-09.41.12:106][733]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2019.05.01-09.41.12:106][733]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:41:12)
+[2019.05.01-09.41.12:106][733]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.41.12:109][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002275s)
+[2019.05.01-09.41.12:109][733]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.41.12:109][733]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2019.05.01-09.41.12:109][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.002996s)
+[2019.05.01-09.41.12:143][733]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.41.12:161][733]LogInit: FAudioDevice initialized.
+[2019.05.01-09.41.12:172][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.41.12:210][733]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.41.12:212][733]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.41.12
+[2019.05.01-09.41.12:212][733]LogWorld: Bringing up level for play took: 0.000565
+[2019.05.01-09.41.12:225][733]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.05.01-09.41.12:229][733]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.41.12:234][733]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.021
+[2019.05.01-09.41.12:248][733]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.05.01-09.41.13:552][866]LogBlueprintUserMessages: [SpawnPoint_5] 3.590289
+[2019.05.01-09.41.14:164][939]LogBlueprintUserMessages: [TopDownCharacter_C_0] 4.0
+[2019.05.01-09.41.15:476][ 78]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.16:167][161]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.16:434][193]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.16:791][235]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.17:084][270]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.18:178][390]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.41.19:655][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.41.19:683][543]LogSlate: Window 'SP_Prototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.05.01-09.41.19:723][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.41.19:820][544]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.05.01-09.41.40:941][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.41.41:007][882]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_Proto6285757F428BE394717354BF645E0D42.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.41.43:034][121]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.41.43:071][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.41.43:071][121]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:41:43)
+[2019.05.01-09.41.43:071][121]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.41.43:073][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002320s)
+[2019.05.01-09.41.43:074][121]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.41.43:074][121]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2019.05.01-09.41.43:074][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003041s)
+[2019.05.01-09.41.43:107][121]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.41.43:121][121]LogInit: FAudioDevice initialized.
+[2019.05.01-09.41.43:155][121]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.41.43:158][121]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.41.43
+[2019.05.01-09.41.43:158][121]LogWorld: Bringing up level for play took: 0.001211
+[2019.05.01-09.41.43:174][121]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.41.43:177][121]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.963
+[2019.05.01-09.41.45:645][412]LogBlueprintUserMessages: [TopDownCharacter_C_0] 4.0
+[2019.05.01-09.41.47:007][572]LogBlueprintUserMessages: [SpawnPoint_5] 4.625233
+[2019.05.01-09.41.51:260][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.41.51:298][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.41.51:348][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.41.51:367][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.05.01-09.41.52:301][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.43.05:312][543]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.43.06:738][557]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter23503CEE41055CA838AD98A1029A19C9.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.43.09:170][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.43.09:250][774]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.43.09:283][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.43.09:283][774]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:43:09)
+[2019.05.01-09.43.09:283][774]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.43.09:286][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002579s)
+[2019.05.01-09.43.09:287][774]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.43.09:287][774]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2019.05.01-09.43.09:287][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003380s)
+[2019.05.01-09.43.09:334][774]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.43.09:349][774]LogInit: FAudioDevice initialized.
+[2019.05.01-09.43.09:382][774]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.43.09:384][774]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.43.09
+[2019.05.01-09.43.09:384][774]LogWorld: Bringing up level for play took: 0.001345
+[2019.05.01-09.43.09:402][774]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.43.09:404][774]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.811
+[2019.05.01-09.43.10:713][918]LogBlueprintUserMessages: [SpawnPoint_5] 4.041352
+[2019.05.01-09.43.13:248][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.43.13:284][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.43.13:329][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.43.13:347][221]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.05.01-09.43.13:816][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.43.52:555][276]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.43.53:642][277]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter5251D46643994D683B9884BC7D51D9A4.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.43.54:938][417]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.43.54:970][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.43.54:970][417]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:43:54)
+[2019.05.01-09.43.54:970][417]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.43.54:973][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2019.05.01-09.43.54:973][417]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.43.54:974][417]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2019.05.01-09.43.54:974][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003401s)
+[2019.05.01-09.43.55:017][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.43.55:032][417]LogInit: FAudioDevice initialized.
+[2019.05.01-09.43.55:060][417]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.43.55:061][417]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.43.55
+[2019.05.01-09.43.55:062][417]LogWorld: Bringing up level for play took: 0.001150
+[2019.05.01-09.43.55:079][417]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.43.55:081][417]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.866
+[2019.05.01-09.43.57:594][712]LogBlueprintUserMessages: [SpawnPoint_5] 4.9082
+[2019.05.01-09.44.04:586][536]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.04:823][559]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.05:016][582]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.05:183][602]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.05:366][624]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.05:549][646]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.05:774][673]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.06:455][753]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.06:651][776]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.06:843][799]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.07:035][822]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.07:193][841]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.07:393][865]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.07:568][886]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.07:960][933]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.08:185][960]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.44.09:445][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.44.09:495][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.44.09:562][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.44.09:585][109]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.05.01-09.44.11:405][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.44.42:766][678]LogSlate: Window 'Color Picker' being destroyed
+[2019.05.01-09.44.47:772][ 52]BlueprintLog: New page: Compile HUD_Proto
+[2019.05.01-09.44.49:072][150]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.44.49:116][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.44.49:116][150]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:44:49)
+[2019.05.01-09.44.49:116][150]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.44.49:118][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002437s)
+[2019.05.01-09.44.49:119][150]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.44.49:119][150]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.05.01-09.44.49:119][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003237s)
+[2019.05.01-09.44.49:153][150]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.44.49:167][150]LogInit: FAudioDevice initialized.
+[2019.05.01-09.44.49:197][150]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.44.49:198][150]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.44.49
+[2019.05.01-09.44.49:198][150]LogWorld: Bringing up level for play took: 0.000546
+[2019.05.01-09.44.49:212][150]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.44.49:214][150]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.998
+[2019.05.01-09.44.51:342][399]LogBlueprintUserMessages: [SpawnPoint_5] 4.632923
+[2019.05.01-09.45.03:395][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.45.03:431][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.45.03:486][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.45.03:505][845]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.05.01-09.45.03:901][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.45.03:993][903]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.45.04:022][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.45.04:022][903]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:45:04)
+[2019.05.01-09.45.04:022][903]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.45.04:025][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002301s)
+[2019.05.01-09.45.04:025][903]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.45.04:025][903]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2019.05.01-09.45.04:025][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003051s)
+[2019.05.01-09.45.04:053][903]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.45.04:066][903]LogInit: FAudioDevice initialized.
+[2019.05.01-09.45.04:099][903]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.45.04:101][903]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.45.04
+[2019.05.01-09.45.04:102][903]LogWorld: Bringing up level for play took: 0.001311
+[2019.05.01-09.45.04:118][903]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.45.04:120][903]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.096
+[2019.05.01-09.45.05:323][ 36]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.45.07:777][325]LogBlueprintUserMessages: [SpawnPoint_5] 4.915524
+[2019.05.01-09.45.12:780][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.45.12:821][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.45.12:886][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.45.12:904][922]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.05.01-09.45.13:373][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.45.15:600][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Chloe/UI/HUD_Proto" FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset" SILENT=true
+[2019.05.01-09.45.15:661][130]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/HUD_ProtoF18B42204AE712E87DE32DAE9CB3DFF0.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Chloe/UI/HUD_Proto.uasset'
+[2019.05.01-09.45.58:007][236]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.45.59:052][236]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter27067E72482680021C83E7AC6536C881.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.45.59:678][252]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter1074EAD748992D947DBE349F0021C01F.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.46.13:970][750]BlueprintLog: New page: Compile TopDownCharacter
+[2019.05.01-09.46.15:055][764]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter0FFA904C4141A75BD43A75AA4587A38F.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.05.01-09.46.16:508][924]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.46.16:539][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.46.16:540][924]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:46:16)
+[2019.05.01-09.46.16:540][924]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.46.16:542][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002494s)
+[2019.05.01-09.46.16:543][924]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.46.16:543][924]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2019.05.01-09.46.16:543][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003362s)
+[2019.05.01-09.46.16:585][924]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.46.16:600][924]LogInit: FAudioDevice initialized.
+[2019.05.01-09.46.16:630][924]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.46.16:631][924]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.46.16
+[2019.05.01-09.46.16:632][924]LogWorld: Bringing up level for play took: 0.000600
+[2019.05.01-09.46.16:649][924]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.46.16:651][924]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.434
+[2019.05.01-09.46.17:360][994]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.46.18:969][184]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-09.46.20:420][358]LogBlueprintUserMessages: [SpawnPoint_5] 3.376293
+[2019.05.01-09.46.20:462][363]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.21:634][502]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.21:994][542]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.22:263][572]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.23:257][688]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.23:891][757]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-09.46.24:559][836]LogBlueprintUserMessages: [TopDownCharacter_C_0] 20.0
+[2019.05.01-09.46.26:498][ 68]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-09.46.26:782][101]LogBlueprintUserMessages: [TopDownCharacter_C_0] 0.0
+[2019.05.01-09.46.26:782][101]LogBlueprintUserMessages: [TopDownCharacter_C_0] Death Event
+[2019.05.01-09.46.29:985][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.46.30:018][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-09.46.30:068][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-09.46.30:090][477]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.05.01-09.46.31:123][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
