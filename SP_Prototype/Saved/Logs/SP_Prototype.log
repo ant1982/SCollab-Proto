@@ -1366,3 +1366,23 @@ Script call stack:
 [2019.05.01-09.46.30:068][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.05.01-09.46.30:090][477]LogPlayLevel: Display: Destroying online subsystem :Context_39
 [2019.05.01-09.46.31:123][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-09.48.18:171][793]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-09.48.18:237][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-09.48.18:238][793]PIE: New page: PIE session: MechanicsLevel (1 May 2019 11:48:18)
+[2019.05.01-09.48.18:238][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-09.48.18:242][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003641s)
+[2019.05.01-09.48.18:242][793]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-09.48.18:242][793]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2019.05.01-09.48.18:243][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.004759s)
+[2019.05.01-09.48.18:292][793]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-09.48.18:310][793]LogInit: FAudioDevice initialized.
+[2019.05.01-09.48.18:340][793]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-09.48.18:341][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-10.48.18
+[2019.05.01-09.48.18:342][793]LogWorld: Bringing up level for play took: 0.000627
+[2019.05.01-09.48.18:356][793]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-09.48.18:357][793]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.14
+[2019.05.01-09.48.20:855][ 68]LogBlueprintUserMessages: [SpawnPoint_5] 4.48619
+[2019.05.01-10.02.58:865][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.02.58:905][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-10.02.58:963][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.02.58:985][972]LogPlayLevel: Display: Destroying online subsystem :Context_40
