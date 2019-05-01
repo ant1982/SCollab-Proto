@@ -1382,3 +1382,82 @@ Script call stack:
 [2019.05.01-09.48.18:356][793]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
 [2019.05.01-09.48.18:357][793]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.14
 [2019.05.01-09.48.20:855][ 68]LogBlueprintUserMessages: [SpawnPoint_5] 4.48619
+[2019.05.01-10.02.58:865][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.02.58:905][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-10.02.58:963][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.02.58:985][972]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.05.01-10.05.36:928][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-10.05.37:003][123]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-10.05.37:037][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-10.05.37:037][123]PIE: New page: PIE session: MechanicsLevel (1 May 2019 12:05:37)
+[2019.05.01-10.05.37:037][123]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-10.05.37:040][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002730s)
+[2019.05.01-10.05.37:040][123]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-10.05.37:041][123]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2019.05.01-10.05.37:041][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003744s)
+[2019.05.01-10.05.37:082][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-10.05.37:098][123]LogInit: FAudioDevice initialized.
+[2019.05.01-10.05.37:130][123]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-10.05.37:133][123]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-11.05.37
+[2019.05.01-10.05.37:133][123]LogWorld: Bringing up level for play took: 0.001354
+[2019.05.01-10.05.37:151][123]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-10.05.37:154][123]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.936
+[2019.05.01-10.05.40:248][484]LogBlueprintUserMessages: [SpawnPoint_5] 2.467818
+[2019.05.01-10.05.41:365][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.05.41:400][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-10.05.41:450][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.05.41:469][619]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.05.01-10.16.28:320][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-10.16.28:508][511]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/MechanicsLevel96006BD241038631B63C99BDDF70059D.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/MechanicsLevel.umap'
+[2019.05.01-10.16.30:233][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-10.16.30:325][703]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-10.16.30:358][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-10.16.30:358][703]PIE: New page: PIE session: MechanicsLevel (1 May 2019 12:16:30)
+[2019.05.01-10.16.30:358][703]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-10.16.30:361][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2019.05.01-10.16.30:361][703]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-10.16.30:361][703]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2019.05.01-10.16.30:362][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003622s)
+[2019.05.01-10.16.30:406][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-10.16.30:421][703]LogInit: FAudioDevice initialized.
+[2019.05.01-10.16.30:455][703]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-10.16.30:456][703]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-11.16.30
+[2019.05.01-10.16.30:457][703]LogWorld: Bringing up level for play took: 0.000655
+[2019.05.01-10.16.30:474][703]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-10.16.30:477][703]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel 0.264
+[2019.05.01-10.16.32:115][888]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-10.16.32:683][956]LogBlueprintUserMessages: [TopDownCharacter_C_0] 60.0
+[2019.05.01-10.16.33:357][ 37]LogBlueprintUserMessages: [TopDownCharacter_C_0] 40.0
+[2019.05.01-10.16.34:133][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.16.34:165][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-10.16.34:204][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.16.34:232][132]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.05.01-10.16.37:881][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-10.28.49:934][981]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-10.28.49:978][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-10.28.49:979][981]PIE: New page: PIE session: MechanicsLevel (1 May 2019 12:28:49)
+[2019.05.01-10.28.49:979][981]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MechanicsLevel
+[2019.05.01-10.28.49:982][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002768s)
+[2019.05.01-10.28.49:982][981]LogAIModule: Creating AISystem for world MechanicsLevel
+[2019.05.01-10.28.49:982][981]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2019.05.01-10.28.49:983][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MechanicsLevel.MechanicsLevel to /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel (0.003708s)
+[2019.05.01-10.28.50:026][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.01-10.28.50:042][981]LogInit: FAudioDevice initialized.
+[2019.05.01-10.28.50:070][981]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.01-10.28.50:071][981]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MechanicsLevel.MechanicsLevel up for play (max tick rate 0) at 2019.05.01-11.28.50
+[2019.05.01-10.28.50:072][981]LogWorld: Bringing up level for play took: 0.000765
+[2019.05.01-10.28.50:088][981]LogBlueprintUserMessages: [TopDownCharacter_C_0] 80.0
+[2019.05.01-10.28.50:091][981]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MechanicsLevel -0.116
+[2019.05.01-10.28.52:088][212]Cmd: LevelEditor.ToggleImmersive
+[2019.05.01-10.28.52:242][213]LogRenderer: Reallocating scene render targets to support 1368x756 Format 10 NumSamples 1 (Frame:233).
+[2019.05.01-10.28.52:307][214]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:235).
+[2019.05.01-10.28.52:310][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-10.28.54:124][429]LogBlueprintUserMessages: [SpawnPoint_5] 2.375286
+[2019.05.01-10.28.59:400][ 62]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-10.29.01:350][296]LogBlueprintUserMessages: [TopDownCharacter_C_0] Can Not Dash
+[2019.05.01-10.33.53:793][368]Cmd: LevelEditor.ToggleImmersive
+[2019.05.01-10.33.54:061][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-10.33.58:880][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.33.58:917][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-10.33.58:967][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-10.33.58:982][949]LogPlayLevel: Display: Destroying online subsystem :Context_43
