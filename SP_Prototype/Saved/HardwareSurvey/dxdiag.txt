@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/11/2019, 11:25:17
-             Machine name: C115-13
-               Machine Id: {9DD5B1AE-FDE2-437D-BAA1-8AAD4C446664}
+      Time of this report: 1/17/2019, 10:10:34
+             Machine name: C115-6
+               Machine Id: {A197E1DA-23EF-45A4-8FB4-B2E1A5DC4ED5}
          Operating System: Windows 10 Education 64-bit (10.0, Build 17134) (17134.rs4_release.180410-1804)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz (8 CPUs), ~3.5GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16300MB RAM
-                Page File: 8119MB used, 10612MB available
+                Page File: 14344MB used, 4387MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -289,6 +289,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: Microphone (Realtek High Definition Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7218 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 4/8/2014 20:57:06, 3917272 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -329,11 +339,11 @@ USB Devices
 | Vendor/Product ID: 0x8086, 0x8D31
 | Matching Device ID: USB\ROOT_HUB30
 | Service: USBHUB3
-| Driver: USBHUB3.SYS, 11/9/2018 02:49:37, 565048 bytes
+| Driver: USBHUB3.SYS, 8/3/2018 03:40:43, 566568 bytes
 | 
 +-+ USB Input Device
-| | Vendor/Product ID: 0x03F0, 0x134A
-| | Location: Port_#0004.Hub_#0003
+| | Vendor/Product ID: 0x03F0, 0x094A
+| | Location: Port_#0006.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 4/11/2018 23:33:52, 42496 bytes
@@ -341,7 +351,7 @@ USB Devices
 | | Driver: hidparse.sys, 6/8/2018 09:01:36, 46080 bytes
 | | 
 | +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x03F0, 0x134A
+| | | Vendor/Product ID: 0x03F0, 0x094A
 | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | Service: mouhid
 | | | Driver: mouhid.sys, 4/11/2018 23:33:52, 33280 bytes
@@ -349,14 +359,14 @@ USB Devices
 | | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x034A
-| | Location: Port_#0006.Hub_#0003
+| | Location: Port_#0011.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
 | | Driver: usbccgp.sys, 4/11/2018 23:33:52, 168864 bytes
 | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x03F0, 0x034A
-| | | Location: 0000.0014.0000.006.000.000.000.000.000
+| | | Location: 0000.0014.0000.011.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 4/11/2018 23:33:52, 42496 bytes
@@ -382,22 +392,16 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 120.1 GB
+ Free Space: 176.4 GB
 Total Space: 487.5 GB
 File System: NTFS
       Model: SKhynix SC300 HFS512G32MND-3210A
 
       Drive: D:
- Free Space: 939.8 GB
+ Free Space: 939.4 GB
 Total Space: 953.7 GB
 File System: NTFS
       Model: ST1000DM003-1SB102
-
-      Drive: F:
- Free Space: 834.5 GB
-Total Space: 953.9 GB
-File System: NTFS
-      Model: Seagate Expansion SCSI Disk Device
 
       Drive: E:
       Model: hp TSST DVDRW  SU-208HB
@@ -450,7 +454,7 @@ Device ID: PCI\VEN_8086&DEV_8D02&SUBSYS_212B103C&REV_05\3&11583659&0&FA
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #2 - 8D12
 Device ID: PCI\VEN_8086&DEV_8D12&SUBSYS_212B103C&REV_D5\3&11583659&0&E1
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 DMI2 - 2F00
 Device ID: PCI\VEN_8086&DEV_2F00&SUBSYS_212B103C&REV_02\3&11583659&0&00
@@ -462,11 +466,11 @@ Device ID: PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02\3&103A9D54&0&91
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_1283&DEV_8893&SUBSYS_212B103C&REV_52\4&387DEA65&0&00E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 PCI Express Root Port 1 - 2F02
 Device ID: PCI\VEN_8086&DEV_2F02&SUBSYS_00008086&REV_02\3&11583659&0&08
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) C610 series/X99 chipset LPC Controller - 8D44
 Device ID: PCI\VEN_8086&DEV_8D44&SUBSYS_212B103C&REV_05\3&11583659&0&F8
@@ -518,7 +522,7 @@ Device ID: PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02\3&103A9D54&0&A6
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #5 - 8D18
 Device ID: PCI\VEN_8086&DEV_8D18&SUBSYS_212B103C&REV_D5\3&11583659&0&E4
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 Unicast Registers - 2FE3
 Device ID: PCI\VEN_8086&DEV_2FE3&SUBSYS_2FE38086&REV_02\3&103A9D54&0&63
@@ -534,7 +538,7 @@ Device ID: PCI\VEN_8086&DEV_2F1F&SUBSYS_2F1F8086&REV_02\3&103A9D54&0&87
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 PCI Express Root Port 3 - 2F08
 Device ID: PCI\VEN_8086&DEV_2F08&SUBSYS_00008086&REV_02\3&11583659&0&18
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 ERROR Registers - 2FB7
 Device ID: PCI\VEN_8086&DEV_2FB7&SUBSYS_2FB78086&REV_02\3&103A9D54&0&AB
@@ -550,7 +554,7 @@ Device ID: PCI\VEN_8086&DEV_2FB5&SUBSYS_2FB58086&REV_02\3&103A9D54&0&A9
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #1 - 8D10
 Device ID: PCI\VEN_8086&DEV_8D10&SUBSYS_212B103C&REV_D5\3&11583659&0&E0
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers - 2FB3
 Device ID: PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02\3&103A9D54&0&A3
@@ -638,7 +642,7 @@ Device ID: PCI\VEN_8086&DEV_2FA0&SUBSYS_2FA08086&REV_02\3&103A9D54&0&90
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #4 - 8D16
 Device ID: PCI\VEN_8086&DEV_8D16&SUBSYS_212B103C&REV_D5\3&11583659&0&E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 I/O APIC - 2F2C
 Device ID: PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02\3&11583659&0&2C
@@ -787,7 +791,7 @@ Device ID: PCI\VEN_8086&DEV_2FB4&SUBSYS_2FB48086&REV_02\3&103A9D54&0&A8
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 PCI Express Root Port 2 - 2F04
 Device ID: PCI\VEN_8086&DEV_2F04&SUBSYS_00008086&REV_02\3&11583659&0&10
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0441 (English), 11/9/2018 02:48:23, 375296 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17134.0254 (English), 8/9/2018 04:54:29, 375704 bytes
 
      Name: Intel(R) Xeon(R) E5 v3/Core i7 DDRIO (VMSE) 2 & 3 - 2FB9
 Device ID: PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD
@@ -820,7 +824,7 @@ WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,10.00.17134.0001
 MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,10.00.17134.0001
 Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,10.00.17134.0001
 WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,10.00.17134.0001
-WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.17134.0471
+WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.17134.0112
 Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,10.00.17134.0001
 Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,10.00.17134.0001
 LEAD DVD Playlist Parser,0x00600000,1,2,ltmm19x.dll,19.00.0000.0044
@@ -831,7 +835,7 @@ WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.17134.0001
 AVI Splitter,0x00600000,1,1,quartz.dll,10.00.17134.0001
 VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.17134.0001
 SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.17134.0001
-Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.17134.0471
+Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.17134.0191
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,10.00.17134.0001
 StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.17134.0001
 MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.17134.0001
@@ -878,7 +882,7 @@ Wave Parser,0x00400000,1,1,quartz.dll,10.00.17134.0001
 MIDI Parser,0x00400000,1,1,quartz.dll,10.00.17134.0001
 Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.17134.0001
 File stream renderer,0x00400000,1,1,quartz.dll,10.00.17134.0001
-Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,10.00.17134.0471
+Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,10.00.17134.0112
 StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.17134.0001
 AVI Mux,0x00200000,1,0,qcap.dll,10.00.17134.0001
 Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.17134.0001
@@ -910,10 +914,13 @@ CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.17134.0001
 CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.17134.0001
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.17134.0001
 
+Audio Capture Sources:
+Microphone (Realtek High Definition Audio),0x00200000,0,0,qcap.dll,10.00.17134.0001
+
 PBDA CP Filters:
-PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.17134.0441
-PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0441
-PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0441
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.17134.0137
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0137
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0137
 
 Midi Renderers:
 Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.17134.0001
@@ -1022,56 +1029,56 @@ Media Foundation Transforms
 
 Video Decoders:
   NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 24.21.0013.9882
-  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.17134.0471
+  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.17134.0191
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.17134.0001
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.17134.0001
-  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.17134.0471
+  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.17134.0191
   Xvid MPEG-4 Video Decoder, {64697678-0000-0010-8000-00AA00389B71}, 0x1, xvid.ax, 
   WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.17134.0001
-  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.17134.0471
+  WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.17134.0112
   MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.17134.0001
   Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.17134.0001
-  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.17134.0471
+  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.17134.0137
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.17134.0001
 Video Encoders:
   NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 24.21.0013.9882
   NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 24.21.0013.9882
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.17134.0001
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.17134.0001
-  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.17134.0472
+  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.17134.0191
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.17134.0001
   WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.17134.0001
   Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.17134.0112
 Video Effects:
   Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.17134.0001
   Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.17134.0001
-  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.17134.0407
+  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.17134.0345
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.17134.0001
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.17134.0001
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0472
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0345
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.17134.0081
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.17134.0001
   WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.17134.0001
-  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.17134.0471
-  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.17134.0471
-  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.17134.0471
+  Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.17134.0112
+  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.17134.0320
+  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.17134.0320
   WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.17134.0001
   Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.17134.0001
   Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.17134.0001
-  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.17134.0471
+  Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.17134.0112
   WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.17134.0001
-  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.17134.0471
-  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.17134.0471
+  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.17134.0320
+  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.17134.0320
   MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.17134.0001
   Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.17134.0001
-  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.17134.0471
+  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.17134.0320
   Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
   DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
 Audio Encoders:
   LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
-  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.17134.0471
+  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.17134.0320
   Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.17134.0001
   WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.17134.0001
   MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.17134.0001
@@ -1084,9 +1091,9 @@ Audio Effects:
   AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.17134.0001
   Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.17134.0137
 Multiplexers:
-  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.17134.0407
+  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.17134.0137
 Others:
-  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.17134.0471
+  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.17134.0191
 
 
 --------------------------------------------
