@@ -404,3 +404,422 @@ LogInit: Object subsystem initialized
 [2019.05.16-14.30.22:260][ 98]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap3274EA19418E88A63B6E7386C0E90909.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
 [2019.05.16-14.30.25:653][337]LogSlate: Window 'Save Content' being destroyed
 [2019.05.16-14.30.25:699][337]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Creature_sound26C93B854CE146547B547797076182DB.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Audio/Creature_sound.uasset'
+[2019.05.16-14.52.42:991][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_1(Night).jpg)
+[2019.05.16-14.52.43:005][751]LogTexture: Display: Building textures: Brick_1_Night_ (BGRA8, 750X750)
+[2019.05.16-14.52.43:048][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_1.jpg)
+[2019.05.16-14.52.43:060][751]LogTexture: Display: Building textures: Brick_1 (BGRA8, 750X750)
+[2019.05.16-14.52.43:101][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_2.jpg)
+[2019.05.16-14.52.43:112][751]LogTexture: Display: Building textures: Brick_2 (BGRA8, 750X750)
+[2019.05.16-14.52.43:154][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_3.jpg)
+[2019.05.16-14.52.43:166][751]LogTexture: Display: Building textures: Brick_3 (BGRA8, 750X750)
+[2019.05.16-14.52.43:205][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_4.jpg)
+[2019.05.16-14.52.43:216][751]LogTexture: Display: Building textures: Brick_4 (BGRA8, 750X750)
+[2019.05.16-14.52.43:257][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_5.jpg)
+[2019.05.16-14.52.43:269][751]LogTexture: Display: Building textures: Brick_5 (BGRA8, 750X750)
+[2019.05.16-14.52.43:309][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Brick/Brick_6.jpg)
+[2019.05.16-14.52.43:325][751]LogTexture: Display: Building textures: Brick_6 (BGRA8, 750X750)
+[2019.05.16-14.52.46:441][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.024
+[2019.05.16-14.52.46:445][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_1_Night_] ([1] browsable assets)...
+[2019.05.16-14.52.46:453][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_1_Night_.Brick_1_Night_]
+[2019.05.16-14.52.46:453][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_1_Night_]
+[2019.05.16-14.52.46:472][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_1_Night__Auto1ECCB5502448C5E39CA06D6B2D1455DAF.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_1_Night__Auto1.uasset'
+[2019.05.16-14.52.46:476][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_1] ([1] browsable assets)...
+[2019.05.16-14.52.46:484][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_1.Brick_1]
+[2019.05.16-14.52.46:484][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_1]
+[2019.05.16-14.52.46:504][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_1_Auto1F6D551074C5BDBFD84A43C83465E91BC.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_1_Auto1.uasset'
+[2019.05.16-14.52.46:511][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_2] ([1] browsable assets)...
+[2019.05.16-14.52.46:519][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_2.Brick_2]
+[2019.05.16-14.52.46:519][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_2]
+[2019.05.16-14.52.46:535][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_2_Auto1E58BC97744052ACACE575AB9BE24CD39.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_2_Auto1.uasset'
+[2019.05.16-14.52.46:539][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_3] ([1] browsable assets)...
+[2019.05.16-14.52.46:547][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_3.Brick_3]
+[2019.05.16-14.52.46:547][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_3]
+[2019.05.16-14.52.46:568][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_3_Auto1BD1C35F64B629BAB147C6DAFD0D781D6.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_3_Auto1.uasset'
+[2019.05.16-14.52.46:572][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_4] ([1] browsable assets)...
+[2019.05.16-14.52.46:580][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_4.Brick_4]
+[2019.05.16-14.52.46:580][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_4]
+[2019.05.16-14.52.46:619][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_4_Auto1C618E7C9452330EC14BCFB95DD42E446.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_4_Auto1.uasset'
+[2019.05.16-14.52.46:625][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_5] ([1] browsable assets)...
+[2019.05.16-14.52.46:633][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_5.Brick_5]
+[2019.05.16-14.52.46:633][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_5]
+[2019.05.16-14.52.46:658][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_5_Auto1FC51B0714BAD13DA59509884DB330F3C.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_5_Auto1.uasset'
+[2019.05.16-14.52.46:666][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_6] ([1] browsable assets)...
+[2019.05.16-14.52.46:691][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Brick_6.Brick_6]
+[2019.05.16-14.52.46:691][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_6]
+[2019.05.16-14.52.46:729][ 91]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_6_Auto177D0B8154CB8A47CA47862AFFE4560B7.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_6_Auto1.uasset'
+[2019.05.16-14.52.46:732][ 91]LogFileHelpers: Auto-saving content packages took 0.289
+[2019.05.16-14.52.52:133][230]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Group 17 work/Tiling handpainted textures/Wood/Wood texture 1.jpg)
+[2019.05.16-14.52.52:145][230]LogTexture: Display: Building textures: Wood_texture_1 (BGRA8, 750X750)
+[2019.05.16-14.52.54:510][474]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/David-o020107h/Textures/Brick_1.Brick_1
+[2019.05.16-14.52.54:526][474]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.16-14.53.01:558][155]LogMaterial: Display: Missing cached shader map for material Brick_1_Mat, compiling. 
+[2019.05.16-14.53.01:612][155]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.16-14.53.01:612][155]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.16-14.53.01:612][155]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.16-14.53.05:398][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.05.16-14.53.14:412][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-14.53.19:415][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-14.53.19:779][  0]LogMaterial: Display: Missing cached shader map for material Brick_4_Mat, compiling. 
+[2019.05.16-14.53.19:798][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.05.16-14.53.19:798][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.05.16-14.53.19:798][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.05.16-14.53.38:274][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-14.53.40:172][ 65]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer
+[2019.05.16-14.53.40:916][ 65]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2019.05.16-14.53.40:916][ 65]LogSlate: Took 0.007376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.16-14.53.45:438][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.05.16-14.53.46:615][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-14.53.48:718][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.16-14.53.49:395][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.16-14.53.50:844][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-15.02.47:232][116]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap_Auto28B23DFDF4B58118AF06E12A68CE78792.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2019.05.16-15.02.47:243][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.286
+[2019.05.16-15.02.47:243][116]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.286
+[2019.05.16-15.02.47:247][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Wood_texture_1] ([1] browsable assets)...
+[2019.05.16-15.02.47:255][116]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/David-o020107h/Textures/Wood_texture_1.Wood_texture_1]
+[2019.05.16-15.02.47:255][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Wood_texture_1]
+[2019.05.16-15.02.47:274][116]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Wood_texture_1_Auto28375DB174A82E349B3A63098A403F904.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Wood_texture_1_Auto2.uasset'
+[2019.05.16-15.02.47:279][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_1_Mat] ([1] browsable assets)...
+[2019.05.16-15.02.47:295][116]OBJ SavePackage:     Rendered thumbnail for [Material /Game/David-o020107h/Textures/Brick_1_Mat.Brick_1_Mat]
+[2019.05.16-15.02.47:295][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_1_Mat]
+[2019.05.16-15.02.47:317][116]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_1_Mat_Auto2306528BE421759CB4416D4B159372D26.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_1_Mat_Auto2.uasset'
+[2019.05.16-15.02.47:321][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/David-o020107h/Textures/Brick_4_Mat] ([1] browsable assets)...
+[2019.05.16-15.02.47:334][116]OBJ SavePackage:     Rendered thumbnail for [Material /Game/David-o020107h/Textures/Brick_4_Mat.Brick_4_Mat]
+[2019.05.16-15.02.47:334][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/David-o020107h/Textures/Brick_4_Mat]
+[2019.05.16-15.02.47:355][116]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_4_Mat_Auto20CA85C5C4BA724EF44851A8B78106A39.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/David-o020107h/Textures/Brick_4_Mat_Auto2.uasset'
+[2019.05.16-15.02.47:358][116]LogFileHelpers: Auto-saving content packages took 0.113
+[2019.05.16-15.10.03:360][496]LogSlate: Window '1M_Cube_Chamfer' being destroyed
+[2019.05.16-15.10.03:362][496]LogSlate: Window '1M_Cube_Chamfer' being destroyed
+[2019.05.16-15.10.06:565][504]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap153875C94CBC8CB95FDEF59DDA52CF00.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.05.16-15.10.08:845][603]LogSlate: Window 'Save Content' being destroyed
+[2019.05.16-15.10.08:964][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_157070D0F4B2D84636C5DCBAB7B6BD8AF.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_1.uasset'
+[2019.05.16-15.10.08:993][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_1_Mat17E522F043590EB4735466B25616791A.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_1_Mat.uasset'
+[2019.05.16-15.10.09:062][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_1_Night_3A1777C2424DFFFDC202718C1F0C51A9.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_1_Night_.uasset'
+[2019.05.16-15.10.09:135][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_2F4E5B33D442C19F19D1F70B03A8E5793.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_2.uasset'
+[2019.05.16-15.10.09:212][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_3091B28AA4C77019B511A5B94179F52E1.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_3.uasset'
+[2019.05.16-15.10.09:315][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_46AB8CD37406E841B41BE93A22FDE7B43.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_4.uasset'
+[2019.05.16-15.10.09:348][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_4_MatD00446A340CC3A317E0EBBB093A22DCC.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_4_Mat.uasset'
+[2019.05.16-15.10.09:465][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_56642787F4726A0CD1B05C4AF106D29E9.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_5.uasset'
+[2019.05.16-15.10.09:562][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Brick_6F2C84EF0469C8D0D71EBCCABF057DEEF.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Brick_6.uasset'
+[2019.05.16-15.10.09:634][603]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Wood_texture_19C4E0469415080DC78E338975460B6F8.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/David-o020107h/Textures/Wood_texture_1.uasset'
+[2019.05.16-15.10.12:633][904]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
+[2019.05.16-15.10.12:634][904]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.16-15.10.12:846][905]Cmd: QUIT_EDITOR
+[2019.05.16-15.10.12:886][905]LogExit: Preparing to exit.
+[2019.05.16-15.10.13:357][905]LogExit: Editor shut down
+[2019.05.16-15.10.13:357][905]LogExit: Transaction tracking system shut down
+[2019.05.16-15.10.14:106][905]LogExit: Object subsystem successfully closed.
+[2019.05.16-15.10.14:138][905]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.16-15.10.14:143][905]LogD3D11RHI: Shutdown
+[2019.05.16-15.10.14:143][905]LogD3D11RHI: CleanupD3DDevice
+[2019.05.16-15.10.14:145][905]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.16-15.10.14:191][905]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (616)
+[2019.05.16-15.10.14:191][905]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (614)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module TextureEditor (612)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.05.16-15.10.14:192][905]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.05.16-15.10.14:193][905]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.05.16-15.10.14:194][905]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.05.16-15.10.14:892][905]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.05.16-15.10.14:893][905]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.05.16-15.10.14:894][905]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.05.16-15.10.14:894][905]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.05.16-15.10.14:894][905]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.05.16-15.10.14:960][905]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.05.16-15.10.14:960][905]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.05.16-15.10.14:960][905]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.05.16-15.10.14:960][905]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.05.16-15.10.14:960][905]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.05.16-15.10.14:961][905]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.05.16-15.10.14:961][905]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.05.16-15.10.14:961][905]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.05.16-15.10.14:961][905]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.05.16-15.10.14:961][905]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.05.16-15.10.14:965][905]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.05.16-15.10.14:966][905]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.05.16-15.10.15:190][905]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.05.16-15.10.15:191][905]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.05.16-15.10.15:191][905]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.05.16-15.10.15:191][905]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.05.16-15.10.15:191][905]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.05.16-15.10.15:196][905]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.16-15.10.15:197][905]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.16-15.10.15:299][905]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.16-15.10.15:400][905]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.16-15.10.15:401][905]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.16-15.10.15:401][905]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.16-15.10.15:401][905]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.16-15.10.15:401][905]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.16-15.10.15:401][905]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.16-15.10.15:402][905]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.05.16-15.10.15:406][905]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.05.16-15.10.15:412][905]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.05.16-15.10.15:413][905]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.05.16-15.10.15:413][905]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.05.16-15.10.15:413][905]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.05.16-15.10.15:413][905]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.05.16-15.10.15:414][905]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.05.16-15.10.15:415][905]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.05.16-15.10.15:421][905]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.05.16-15.10.15:520][905]LogDerivedDataCache: Shutdown
+[2019.05.16-15.10.15:520][905]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.05.16-15.10.15:520][905]LogXGEController: Cleaning working directory: C:/Users/c018840h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.05.16-15.10.15:521][905]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.05.16-15.10.15:522][905]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.05.16-15.10.15:522][905]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.05.16-15.10.15:523][905]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.05.16-15.10.15:523][905]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.05.16-15.10.15:530][905]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.05.16-15.10.15:532][905]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.05.16-15.10.15:532][905]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.05.16-15.10.15:550][905]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.05.16-15.10.15:550][905]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.16-15.10.15:550][905]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB8A151F7-41F2-131B-2209-CF80B644BFE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1b4e0af946ce0389ba2b5397faf1cf9e%7C%7C9849caef-d884-4546-bd98-bfbfc62af895&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.16-15.10.15:576][905]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.05.16-15.10.15:579][905]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.16-15.10.15:579][905]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.16-15.10.15:580][905]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.16-15.10.15:581][905]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.16-15.10.15:581][905]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.16-15.10.15:581][905]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.16-15.10.15:581][905]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.16-15.10.15:582][905]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.16-15.10.15:598][905]LogExit: Exiting.
+[2019.05.16-15.10.15:656][905]Log file closed, 05/16/19 16:10:15
