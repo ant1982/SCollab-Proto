@@ -6259,3 +6259,7 @@ LogInit: Object subsystem initialized
 [2019.05.22-13.19.17:497][832]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/TopDownExampleMap7C60E8594F1A1C8DE13CE3B45A2624BE.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap'
 [2019.05.22-13.20.58:780][228]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/AIAgent/AIUIInt.
 [2019.05.22-13.20.59:121][229]LogPackageName: SearchForPackageOnDisk took   0.002s to resolve /Game/GW000979/EHealth.
+[2019.05.22-13.23.55:977][756]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/BaseAI.
+[2019.05.22-13.23.55:990][756]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/CrystalHound.
+[2019.05.22-13.24.44:649][901]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AIAgent/AIUIInt.
+[2019.05.22-13.24.45:003][902]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/GW000979/EHealth.
