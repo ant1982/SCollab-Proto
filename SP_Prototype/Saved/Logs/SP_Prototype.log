@@ -5720,3 +5720,49 @@ Please see Output Log for details.
 [2019.05.22-13.20.55:616][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.05.22-13.20.55:957][383]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo8386CF674674C08BBD101DA2DFC2C479.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
 [2019.05.22-13.20.56:057][383]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltDataFF984AAB4A323966FCF5A2855530457F.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.00.32:112][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.00.32:266][186]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.22-14.00.32:295][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.22-14.00.32:295][186]PIE: New page: PIE session: texturedzoo (22 May 2019 16:00:32)
+[2019.05.22-14.00.32:296][186]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_texturedzoo
+[2019.05.22-14.00.32:303][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007134s)
+[2019.05.22-14.00.32:304][186]LogAIModule: Creating AISystem for world texturedzoo
+[2019.05.22-14.00.32:305][186]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2019.05.22-14.00.32:305][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/texturedzoo.texturedzoo to /Game/Levels/UEDPIE_0_texturedzoo.texturedzoo (0.009173s)
+[2019.05.22-14.00.32:335][186]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.22-14.00.32:352][186]LogInit: FAudioDevice initialized.
+[2019.05.22-14.00.32:385][186]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.05.22-14.00.32:391][186]LogWorld: Bringing World /Game/Levels/UEDPIE_0_texturedzoo.texturedzoo up for play (max tick rate 0) at 2019.05.22-15.00.32
+[2019.05.22-14.00.32:392][186]LogWorld: Bringing up level for play took: 0.005646
+[2019.05.22-14.00.32:407][186]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_texturedzoo -0.506
+[2019.05.22-14.04.09:340][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.22-14.04.09:376][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.22-14.04.09:404][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.22-14.04.09:474][107]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.05.22-14.23.41:477][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.23.41:796][ 28]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo4E6FAB5843E6117425A45BBDA8B6B4A6.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
+[2019.05.22-14.23.41:902][ 28]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltData1252149A4F273B699DCB6BAC5A546397.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.25.45:644][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.25.45:937][849]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo3F9132E443282786C2C4D2BD2A266C23.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
+[2019.05.22-14.25.46:035][849]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltData4469EA3F4B6ED3ADA49634A4DC041FF8.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.27.14:748][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rocks_Large2)
+[2019.05.22-14.27.23:979][347]Cmd: DELETE
+[2019.05.22-14.27.23:979][347]Cmd: ACTOR DELETE
+[2019.05.22-14.27.23:983][347]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.22-14.27.24:005][347]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.05.22-14.27.25:071][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.27.25:407][475]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo6AD5B3A9456A3A12DF66748AEC16E60A.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
+[2019.05.22-14.27.25:541][475]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltData8CFD4069449A108C77EA4DA246EE0FB8.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.29.05:774][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.22-14.29.43:006][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.22-14.29.43:855][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.29.44:188][835]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo6D78B0FD49102B7D252F7BB941F9E37D.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
+[2019.05.22-14.29.44:293][835]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltDataC65C3AD84C4CCFE7B7AF0BA5E68B4980.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.29.48:416][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.22-14.30.11:761][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bag_of_Food_1_Unwrapped__1_)
+[2019.05.22-14.30.33:378][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.22-14.30.34:577][383]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.22-14.30.35:428][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.22-14.30.35:727][489]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo6CA737464D4E62F208C103A0823D941E.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo.umap'
+[2019.05.22-14.30.35:834][489]LogSavePackage: Moving '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/texturedzoo_BuiltData2B84A55B4B76118194661D9807438CF8.tmp' to '../../../../../../Users/c018840h/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/texturedzoo_BuiltData.uasset'
+[2019.05.22-14.30.38:582][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
