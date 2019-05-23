@@ -2274,3 +2274,5 @@ LogInit: Object subsystem initialized
 [2019.05.23-16.09.46:672][366]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2019.05.23-16.09.47:390][367]Cmd: QUIT_EDITOR
 [2019.05.23-16.09.53:089][367]LogExit: Preparing to exit.
+[2019.05.23-16.10.59:380][367]LogExit: Editor shut down
+[2019.05.23-16.11.04:125][367]LogExit: Transaction tracking system shut down
