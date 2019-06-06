@@ -2325,3 +2325,716 @@ LogInit: Object subsystem initialized
 [2019.06.06-08.51.25:085][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scaffold_support_scaffold_support7)
 [2019.06.06-08.51.26:660][465]Cmd: SELECT NONE
 [2019.06.06-08.51.30:987][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-08.53.08:765][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.53.35:261][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.53.40:052][837]LogActorFactory: Actor Factory created LargeCactus
+[2019.06.06-08.53.40:928][917]LogActorFactory: Actor Factory created LargeCactus
+[2019.06.06-08.53.41:905][  7]LogActorFactory: Actor Factory created LargeCactus
+[2019.06.06-08.53.56:132][243]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LargeCactus)
+[2019.06.06-08.53.56:164][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-08.53.57:406][337]Cmd: TRANSACTION UNDO
+[2019.06.06-08.53.57:406][337]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.06.06-08.53.58:798][450]Cmd: TRANSACTION UNDO
+[2019.06.06-08.53.58:798][450]LogEditorTransaction: Undo Foliage Editing
+[2019.06.06-08.53.59:176][481]Cmd: TRANSACTION UNDO
+[2019.06.06-08.53.59:176][481]LogEditorTransaction: Undo Foliage Editing
+[2019.06.06-08.53.59:674][528]Cmd: TRANSACTION UNDO
+[2019.06.06-08.53.59:674][528]LogEditorTransaction: Undo Foliage Editing
+[2019.06.06-08.54.00:085][566]Cmd: TRANSACTION UNDO
+[2019.06.06-08.54.00:085][566]LogEditorTransaction: Undo Foliage Editing
+[2019.06.06-08.54.00:496][596]Cmd: TRANSACTION UNDO
+[2019.06.06-08.54.00:497][596]LogEditorTransaction: Undo Foliage Editing
+[2019.06.06-08.54.00:778][611]Cmd: TRANSACTION UNDO
+[2019.06.06-08.54.00:778][611]LogEditorTransaction: Undo Create Actors
+[2019.06.06-08.54.06:625][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.07:417][164]LogActorFactory: Actor Factory created medium_cactus
+[2019.06.06-08.54.08:379][257]LogActorFactory: Actor Factory created medium_cactus
+[2019.06.06-08.54.11:300][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.11:384][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.06.06-08.54.12:015][603]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2019.06.06-08.54.12:303][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (medium_cactus)
+[2019.06.06-08.54.14:228][738]Cmd: DELETE
+[2019.06.06-08.54.14:228][738]Cmd: ACTOR DELETE
+[2019.06.06-08.54.14:251][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-08.54.14:292][738]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.06.06-08.54.18:890][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.21:462][328]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/finishedassets/flowers/MediumCactus.MediumCactus
+[2019.06.06-08.54.22:506][328]LogSlate: Took 0.000415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.06-08.54.29:373][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.31:326][972]LogSlate: Window 'MediumCactus' being destroyed
+[2019.06.06-08.54.31:329][972]LogSlate: Window 'MediumCactus' being destroyed
+[2019.06.06-08.54.33:718][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.33:901][125]LogActorFactory: Actor Factory created LP_Palm_tree
+[2019.06.06-08.54.35:142][221]LogActorFactory: Actor Factory created LP_Palm_tree
+[2019.06.06-08.54.35:342][231]Cmd: SELECT NONE
+[2019.06.06-08.54.38:964][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LP_Palm_tree)
+[2019.06.06-08.54.45:307][947]Cmd: DELETE
+[2019.06.06-08.54.45:307][947]Cmd: ACTOR DELETE
+[2019.06.06-08.54.45:320][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-08.54.45:354][947]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.06.06-08.54.51:817][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.54.52:008][524]LogActorFactory: Actor Factory created Obby_Unwrapped
+[2019.06.06-08.54.52:954][611]LogActorFactory: Actor Factory created Obby_Unwrapped
+[2019.06.06-08.54.56:711][947]Cmd: SELECT NONE
+[2019.06.06-08.55.01:218][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Obby_Unwrapped)
+[2019.06.06-08.55.01:579][374]Cmd: DELETE
+[2019.06.06-08.55.01:579][374]Cmd: ACTOR DELETE
+[2019.06.06-08.55.01:595][374]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.06-08.55.01:635][374]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2019.06.06-08.55.25:448][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.55.42:169][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.55.42:247][ 58]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-08.55.42:277][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-08.55.42:277][ 58]PIE: New page: PIE session: Area1-Rework (6 Jun 2019 10:55:42)
+[2019.06.06-08.55.42:277][ 58]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area1-Rework
+[2019.06.06-08.55.42:309][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031230s)
+[2019.06.06-08.55.42:309][ 58]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.06-08.55.42:309][ 58]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2019.06.06-08.55.42:309][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area1-Rework.Area1-Rework to /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework (0.032188s)
+[2019.06.06-08.55.42:346][ 58]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-08.55.42:363][ 58]LogInit: FAudioDevice initialized.
+[2019.06.06-08.55.42:401][ 58]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-08.55.42:439][ 58]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.06-09.55.42
+[2019.06.06-08.55.42:441][ 58]LogWorld: Bringing up level for play took: 0.037712
+[2019.06.06-08.55.42:463][ 58]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area1-Rework -0.522
+[2019.06.06-08.55.48:448][692]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.48:548][703]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.48:648][714]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:352][904]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:456][915]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:554][926]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:650][937]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:750][948]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:847][959]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.50:953][971]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.51:053][982]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.51:751][ 61]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.51:849][ 72]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.51:947][ 83]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:054][ 95]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:150][106]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:250][117]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:348][128]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:453][140]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:551][151]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:647][162]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:754][174]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:852][185]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.52:950][196]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.54:149][330]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'HiddenObjectStruct' of length 0 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.54:248][341]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'HiddenObjectStruct' of length 1 in '/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C'!
+[2019.06.06-08.55.55:521][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.55.55:556][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-08.55.55:602][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.55.55:652][485]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.06.06-08.56.04:192][407]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.06.06-08.56.06:459][608]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.07:053][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.56.07:149][670]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-08.56.07:178][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-08.56.07:178][670]PIE: New page: PIE session: Area1-Rework (6 Jun 2019 10:56:07)
+[2019.06.06-08.56.07:178][670]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area1-Rework
+[2019.06.06-08.56.07:208][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029299s)
+[2019.06.06-08.56.07:208][670]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.06-08.56.07:208][670]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2019.06.06-08.56.07:208][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area1-Rework.Area1-Rework to /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework (0.030143s)
+[2019.06.06-08.56.07:249][670]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-08.56.07:266][670]LogInit: FAudioDevice initialized.
+[2019.06.06-08.56.07:300][670]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-08.56.07:320][670]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.06-09.56.07
+[2019.06.06-08.56.07:321][670]LogWorld: Bringing up level for play took: 0.019530
+[2019.06.06-08.56.07:337][670]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area1-Rework 0.352
+[2019.06.06-08.56.12:086][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.56.12:127][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-08.56.12:180][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.56.12:220][174]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.06.06-08.56.14:523][339]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.06.06-08.56.15:388][386]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.16:973][529]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.17:973][620]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.18:575][675]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.19:186][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rubble_2)
+[2019.06.06-08.56.20:196][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rubble_2)
+[2019.06.06-08.56.20:538][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rubble_2)
+[2019.06.06-08.56.20:846][863]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.06.06-08.56.21:885][954]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.06-08.56.22:229][983]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2019.06.06-08.56.25:508][259]Cmd: SELECT NONE
+[2019.06.06-08.56.26:412][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Form_1)
+[2019.06.06-08.56.30:392][661]Cmd: SELECT NONE
+[2019.06.06-08.56.32:550][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Form_10)
+[2019.06.06-08.56.34:989][ 58]Cmd: SELECT NONE
+[2019.06.06-08.56.38:117][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.56.38:886][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.06.06-08.56.39:067][435]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.06.06-08.56.49:907][427]Cmd: SELECT NONE
+[2019.06.06-08.56.55:003][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.56.58:313][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.03:617][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.07:977][113]Cmd: TRANSACTION UNDO
+[2019.06.06-08.57.07:978][113]LogEditorTransaction: Undo Rotate Actors
+[2019.06.06-08.57.10:597][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.16:922][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.22:139][479]Cmd: SELECT NONE
+[2019.06.06-08.57.23:385][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.34:962][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.40:484][ 89]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.06-08.57.41:740][200]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.06-08.57.42:978][300]Cmd: SELECT NONE
+[2019.06.06-08.57.48:743][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.57.48:840][839]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-08.57.48:869][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-08.57.48:869][839]PIE: New page: PIE session: Area1-Rework (6 Jun 2019 10:57:48)
+[2019.06.06-08.57.48:869][839]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area1-Rework
+[2019.06.06-08.57.48:900][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031366s)
+[2019.06.06-08.57.48:901][839]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.06-08.57.48:901][839]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2019.06.06-08.57.48:901][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area1-Rework.Area1-Rework to /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework (0.032298s)
+[2019.06.06-08.57.48:941][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-08.57.48:955][839]LogInit: FAudioDevice initialized.
+[2019.06.06-08.57.48:989][839]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-08.57.49:024][839]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.06-09.57.49
+[2019.06.06-08.57.49:025][839]LogWorld: Bringing up level for play took: 0.033896
+[2019.06.06-08.57.49:045][839]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area1-Rework 0.061
+[2019.06.06-08.57.50:862][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.57.50:901][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-08.57.50:934][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-08.57.50:968][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.06.06-08.57.53:384][237]Cmd: TRANSACTION UNDO
+[2019.06.06-08.57.53:384][237]LogEditorTransaction: Undo Select None
+[2019.06.06-08.57.53:797][247]Cmd: TRANSACTION UNDO
+[2019.06.06-08.57.53:797][247]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.06-08.57.58:265][532]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2019.06.06-08.57.58:299][532]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-08.58.01:922][822]Cmd: TRANSACTION UNDO
+[2019.06.06-08.58.01:922][822]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.06.06-08.58.02:265][835]Cmd: TRANSACTION UNDO
+[2019.06.06-08.58.02:265][835]LogEditorTransaction: Undo Rotate Actors
+[2019.06.06-08.58.06:797][204]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2019.06.06-08.58.06:826][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-08.58.31:226][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.58.39:684][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-08.58.53:509][322]Cmd: TRANSACTION UNDO
+[2019.06.06-08.58.53:509][322]LogEditorTransaction: Undo Reset to Default
+[2019.06.06-08.58.58:772][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.59.09:496][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.59.28:605][278]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.06.06-08.59.29:088][309]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.06-08.59.29:367][325]Cmd: SELECT NONE
+[2019.06.06-08.59.29:918][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.59.34:604][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.59.36:013][877]Cmd: TRANSACTION UNDO
+[2019.06.06-08.59.36:013][877]LogEditorTransaction: Undo Edit X
+[2019.06.06-08.59.39:956][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-08.59.55:184][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.06.06-09.00.46:988][611]Cmd: SELECT NONE
+[2019.06.06-09.00.51:251][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.00.51:743][ 78]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.06.06-09.01.18:319][374]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.06.06-09.01.18:380][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-09.01.19:412][374]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Area1-Rework_Auto2470A92C2440F68C771D336AD29AF1649.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/Levels/Area1-Rework_Auto2.umap'
+[2019.06.06-09.01.19:430][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Area1-Rework' took 1.028
+[2019.06.06-09.01.19:430][374]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.028
+[2019.06.06-09.01.23:300][713]Cmd: TRANSACTION UNDO
+[2019.06.06-09.01.23:300][713]LogEditorTransaction: Undo Move Actors
+[2019.06.06-09.01.23:789][746]Cmd: TRANSACTION UNDO
+[2019.06.06-09.01.23:789][746]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.06-09.01.24:797][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.01.27:989][112]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.06.06-09.01.28:052][115]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.06.06-09.01.28:485][151]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.06.06-09.01.32:277][471]Cmd: DELETE
+[2019.06.06-09.01.32:277][471]Cmd: ACTOR DELETE
+[2019.06.06-09.01.32:290][471]LogEditorActor: Deleted Actor: Landscape
+[2019.06.06-09.01.32:349][471]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2019.06.06-09.01.33:396][580]Cmd: TRANSACTION UNDO
+[2019.06.06-09.01.33:396][580]LogEditorTransaction: Undo Delete Actors
+[2019.06.06-09.01.34:973][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.01.39:240][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-09.01.42:217][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.01.48:223][903]Cmd: TRANSACTION UNDO
+[2019.06.06-09.01.48:223][903]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.01.48:241][903]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2019.06.06-09.01.48:264][903]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.01.50:405][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.03.12:099][125]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.12:099][125]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.12:125][125]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.12:359][134]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.12:359][134]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.12:384][134]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.12:885][172]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.12:885][172]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.12:901][172]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.13:236][206]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.13:236][206]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.13:252][206]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.13:698][252]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.13:698][252]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.13:715][252]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.14:038][286]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.14:038][286]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.14:051][286]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.14:437][327]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.14:437][327]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.14:451][327]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.14:774][361]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.14:774][361]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.14:788][361]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.03.44:874][388]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.44:874][388]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.44:896][388]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.06.06-09.03.44:916][388]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2019.06.06-09.03.44:930][388]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2019.06.06-09.03.44:946][388]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2019.06.06-09.03.45:127][396]Cmd: TRANSACTION UNDO
+[2019.06.06-09.03.45:127][396]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2019.06.06-09.03.45:146][396]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.06.06-09.03.53:547][258]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-09.04.02:193][ 86]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.02:193][ 86]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.06.06-09.04.02:223][ 86]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.06.06-09.04.02:243][ 86]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2019.06.06-09.04.02:259][ 86]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2019.06.06-09.04.02:454][ 91]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.02:454][ 91]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.06.06-09.04.02:482][ 91]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2019.06.06-09.04.02:497][ 91]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.06.06-09.04.03:815][204]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.03:815][204]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2019.06.06-09.04.09:989][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.04.15:269][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.04.20:186][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.04.33:412][129]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.33:412][129]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.06.06-09.04.33:427][129]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2019.06.06-09.04.33:440][129]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.04.33:604][142]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.33:604][142]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.06.06-09.04.33:617][142]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.04.33:801][154]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.33:801][154]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.06.06-09.04.33:817][154]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.04.33:832][154]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2019.06.06-09.04.34:006][167]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.34:006][167]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.06.06-09.04.34:029][167]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.04.34:048][167]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2019.06.06-09.04.34:199][182]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.34:199][182]LogEditorTransaction: Undo Edit Tool Strength
+[2019.06.06-09.04.34:630][225]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.34:630][225]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.06.06-09.04.34:649][225]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2019.06.06-09.04.34:663][225]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.04.34:872][243]Cmd: TRANSACTION UNDO
+[2019.06.06-09.04.34:872][243]LogEditorTransaction: Undo Edit Tool Strength
+[2019.06.06-09.04.37:919][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.05.44:902][743]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-09.05.44:932][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-09.05.44:932][743]PIE: New page: PIE session: Area1-Rework (6 Jun 2019 11:05:44)
+[2019.06.06-09.05.44:932][743]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area1-Rework
+[2019.06.06-09.05.44:964][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031730s)
+[2019.06.06-09.05.44:964][743]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.06-09.05.44:965][743]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2019.06.06-09.05.44:965][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area1-Rework.Area1-Rework to /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework (0.032702s)
+[2019.06.06-09.05.45:005][743]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-09.05.45:021][743]LogInit: FAudioDevice initialized.
+[2019.06.06-09.05.45:021][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.06-09.05.45:052][743]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-09.05.45:067][743]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.06-10.05.45
+[2019.06.06-09.05.45:067][743]LogWorld: Bringing up level for play took: 0.014515
+[2019.06.06-09.05.45:085][743]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area1-Rework 0.1
+[2019.06.06-09.05.49:902][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.05.49:938][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-09.05.49:968][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.05.50:019][272]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.06-09.06.10:161][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.07.18:197][300]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2019.06.06-09.07.18:200][300]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.06.06-09.07.18:202][300]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2019.06.06-09.07.18:205][300]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2019.06.06-09.07.18:207][300]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2019.06.06-09.07.19:518][300]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Area1-ReworkBEC98694423CA93333BB26819F2BA916.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap'
+[2019.06.06-09.07.23:230][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.07.52:495][201]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Temple-Area.Temple-Area
+[2019.06.06-09.07.53:858][201]LogSlate: Window 'Save Content' being destroyed
+[2019.06.06-09.07.54:915][201]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Temple-AreaE29EF87D47E56EED9F723AA85CC6FB3E.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/Temple-Area.umap'
+[2019.06.06-09.07.54:920][201]LogFileHelpers: Saving map 'Temple-Area' took 1.052
+[2019.06.06-09.07.54:926][201]Cmd: MAP LOAD FILE="../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/Temple-Area.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.06-09.07.54:926][201]LightingResults: New page: Lighting Build
+[2019.06.06-09.07.54:927][201]LoadErrors: New page: Loading map: Temple-Area.umap
+[2019.06.06-09.07.54:933][201]MapCheck: New page: Map Check
+[2019.06.06-09.07.54:933][201]LightingResults: New page: Lighting Build
+[2019.06.06-09.07.55:035][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.06-09.07.55:035][201]LogAIModule: Creating AISystem for world Temple-Area
+[2019.06.06-09.07.55:144][201]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.06-09.07.55:838][201]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 693.665ms to complete.
+[2019.06.06-09.07.55:841][201]LogFileHelpers: Loading map 'Temple-Area' took 0.918
+[2019.06.06-09.08.10:359][245]LogEditorViewport: Clicking Background
+[2019.06.06-09.08.10:908][298]Cmd: EDIT PASTE
+[2019.06.06-09.08.22:370][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.08.22:480][510]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-09.08.22:509][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-09.08.22:509][510]PIE: New page: PIE session: Temple-Area (6 Jun 2019 11:08:22)
+[2019.06.06-09.08.22:509][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Temple-Area
+[2019.06.06-09.08.22:570][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062101s)
+[2019.06.06-09.08.22:571][510]LogAIModule: Creating AISystem for world Temple-Area
+[2019.06.06-09.08.22:571][510]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2019.06.06-09.08.22:571][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Temple-Area.Temple-Area to /Game/Levels/UEDPIE_0_Temple-Area.Temple-Area (0.063242s)
+[2019.06.06-09.08.22:613][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-09.08.22:630][510]LogInit: FAudioDevice initialized.
+[2019.06.06-09.08.22:668][510]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-09.08.22:678][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Temple-Area.Temple-Area up for play (max tick rate 0) at 2019.06.06-10.08.22
+[2019.06.06-09.08.22:681][510]LogWorld: Bringing up level for play took: 0.011384
+[2019.06.06-09.08.22:703][510]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Temple-Area -0.283
+[2019.06.06-09.08.24:085][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.08.24:122][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-09.08.24:172][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.08.24:194][670]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.06.06-09.08.29:266][247]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2019.06.06-09.08.31:369][446]Cmd: SELECT NONE
+[2019.06.06-09.08.32:570][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.08.36:131][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.08.37:925][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.08.37:992][191]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.06-09.08.38:020][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.06-09.08.38:020][191]PIE: New page: PIE session: Temple-Area (6 Jun 2019 11:08:38)
+[2019.06.06-09.08.38:020][191]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Temple-Area
+[2019.06.06-09.08.38:083][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062290s)
+[2019.06.06-09.08.38:083][191]LogAIModule: Creating AISystem for world Temple-Area
+[2019.06.06-09.08.38:084][191]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2019.06.06-09.08.38:084][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Temple-Area.Temple-Area to /Game/Levels/UEDPIE_0_Temple-Area.Temple-Area (0.063511s)
+[2019.06.06-09.08.38:117][191]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.06-09.08.38:131][191]LogInit: FAudioDevice initialized.
+[2019.06.06-09.08.38:167][191]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.06-09.08.38:180][191]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Temple-Area.Temple-Area up for play (max tick rate 0) at 2019.06.06-10.08.38
+[2019.06.06-09.08.38:181][191]LogWorld: Bringing up level for play took: 0.011865
+[2019.06.06-09.08.38:203][191]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Temple-Area -0.783
+[2019.06.06-09.08.39:222][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.08.39:259][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.06-09.08.39:298][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.06-09.08.39:323][310]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.06.06-09.08.41:133][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.06-09.08.41:951][519]LogSavePackage: Moving '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Saved/Temple-AreaA6F7CF91452AA16518E547A31A14CFA9.tmp' to '../../../../../../Users/s017290g/Documents/GitHub/SCollab-Proto/SP_Prototype/Content/Levels/Temple-Area.umap'
+[2019.06.06-09.09.02:036][667]LogSlate: Window 'Content Browser' being destroyed
+[2019.06.06-09.09.07:899][207]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
+[2019.06.06-09.09.07:901][207]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.06-09.09.08:165][208]Cmd: QUIT_EDITOR
+[2019.06.06-09.09.08:341][208]LogExit: Preparing to exit.
+[2019.06.06-09.09.09:392][208]LogExit: Editor shut down
+[2019.06.06-09.09.09:392][208]LogExit: Transaction tracking system shut down
+[2019.06.06-09.09.09:867][208]LogExit: Object subsystem successfully closed.
+[2019.06.06-09.09.09:899][208]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.06.06-09.09.09:911][208]LogD3D11RHI: Shutdown
+[2019.06.06-09.09.09:911][208]LogD3D11RHI: CleanupD3DDevice
+[2019.06.06-09.09.09:929][208]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (618)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module MeshBuilder (616)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.06.06-09.09.09:989][208]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.06.06-09.09.09:990][208]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.06.06-09.09.09:990][208]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.06.06-09.09.09:990][208]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.06.06-09.09.09:991][208]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.06.06-09.09.09:992][208]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.06.06-09.09.10:891][208]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.06.06-09.09.10:892][208]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.06.06-09.09.10:956][208]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.06.06-09.09.10:957][208]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.06.06-09.09.10:957][208]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.06.06-09.09.10:957][208]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.06.06-09.09.10:962][208]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.06.06-09.09.10:962][208]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.06.06-09.09.10:962][208]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.06.06-09.09.10:962][208]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.06.06-09.09.10:962][208]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.06.06-09.09.10:963][208]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.06.06-09.09.10:964][208]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.06.06-09.09.10:964][208]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.06.06-09.09.10:964][208]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.06.06-09.09.10:964][208]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.06.06-09.09.11:103][208]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.06.06-09.09.11:104][208]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.06.06-09.09.11:112][208]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.06.06-09.09.11:114][208]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.06.06-09.09.11:114][208]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.06.06-09.09.11:114][208]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.06.06-09.09.11:114][208]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.06.06-09.09.11:114][208]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.06.06-09.09.11:115][208]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.06.06-09.09.11:116][208]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.06.06-09.09.11:117][208]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.06.06-09.09.11:117][208]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.06.06-09.09.11:117][208]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.06.06-09.09.11:117][208]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.06.06-09.09.11:117][208]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.06.06-09.09.11:217][208]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.06.06-09.09.11:318][208]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.06.06-09.09.11:320][208]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.06.06-09.09.11:320][208]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.06.06-09.09.11:320][208]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.06.06-09.09.11:321][208]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.06.06-09.09.11:322][208]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.06.06-09.09.11:324][208]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.06.06-09.09.11:332][208]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.06.06-09.09.11:339][208]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.06.06-09.09.11:340][208]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.06.06-09.09.11:345][208]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.06.06-09.09.11:346][208]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.06.06-09.09.11:346][208]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.06.06-09.09.11:346][208]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.06.06-09.09.11:346][208]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.06.06-09.09.11:350][208]LogDerivedDataCache: Shutdown
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.06.06-09.09.11:350][208]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.06.06-09.09.11:351][208]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.06.06-09.09.11:353][208]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.06.06-09.09.11:353][208]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.06.06-09.09.11:355][208]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.06.06-09.09.11:355][208]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.06.06-09.09.11:368][208]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.06.06-09.09.11:369][208]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.06.06-09.09.11:371][208]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.06.06-09.09.11:371][208]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.06.06-09.09.11:385][208]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.06.06-09.09.11:385][208]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.06.06-09.09.11:385][208]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B809F32D6-442A-3CA8-4CD9-C3BAD010C024%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=bd4259c04eba0b572d2e588ba1232da6%7C%7Cdf0f6c08-f7ea-4b40-a888-18c6b4d49b12&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.06.06-09.09.11:393][208]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.06.06-09.09.11:395][208]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.06.06-09.09.11:396][208]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.06.06-09.09.11:396][208]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.06.06-09.09.11:397][208]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.06.06-09.09.11:397][208]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.06.06-09.09.11:397][208]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.06.06-09.09.11:398][208]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.06.06-09.09.11:399][208]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.06.06-09.09.11:399][208]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.06.06-09.09.11:399][208]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.06.06-09.09.11:399][208]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.06.06-09.09.11:415][208]LogExit: Exiting.
+[2019.06.06-09.09.11:474][208]Log file closed, 06/06/19 10:09:11
