@@ -52,20 +52,20 @@
 /I Runtime\Core\Public\Traits
 /I Runtime\Core\Public\UObject
 /I Runtime\Core\Public\Windows
-/I C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate
-/I C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Source
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate
+/I C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Source
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/I C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype
-/Yc"C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h"
-/Fp"C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h.pch"
-"C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.cpp"
-/Fo"C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h.obj"
+/I C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype
+/Yc"C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h"
+/Fp"C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h.pch"
+"C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.cpp"
+/Fo"C:\Users\s017290g\Documents\GitHub\SCollab-Proto\SP_Prototype\Intermediate\Build\Win64\UE4\Shipping\SP_Prototype\PCH.SP_Prototype.h.obj"
 /TP
 /GR-
 /W4
