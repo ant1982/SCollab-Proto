@@ -1,0 +1,2 @@
+C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Source\SP_Prototype.Build.cs
+C:\Users\wstan\Desktop\Github\SCollab-Proto\SP_Prototype\Intermediate\Source\SP_Prototype.Target.cs
