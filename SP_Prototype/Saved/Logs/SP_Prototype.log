@@ -1,4 +1,4 @@
-﻿Log file open, 06/14/19 09:46:22
+﻿Log file open, 06/14/19 09:53:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SP_Prototype
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.298134
+LogStats: Stats thread started at 0.304000
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -92,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.119s to configure plugins.
+LogStreaming: Display: Took  0.128s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,617 +149,908 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.06.14-08.46.22:743][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.14-08.46.22:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.14-08.46.22:752][  0]LogHAL: Display: Platform has ~ 16 GB [17125965824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.06.14-08.46.22:752][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.06.14-08.46.22:752][  0]LogInit: Going up to parent DeviceProfile []
-[2019.06.14-08.46.22:752][  0]LogInit: Computer: TONY-PC
-[2019.06.14-08.46.22:752][  0]LogInit: User: Tony
-[2019.06.14-08.46.22:752][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.06.14-08.46.22:752][  0]LogInit: High frequency timer resolution =3.417961 MHz
-[2019.06.14-08.46.22:752][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.06.14-08.46.22:752][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.14-08.46.22:752][  0]LogMemory: Process Physical Memory: 102.91 MB used, 102.91 MB peak
-[2019.06.14-08.46.22:752][  0]LogMemory: Process Virtual Memory: 98.57 MB used, 98.57 MB peak
-[2019.06.14-08.46.22:753][  0]LogMemory: Physical Memory: 6989.04 MB used,  9343.56 MB free, 16332.59 MB total
-[2019.06.14-08.46.22:753][  0]LogMemory: Virtual Memory: 4638.19 MB used,  9343.56 MB free, 134217728.00 MB total
-[2019.06.14-08.46.22:782][  0]LogInit: Using OS detected language (en-GB).
-[2019.06.14-08.46.22:782][  0]LogInit: Using OS detected locale (en-GB).
-[2019.06.14-08.46.22:783][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.06.14-08.46.23:123][  0]LogStreaming: Display: Took  0.341s to InitEngineTextLocalization.
-[2019.06.14-08.46.23:123][  0]LogInit: Setting process to per monitor DPI aware
-[2019.06.14-08.46.23:167][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.14-08.46.23:167][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.14-08.46.23:409][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.14-08.46.23:409][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.14-08.46.23:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.06.14-08.46.23:486][  0]LogD3D11RHI:       4043/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.06.14-08.46.23:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.14-08.46.23:489][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.14-08.46.23:489][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.14-08.46.23:497][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.14-08.46.23:497][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.14-08.46.23:497][  0]LogWindows: EnumDisplayDevices:
-[2019.06.14-08.46.23:497][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.06.14-08.46.23:497][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.06.14-08.46.23:498][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.06.14-08.46.23:498][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.06.14-08.46.23:498][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.06.14-08.46.23:498][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.06.14-08.46.23:498][  0]LogD3D11RHI:   Driver Version: 430.64 (internal:26.21.14.3064, unified:430.64)
-[2019.06.14-08.46.23:498][  0]LogD3D11RHI:      Driver Date: 5-5-2019
-[2019.06.14-08.46.23:499][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.06.14-08.46.23:543][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.14-08.46.23:565][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.06.14-08.46.23:570][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Intermediate/Shaders/WorkingDirectory/17216/).
-[2019.06.14-08.46.23:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tony/AppData/Local/Temp/UnrealShaderWorkingDir/CC6C64CF4E9C4D3CF38E77BF3A8510E3/'.
-[2019.06.14-08.46.23:875][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.06.14-08.46.23:891][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.06.14-08.46.23:905][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.06.14-08.46.23:918][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.06.14-08.46.23:932][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.06.14-08.46.23:946][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.06.14-08.46.23:961][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.06.14-08.46.23:974][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.06.14-08.46.23:982][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.06.14-08.46.24:049][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:050][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.06.14-08.46.24:051][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.06.14-08.46.24:111][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.06.14-08.46.24:111][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.06.14-08.46.24:133][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.06.14-08.46.24:133][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.06.14-08.46.24:144][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.06.14-08.46.24:156][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.06.14-08.46.24:167][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.06.14-08.46.24:180][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.06.14-08.46.24:191][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.06.14-08.46.24:191][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.14-08.46.24:282][  0]LogXGEController: Cleaning working directory: C:/Users/Tony/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.06.14-08.46.24:282][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.14-08.46.24:282][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.14-08.46.24:282][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.14-08.46.24:962][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.14-08.46.25:030][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.14-08.46.25:044][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.14-08.46.25:057][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.14-08.46.25:057][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.14-08.46.25:057][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.14-08.46.25:075][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.14-08.46.25:077][  0]LogSlate: Using FreeType 2.6.0
-[2019.06.14-08.46.25:077][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.14-08.46.25:161][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2019.06.14-08.46.25:526][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.14-08.46.25:655][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.06.14-08.46.25:660][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.06.14-08.46.25:660][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.06.14-08.46.25:660][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.14-08.46.25:660][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.06.14-08.46.25:677][  0]LogNetVersion: SP_Prototype 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1960140471)
-[2019.06.14-08.46.26:169][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.103744 seconds
-[2019.06.14-08.46.26:176][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.06.14-08.46.26:176][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.06.14-08.46.26:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.14-08.46.27:209][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.14-08.46.27:222][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.14-08.46.27:371][  0]SourceControl: Source control is disabled
-[2019.06.14-08.46.27:371][  0]SourceControl: Source control is disabled
-[2019.06.14-08.46.27:372][  0]SourceControl: Source control is disabled
-[2019.06.14-08.46.27:373][  0]SourceControl: Source control is disabled
-[2019.06.14-08.46.27:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.14-08.46.27:627][  0]LogOcInput: OculusInput pre-init called
-[2019.06.14-08.46.27:687][  0]LogEngine: Initializing Engine...
-[2019.06.14-08.46.27:688][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.14-08.46.27:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.06.14-08.46.27:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.14-08.46.27:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.06.14-08.46.27:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.14-08.46.27:866][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.06.14-08.46.27:884][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.14-08.46.27:906][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.14-08.46.27:969][  0]LogInit: FAudioDevice initialized.
-[2019.06.14-08.46.27:969][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.06.14-08.46.28:055][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.06.14-08.46.28:065][  0]LogInit: Texture streaming: Enabled
-[2019.06.14-08.46.28:092][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.14-08.46.28:111][  0]LogInit: Transaction tracking system initialized
-[2019.06.14-08.46.28:150][  0]BlueprintLog: New page: Editor Load
-[2019.06.14-08.46.28:276][  0]LocalizationService: Localization service is disabled
-[2019.06.14-08.46.28:521][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.14-08.46.28:521][  0]LogCook: Display: Mobile HDR setting 1
-[2019.06.14-08.46.28:521][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.06.14-08.46.28:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.06.14-08.46.28:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.06.14-08.46.28:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.06.14-08.46.28:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.06.14-08.46.28:671][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/' took 0.06s
-[2019.06.14-08.46.28:671][  0]SourceControl: Source control is disabled
-[2019.06.14-08.46.28:671][  0]Cmd: MAP LOAD FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.14-08.46.28:671][  0]LightingResults: New page: Lighting Build
-[2019.06.14-08.46.28:676][  0]MapCheck: New page: Map Check
-[2019.06.14-08.46.28:676][  0]LightingResults: New page: Lighting Build
-[2019.06.14-08.46.30:413][  0]LogK2Compiler: Unable to find connection for pin!  Check AllocateDefaultPins() for consistency!
-[2019.06.14-08.46.30:414][  0]LogBlueprint: Warning: [Compiler PlayerControl] Input pin  Pressed?  specifying non-default value no longer exists on node  Action 1 . Please refresh node or reset pin to default value to remove pin.
-[2019.06.14-08.46.30:458][  0]LogBlueprint: Warning: [Compiler PlayerControl] [0010.56] Compile of PlayerControl successful, but with 1 Warning(s) [in 67 ms] (/Game/TopDownBP/Blueprints/PlayerControl.PlayerControl)
-[2019.06.14-08.46.31:805][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2019.06.14-08.46.31:820][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.14-08.46.31:855][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.14-08.46.32:007][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.543ms to complete.
-[2019.06.14-08.46.32:007][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.336
-[2019.06.14-08.46.32:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.46.32:117][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.46.32:123][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.46.32:128][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.46.32:138][  0]LogCollectionManager: Loaded 0 collections in 0.003467 seconds
-[2019.06.14-08.46.32:183][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Collections/' took 0.01s
-[2019.06.14-08.46.32:183][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/Developers/Tony/Collections/' took 0.01s
-[2019.06.14-08.46.32:183][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/Collections/' took 0.01s
-[2019.06.14-08.46.32:183][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.06.14-08.46.32:191][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2581 classes and 608 folders.
-[2019.06.14-08.46.32:201][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.14-08.46.32:286][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.14-08.46.32:294][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.06.14-08.46.32:389][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.14-08.46.32:391][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.14-08.46.32:396][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.14-08.46.32:465][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
-[2019.06.14-08.46.32:527][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.14-08.46.32:593][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.14-08.46.32:593][  0]LogLoad: (Engine Initialization) Total time: 12.69 seconds
-[2019.06.14-08.46.32:593][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.14-08.46.32:603][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.06.14-08.46.32:631][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.06.14-08.46.32:704][  2]LogAssetRegistry: Asset discovery search completed in 7.5641 seconds
-[2019.06.14-08.46.32:706][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.06.14-08.46.32:706][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
-[2019.06.14-08.46.39:511][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.14-08.46.47:213][716]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.14-08.46.47:219][716]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
-[2019.06.14-08.46.47:604][716]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2019.06.14-08.46.48:686][716]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.06.14-08.46.49:449][717]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.06.14-08.47.04:216][137]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/PlayerControl.PlayerControl
-[2019.06.14-08.47.25:930][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Interfaces/PlayerInt.PlayerInt
-[2019.06.14-08.47.40:089][286]BlueprintLog: New page: Compile PlayerInt
-[2019.06.14-08.47.41:711][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Interfaces/PlayerInt" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Interfaces/PlayerInt.uasset" SILENT=true
-[2019.06.14-08.47.41:729][388]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/PlayerInt4304824A4E1331A69F1E72BA1837C3C2.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Interfaces/PlayerInt.uasset'
-[2019.06.14-08.47.52:110][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/PlayerControl" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/PlayerControl.uasset" SILENT=true
-[2019.06.14-08.47.52:197][611]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/PlayerControl86ED658A40029144F542A6A6A9A5DD88.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/PlayerControl.uasset'
-[2019.06.14-08.49.56:907][941]BlueprintLog: New page: Compile TopDownCharacter
-[2019.06.14-08.49.59:225][987]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter4A55525047461E967F83EDB352A321B9.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
-[2019.06.14-08.50.01:552][258]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.14-08.50.01:584][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2019.06.14-08.50.01:584][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.14-08.50.01:596][258]PIE: New page: PIE session: TopDownExampleMap (14 Jun 2019 10:50:01)
-[2019.06.14-08.50.01:597][258]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
-[2019.06.14-08.50.01:623][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026595s)
-[2019.06.14-08.50.01:624][258]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2019.06.14-08.50.01:624][258]LogPlayLevel: PIE: World Init took: (0.000881s)
-[2019.06.14-08.50.01:624][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027662s)
-[2019.06.14-08.50.01:671][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.14-08.50.01:695][258]LogInit: FAudioDevice initialized.
-[2019.06.14-08.50.01:736][258]LogLoad: Game class is 'TopDownGameMode_C'
-[2019.06.14-08.50.01:803][258]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.06.14-09.50.01
-[2019.06.14-08.50.01:804][258]LogWorld: Bringing up level for play took: 0.066414
-[2019.06.14-08.50.01:827][258]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
-[2019.06.14-08.50.01:829][258]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
-[2019.06.14-08.50.01:830][258]LogBlueprintUserMessages: [BaseAI2_2] Row Not Found
-[2019.06.14-08.50.01:830][258]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
-[2019.06.14-08.50.01:831][258]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.239
-[2019.06.14-08.50.01:831][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2019.06.14-08.50.04:925][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2019.06.14-08.50.04:925][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.50.04:960][622]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.14-08.50.04:960][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
-[2019.06.14-08.50.04:992][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.50.05:032][625]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.06.14-08.50.06:405][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.14-08.50.33:909][533]LogAIModule: Creating AISystem for world MainMenu
-[2019.06.14-08.50.33:911][533]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
-[2019.06.14-08.50.33:939][533]Cmd: MAP LOAD FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.14-08.50.33:939][533]LightingResults: New page: Lighting Build
-[2019.06.14-08.50.33:940][533]LoadErrors: New page: Loading map: MainMenu.umap
-[2019.06.14-08.50.33:941][533]MapCheck: New page: Map Check
-[2019.06.14-08.50.33:941][533]LightingResults: New page: Lighting Build
-[2019.06.14-08.50.34:056][533]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.14-08.50.34:131][533]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.14-08.50.34:321][533]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.103ms to complete.
-[2019.06.14-08.50.34:321][533]LogFileHelpers: Loading map 'MainMenu' took 0.383
-[2019.06.14-08.50.35:422][659]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.14-08.50.35:451][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.06.14-08.50.35:451][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.14-08.50.35:451][659]PIE: New page: PIE session: MainMenu (14 Jun 2019 10:50:35)
-[2019.06.14-08.50.35:451][659]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
-[2019.06.14-08.50.35:452][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000847s)
-[2019.06.14-08.50.35:453][659]LogAIModule: Creating AISystem for world MainMenu
-[2019.06.14-08.50.35:453][659]LogPlayLevel: PIE: World Init took: (0.000827s)
-[2019.06.14-08.50.35:453][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001796s)
-[2019.06.14-08.50.35:488][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.14-08.50.35:512][659]LogInit: FAudioDevice initialized.
-[2019.06.14-08.50.35:542][659]LogLoad: Game class is 'MainMenuMode_C'
-[2019.06.14-08.50.35:543][659]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.06.14-09.50.35
-[2019.06.14-08.50.35:543][659]LogWorld: Bringing up level for play took: 0.000265
-[2019.06.14-08.50.35:558][659]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.033
-[2019.06.14-08.50.35:558][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.06.14-08.50.35:561][659]LogAudio: Warning: Detected orphaned looping sound '661661560381781'.
-[2019.06.14-08.50.37:331][867]LogNet: Browse: /Game/Levels/Area1-Rework
-[2019.06.14-08.50.37:332][867]LogLoad: LoadMap: /Game/Levels/Area1-Rework
-[2019.06.14-08.50.37:472][867]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
-[2019.06.14-08.50.37:473][867]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap.
-[2019.06.14-08.50.37:473][867]LoadErrors: Error: /Game/Levels/Area1-Rework : Can't find file for asset. /Game/Levels/Area1-Rework_BuiltData
-[2019.06.14-08.50.37:539][867]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
-[2019.06.14-08.50.37:539][867]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap.
-[2019.06.14-08.50.37:816][867]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
-[2019.06.14-08.50.37:816][867]LoadErrors: Failed to load /Game/Levels/Area1-Rework_BuiltData.Area1-Rework_BuiltData Referenced by PersistentLevel
-[2019.06.14-08.50.37:817][867]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading NULL.
-[2019.06.14-08.50.38:599][867]LogAIModule: Creating AISystem for world Area1-Rework
-[2019.06.14-08.50.38:599][867]LogLoad: Game class is 'TopDownGameMode_C'
-[2019.06.14-08.50.38:614][867]LogMaterial: Warning: Material /Game/Foliage/Crystals/M_CrystalParent.M_CrystalParent missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
-[2019.06.14-08.50.38:614][867]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
-[2019.06.14-08.50.38:614][867]LogMaterial: Warning: Material /Game/Foliage/Crystals/CrystalRockDiffuse_Mat.CrystalRockDiffuse_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
-[2019.06.14-08.50.38:614][867]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
-[2019.06.14-08.50.38:629][867]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.14-09.50.38
-[2019.06.14-08.50.38:635][867]LogWorld: Bringing up level for play took: 0.034327
-[2019.06.14-08.50.38:638][867]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
-[2019.06.14-08.50.38:639][867]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
-[2019.06.14-08.50.38:639][867]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
-[2019.06.14-08.50.38:639][867]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
-[2019.06.14-08.50.38:639][867]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
-[2019.06.14-08.50.38:640][867]LogLoad: Took 1.308602 seconds to LoadMap(/Game/Levels/Area1-Rework)
-[2019.06.14-08.50.38:647][867]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
-[2019.06.14-08.50.38:647][867]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
-[2019.06.14-08.50.38:761][877]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
-[2019.06.14-08.50.41:718][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.06.14-08.50.41:743][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.50.41:783][225]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.14-08.50.41:783][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2019.06.14-08.50.41:819][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.14-08.50.41:839][226]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.06.14-08.50.43:841][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.14-08.50.46:615][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.14-08.51.33:122][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.06.14-08.51.33:229][959]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
-[2019.06.14-08.51.33:230][959]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.06.14-08.51.33:451][960]Cmd: QUIT_EDITOR
-[2019.06.14-08.51.34:117][960]LogExit: Preparing to exit.
-[2019.06.14-08.51.34:429][960]LogExit: Editor shut down
-[2019.06.14-08.51.34:429][960]LogExit: Transaction tracking system shut down
-[2019.06.14-08.51.34:930][960]LogExit: Object subsystem successfully closed.
-[2019.06.14-08.51.34:946][960]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.06.14-08.51.34:950][960]LogD3D11RHI: Shutdown
-[2019.06.14-08.51.34:950][960]LogD3D11RHI: CleanupD3DDevice
-[2019.06.14-08.51.34:958][960]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module Voice (618)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
-[2019.06.14-08.51.34:970][960]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module BspMode (586)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SessionServices (536)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
-[2019.06.14-08.51.34:971][960]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
-[2019.06.14-08.51.35:493][960]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
-[2019.06.14-08.51.35:493][960]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
-[2019.06.14-08.51.35:493][960]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module MergeActors (500)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module XmlParser (488)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module Blutility (486)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
-[2019.06.14-08.51.35:494][960]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
-[2019.06.14-08.51.35:548][960]LogModuleManager: Shutting down and abandoning module AutomationController (466)
-[2019.06.14-08.51.35:548][960]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
-[2019.06.14-08.51.35:548][960]LogModuleManager: Shutting down and abandoning module Layers (462)
-[2019.06.14-08.51.35:548][960]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
-[2019.06.14-08.51.35:548][960]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
-[2019.06.14-08.51.35:549][960]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
-[2019.06.14-08.51.35:549][960]LogModuleManager: Shutting down and abandoning module Persona (454)
-[2019.06.14-08.51.35:549][960]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
-[2019.06.14-08.51.35:549][960]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
-[2019.06.14-08.51.35:549][960]LogModuleManager: Shutting down and abandoning module Kismet (448)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module Toolbox (442)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module OutputLog (436)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module GammaUI (434)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module Documentation (432)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module MovieScene (428)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module PortalServices (420)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module AIModule (414)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
-[2019.06.14-08.51.35:559][960]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module OculusInput (394)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module CableComponent (386)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
-[2019.06.14-08.51.35:610][960]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module AppleVision (358)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
-[2019.06.14-08.51.35:613][960]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module SourceControl (317)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
-[2019.06.14-08.51.35:614][960]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.06.14-08.51.35:615][960]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.06.14-08.51.35:716][960]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.06.14-08.51.35:816][960]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.06.14-08.51.35:817][960]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.06.14-08.51.35:817][960]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.06.14-08.51.35:817][960]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.06.14-08.51.35:817][960]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.06.14-08.51.35:817][960]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.06.14-08.51.35:818][960]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.06.14-08.51.35:821][960]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.06.14-08.51.35:827][960]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.06.14-08.51.35:829][960]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.06.14-08.51.35:924][960]LogDerivedDataCache: Shutdown
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.06.14-08.51.35:924][960]LogXGEController: Cleaning working directory: C:/Users/Tony/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.06.14-08.51.35:924][960]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.06.14-08.51.35:925][960]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.06.14-08.51.35:925][960]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.06.14-08.51.35:925][960]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.06.14-08.51.35:925][960]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.06.14-08.51.35:932][960]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.06.14-08.51.35:933][960]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.06.14-08.51.35:933][960]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.06.14-08.51.35:968][960]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.06.14-08.51.35:968][960]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.06.14-08.51.35:968][960]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC81BF3E0-4E7F-8B7A-5345-D1A6CD6DD6A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=84db1b124787cb0c1b5ac191a4f1d48a%7C14e80ed0bb064eb49e15c77ad9af4df7%7C8bebd179-1d28-4297-ba36-c838396191e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.06.14-08.51.35:999][960]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.06.14-08.51.36:000][960]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.06.14-08.51.36:000][960]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.06.14-08.51.36:001][960]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.06.14-08.51.36:006][960]LogExit: Exiting.
-[2019.06.14-08.51.36:032][960]Log file closed, 06/14/19 09:51:36
+[2019.06.14-08.53.49:304][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.14-08.53.49:304][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.14-08.53.49:325][  0]LogHAL: Display: Platform has ~ 16 GB [17125965824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.14-08.53.49:326][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.06.14-08.53.49:326][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.14-08.53.49:326][  0]LogInit: Computer: TONY-PC
+[2019.06.14-08.53.49:326][  0]LogInit: User: Tony
+[2019.06.14-08.53.49:326][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.14-08.53.49:326][  0]LogInit: High frequency timer resolution =3.417961 MHz
+[2019.06.14-08.53.49:326][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.14-08.53.49:326][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.14-08.53.49:326][  0]LogMemory: Process Physical Memory: 102.63 MB used, 102.63 MB peak
+[2019.06.14-08.53.49:326][  0]LogMemory: Process Virtual Memory: 98.41 MB used, 98.41 MB peak
+[2019.06.14-08.53.49:326][  0]LogMemory: Physical Memory: 6533.28 MB used,  9799.32 MB free, 16332.59 MB total
+[2019.06.14-08.53.49:326][  0]LogMemory: Virtual Memory: 4638.19 MB used,  9799.32 MB free, 134217728.00 MB total
+[2019.06.14-08.53.49:356][  0]LogInit: Using OS detected language (en-GB).
+[2019.06.14-08.53.49:356][  0]LogInit: Using OS detected locale (en-GB).
+[2019.06.14-08.53.49:357][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.06.14-08.53.49:693][  0]LogStreaming: Display: Took  0.337s to InitEngineTextLocalization.
+[2019.06.14-08.53.49:693][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.14-08.53.49:745][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.14-08.53.49:745][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.14-08.53.50:007][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.14-08.53.50:007][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.14-08.53.50:081][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.06.14-08.53.50:082][  0]LogD3D11RHI:       4043/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.06.14-08.53.50:084][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.14-08.53.50:084][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.14-08.53.50:084][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.14-08.53.50:094][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.14-08.53.50:094][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.14-08.53.50:094][  0]LogWindows: EnumDisplayDevices:
+[2019.06.14-08.53.50:094][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.06.14-08.53.50:095][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.06.14-08.53.50:095][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.06.14-08.53.50:096][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.06.14-08.53.50:096][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.14-08.53.50:096][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.06.14-08.53.50:096][  0]LogD3D11RHI:   Driver Version: 430.64 (internal:26.21.14.3064, unified:430.64)
+[2019.06.14-08.53.50:096][  0]LogD3D11RHI:      Driver Date: 5-5-2019
+[2019.06.14-08.53.50:096][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.06.14-08.53.50:146][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.14-08.53.50:164][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.14-08.53.50:169][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Intermediate/Shaders/WorkingDirectory/19512/).
+[2019.06.14-08.53.50:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tony/AppData/Local/Temp/UnrealShaderWorkingDir/0562FF49492EE31BFF6118964470A2F6/'.
+[2019.06.14-08.53.50:502][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.14-08.53.50:516][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.14-08.53.50:530][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.14-08.53.50:544][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.14-08.53.50:558][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.14-08.53.50:574][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.14-08.53.50:598][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.14-08.53.50:613][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.14-08.53.50:625][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.14-08.53.50:691][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:691][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:691][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:691][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:691][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.14-08.53.50:693][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.14-08.53.50:751][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.14-08.53.50:751][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.14-08.53.50:773][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.14-08.53.50:773][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.14-08.53.50:785][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.14-08.53.50:796][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.14-08.53.50:808][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.14-08.53.50:821][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.14-08.53.50:830][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.14-08.53.50:830][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.14-08.53.50:913][  0]LogXGEController: Cleaning working directory: C:/Users/Tony/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.14-08.53.50:913][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.14-08.53.50:914][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.14-08.53.50:914][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.14-08.53.51:588][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.14-08.53.51:662][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.14-08.53.51:663][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.06.14-08.53.51:663][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.14-08.53.51:663][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.14-08.53.51:663][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.14-08.53.51:663][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.14-08.53.51:677][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.14-08.53.51:690][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tony/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.14-08.53.51:690][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.14-08.53.51:690][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.14-08.53.51:706][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.14-08.53.51:707][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.14-08.53.51:708][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.14-08.53.51:790][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2019.06.14-08.53.52:107][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.14-08.53.52:231][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.14-08.53.52:237][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.14-08.53.52:237][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.14-08.53.52:237][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.14-08.53.52:237][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.14-08.53.52:258][  0]LogNetVersion: SP_Prototype 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1960140471)
+[2019.06.14-08.53.52:717][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093621 seconds
+[2019.06.14-08.53.52:722][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.06.14-08.53.52:722][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.06.14-08.53.52:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.14-08.53.53:686][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.14-08.53.53:700][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.14-08.53.53:855][  0]SourceControl: Source control is disabled
+[2019.06.14-08.53.53:855][  0]SourceControl: Source control is disabled
+[2019.06.14-08.53.53:857][  0]SourceControl: Source control is disabled
+[2019.06.14-08.53.53:858][  0]SourceControl: Source control is disabled
+[2019.06.14-08.53.54:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.14-08.53.54:119][  0]LogOcInput: OculusInput pre-init called
+[2019.06.14-08.53.54:177][  0]LogEngine: Initializing Engine...
+[2019.06.14-08.53.54:178][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.14-08.53.54:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.14-08.53.54:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.14-08.53.54:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.14-08.53.54:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.14-08.53.54:358][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.14-08.53.54:378][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.14-08.53.54:405][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-08.53.54:469][  0]LogInit: FAudioDevice initialized.
+[2019.06.14-08.53.54:470][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.14-08.53.54:556][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Tony/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.14-08.53.54:565][  0]LogInit: Texture streaming: Enabled
+[2019.06.14-08.53.54:593][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.14-08.53.54:611][  0]LogInit: Transaction tracking system initialized
+[2019.06.14-08.53.54:654][  0]BlueprintLog: New page: Editor Load
+[2019.06.14-08.53.54:789][  0]LocalizationService: Localization service is disabled
+[2019.06.14-08.53.55:032][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.14-08.53.55:032][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.14-08.53.55:032][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.14-08.53.55:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.14-08.53.55:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.14-08.53.55:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.14-08.53.55:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.14-08.53.55:186][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/' took 0.06s
+[2019.06.14-08.53.55:186][  0]SourceControl: Source control is disabled
+[2019.06.14-08.53.55:186][  0]Cmd: MAP LOAD FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-08.53.55:187][  0]LightingResults: New page: Lighting Build
+[2019.06.14-08.53.55:192][  0]MapCheck: New page: Map Check
+[2019.06.14-08.53.55:192][  0]LightingResults: New page: Lighting Build
+[2019.06.14-08.53.58:374][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.06.14-08.53.58:395][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-08.53.58:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-08.53.58:584][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.866ms to complete.
+[2019.06.14-08.53.58:584][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.397
+[2019.06.14-08.53.58:684][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.53.58:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.53.58:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.53.58:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.53.58:712][  0]LogCollectionManager: Loaded 0 collections in 0.003447 seconds
+[2019.06.14-08.53.58:758][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Collections/' took 0.01s
+[2019.06.14-08.53.58:758][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/Developers/Tony/Collections/' took 0.01s
+[2019.06.14-08.53.58:758][  0]LogFileCache: Scanning file cache for directory 'E:/My Documents/Github/SCollab-Proto/SP_Prototype/Content/Collections/' took 0.01s
+[2019.06.14-08.53.58:758][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.14-08.53.58:766][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2581 classes and 608 folders.
+[2019.06.14-08.53.58:775][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.14-08.53.58:859][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.14-08.53.58:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.06.14-08.53.58:954][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.14-08.53.58:956][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.14-08.53.58:961][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.14-08.53.59:034][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
+[2019.06.14-08.53.59:111][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.14-08.53.59:196][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.14-08.53.59:196][  0]LogLoad: (Engine Initialization) Total time: 12.69 seconds
+[2019.06.14-08.53.59:196][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.14-08.53.59:206][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.14-08.53.59:232][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.14-08.53.59:411][  2]LogAssetRegistry: Asset discovery search completed in 7.6427 seconds
+[2019.06.14-08.53.59:412][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.14-08.53.59:412][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2019.06.14-08.54.00:228][ 95]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.14-08.54.01:830][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.54.03:324][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.54.03:440][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-08.54.03:461][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.06.14-08.54.03:461][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-08.54.03:473][477]PIE: New page: PIE session: TopDownExampleMap (14 Jun 2019 10:54:03)
+[2019.06.14-08.54.03:473][477]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.06.14-08.54.03:499][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026760s)
+[2019.06.14-08.54.03:501][477]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.06.14-08.54.03:502][477]LogPlayLevel: PIE: World Init took: (0.002369s)
+[2019.06.14-08.54.03:502][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029577s)
+[2019.06.14-08.54.03:571][477]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-08.54.03:596][477]LogInit: FAudioDevice initialized.
+[2019.06.14-08.54.03:639][477]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-08.54.03:646][477]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2019.06.14-09.54.03
+[2019.06.14-08.54.03:647][477]LogWorld: Bringing up level for play took: 0.006738
+[2019.06.14-08.54.03:667][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.06.14-08.54.03:670][477]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-08.54.03:670][477]LogBlueprintUserMessages: [BaseAI2_2] Row Not Found
+[2019.06.14-08.54.03:670][477]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
+[2019.06.14-08.54.03:671][477]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.08
+[2019.06.14-08.54.03:671][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.06.14-08.54.07:514][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.06.14-08.54.07:515][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.54.07:544][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-08.54.07:544][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.06.14-08.54.07:568][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.54.07:614][935]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.06.14-08.54.24:293][366]LogEditorViewport: Clicking on Actor (LMB): CheckpointMarker_C (CheckpointMarker)
+[2019.06.14-08.54.30:042][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.54.30:250][ 63]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
+[2019.06.14-08.54.30:251][ 63]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap.
+[2019.06.14-08.54.30:251][ 63]LoadErrors: Error: /Game/Levels/Area1-Rework : Can't find file for asset. /Game/Levels/Area1-Rework_BuiltData
+[2019.06.14-08.54.30:308][ 63]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
+[2019.06.14-08.54.30:308][ 63]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap.
+[2019.06.14-08.54.30:582][ 63]LogLinker: Warning: Can't find file '/Game/Levels/Area1-Rework_BuiltData'
+[2019.06.14-08.54.30:582][ 63]LoadErrors: Failed to load /Game/Levels/Area1-Rework_BuiltData.Area1-Rework_BuiltData Referenced by PersistentLevel
+[2019.06.14-08.54.30:582][ 63]LogLinker: Warning: Can't find file for asset '/Game/Levels/Area1-Rework_BuiltData' while loading NULL.
+[2019.06.14-08.54.30:837][ 63]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.14-08.54.30:846][ 63]LogMaterial: Warning: Material /Game/Foliage/Crystals/M_CrystalParent.M_CrystalParent needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2019.06.14-08.54.30:873][ 63]LogMaterial: Display: Missing cached shader map for material M_CrystalParent, compiling. 
+[2019.06.14-08.54.31:051][ 63]MapCheck: Warning: M_CrystalParent Material /Game/Foliage/Crystals/M_CrystalParent.M_CrystalParent was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.06.14-08.54.31:085][ 63]LogShaderCompilers: Display: Shaders left to compile 179
+[2019.06.14-08.54.31:085][ 63]LogShaderCompilers: Display: Shaders left to compile 169
+[2019.06.14-08.54.31:085][ 63]LogShaderCompilers: Display: Shaders left to compile 159
+[2019.06.14-08.54.31:085][ 63]LogShaderCompilers: Display: Shaders left to compile 149
+[2019.06.14-08.54.31:085][ 63]LogMaterial: Warning: Material /Game/Foliage/Crystals/CrystalRockDiffuse_Mat.CrystalRockDiffuse_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2019.06.14-08.54.31:107][ 63]LogMaterial: Display: Missing cached shader map for material CrystalRockDiffuse_Mat, compiling. 
+[2019.06.14-08.54.31:174][ 63]MapCheck: Warning: CrystalRockDiffuse_Mat Material /Game/Foliage/Crystals/CrystalRockDiffuse_Mat.CrystalRockDiffuse_Mat was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.06.14-08.54.31:214][ 63]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Area1-Rework.Area1-Rework
+[2019.06.14-08.54.31:252][ 63]Cmd: MAP LOAD FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-08.54.31:252][ 63]LightingResults: New page: Lighting Build
+[2019.06.14-08.54.31:254][ 63]LoadErrors: New page: Loading map: Area1-Rework.umap
+[2019.06.14-08.54.31:256][ 63]MapCheck: New page: Map Check
+[2019.06.14-08.54.31:256][ 63]LightingResults: New page: Lighting Build
+[2019.06.14-08.54.31:447][ 63]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-08.54.31:530][ 63]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-08.54.31:816][ 63]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 286.38ms to complete.
+[2019.06.14-08.54.31:818][ 63]LogFileHelpers: Loading map 'Area1-Rework' took 0.568
+[2019.06.14-08.54.33:291][201]LogSlate: Window 'Message Log' being destroyed
+[2019.06.14-08.54.33:297][201]LogSlate: Window 'Message Log' being destroyed
+[2019.06.14-08.54.39:516][868]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.06.14-08.54.39:917][896]LogEditorViewport: Clicking on Actor (LMB): ChangeLevelActor_C (ChangeLevelActor)
+[2019.06.14-08.54.39:981][897]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.06.14-08.54.45:130][333]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.14-08.54.45:897][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.54.47:006][494]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.06.14-08.54.47:849][573]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Levels/LevelTransitions/ChangeLevelActor.ChangeLevelActor
+[2019.06.14-08.54.48:586][573]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.06.14-08.54.49:824][573]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.14-08.54.51:169][640]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.06.14-08.54.53:919][787]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.06.14-08.54.55:217][859]LogSlate: Window 'ChangeLevelActor' being destroyed
+[2019.06.14-08.54.58:406][138]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.06.14-08.54.58:675][165]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.06.14-08.55.01:211][412]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.06.14-08.55.07:162][ 63]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.06.14-08.55.12:604][681]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.06.14-08.55.14:244][869]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.06.14-08.55.16:324][ 87]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.06.14-08.55.19:586][419]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.06.14-08.55.26:255][143]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.06.14-08.55.27:356][268]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.06.14-08.55.28:497][396]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.06.14-08.55.29:684][532]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.06.14-08.55.31:819][775]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.06.14-08.55.32:847][890]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.06.14-08.55.32:989][904]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.14-08.56.17:980][232]BlueprintLog: New page: Compile ChangeLevelActor
+[2019.06.14-08.56.19:172][344]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/ChangeLevelActor775F47924268D3F417BE31B3C62EB36E.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/LevelTransitions/ChangeLevelActor.uasset'
+[2019.06.14-08.56.23:206][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Area1-Rework" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.14-08.56.24:201][790]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Area1-Rework662081FD489BDD45E239F6A63FC63905.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap'
+[2019.06.14-08.56.24:262][790]LogFileHelpers: Saving map 'Area1-Rework' took 1.255
+[2019.06.14-08.56.26:097][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.56.26:188][998]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-08.56.26:219][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-08.56.26:219][998]PIE: New page: PIE session: Area1-Rework (14 Jun 2019 10:56:26)
+[2019.06.14-08.56.26:219][998]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area1-Rework
+[2019.06.14-08.56.26:305][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085910s)
+[2019.06.14-08.56.26:306][998]LogAIModule: Creating AISystem for world Area1-Rework
+[2019.06.14-08.56.26:306][998]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2019.06.14-08.56.26:306][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area1-Rework.Area1-Rework to /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework (0.086810s)
+[2019.06.14-08.56.26:352][998]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-08.56.26:376][998]LogInit: FAudioDevice initialized.
+[2019.06.14-08.56.26:410][998]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-08.56.26:427][998]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area1-Rework.Area1-Rework up for play (max tick rate 0) at 2019.06.14-09.56.26
+[2019.06.14-08.56.26:432][998]LogWorld: Bringing up level for play took: 0.021926
+[2019.06.14-08.56.26:448][998]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-08.56.26:448][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
+[2019.06.14-08.56.26:449][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
+[2019.06.14-08.56.26:449][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
+[2019.06.14-08.56.26:449][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/EnemyAgent/CorruptedSlave.CorruptedSlave_C:ExecuteUbergraph_CorruptedSlave'!
+[2019.06.14-08.56.26:449][998]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area1-Rework 0.858
+[2019.06.14-08.56.26:453][998]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
+[2019.06.14-08.56.26:453][998]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
+[2019.06.14-08.56.26:681][ 23]LogAudio: Warning: Detected orphaned looping sound 'Pickaxe-SoundBible_com-1937292892'.
+[2019.06.14-08.56.32:164][680]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon
+[2019.06.14-08.56.59:462][954]LogBlueprintUserMessages: [TopDownCharacter_C_0] ChangeLevelActor
+[2019.06.14-08.56.59:492][955]LogNet: Browse: /Game/Levels/Area2-MarketMeshStart
+[2019.06.14-08.56.59:495][955]LogLoad: LoadMap: /Game/Levels/Area2-MarketMeshStart
+[2019.06.14-08.57.00:812][955]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-08.57.00:812][955]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-08.57.00:858][955]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart up for play (max tick rate 0) at 2019.06.14-09.57.00
+[2019.06.14-08.57.00:861][955]LogWorld: Bringing up level for play took: 0.047598
+[2019.06.14-08.57.00:864][955]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-08.57.00:866][955]LogBlueprintUserMessages: [HoundEnemyAI_2] Row Not Found
+[2019.06.14-08.57.00:866][955]LogBlueprintUserMessages: [HoundEnemyAI2_5] Row Not Found
+[2019.06.14-08.57.00:866][955]LogBlueprintUserMessages: [HoundEnemyAI3] Row Not Found
+[2019.06.14-08.57.00:867][955]LogLoad: Took 1.372032 seconds to LoadMap(/Game/Levels/Area2-MarketMeshStart)
+[2019.06.14-08.57.06:341][585]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.06:341][585]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon
+[2019.06.14-08.57.12:235][275]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.12:236][275]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon1
+[2019.06.14-08.57.14:738][575]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.14:738][575]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_0 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_0 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_0 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_0 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_0 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_0 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_0 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_0 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_3 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_3 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_3 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_3 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_3 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_3 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_3 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_3 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_4 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_4 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_4 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_4 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.16:910][833]LogScript: Warning: Attempted to access ParticleSystemComponent_4 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_4 is pending kill
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.16:910][833]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_4 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_4 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.18:838][ 64]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.18:838][ 64]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-08.57.22:034][447]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.22:034][447]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-08.57.23:641][637]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-08.57.23:641][637]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-08.57.26:293][955]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.26:301][956]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.26:551][986]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.26:559][987]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.26:568][988]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.28:758][250]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.29:043][284]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.29:051][285]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:552][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.29:552][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:552][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.29:552][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:552][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:552][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:553][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:553][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:0457
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	TopDownCharacter_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.TopDownCharacter_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:Bleed Damage:03D0
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:553][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_13 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_13 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Deactivate
+[2019.06.14-08.57.29:554][345]PIE: Error: Blueprint Runtime Error: "Attempted to access ParticleSystemComponent_13 via property CallFunc_Array_Get_Item, but ParticleSystemComponent_13 is pending kill". Blueprint:  TopDownCharacter Function:  Bleed Damage Graph:  Bleed Damage Node:  Set Active
+[2019.06.14-08.57.29:943][392]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.30:718][485]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.30:726][486]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.33:952][868]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.36:953][228]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-08.57.37:012][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.57.37:054][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-08.57.37:085][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-08.57.37:116][236]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.06.14-08.57.38:459][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-08.57.41:604][755]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2019.06.14-08.58.41:050][434]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetSystemLibrary::K2_ClearAndInvalidateTimerHandle' [Element not found.]
+[2019.06.14-08.58.47:439][186]BlueprintLog: New page: Compile TopDownCharacter
+[2019.06.14-08.58.50:401][338]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacterFBC6262C45C6FA3DA91D238ECCC0A90C.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.01.00:560][253]BlueprintLog: New page: Compile TopDownCharacter
+[2019.06.14-09.01.02:844][293]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacterBE3801C149BB34D8A027759F60FDDBE5.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.01.40:308][460]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter1D241C304ACF7C268F2DCD90A5C89F02.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.02.46:234][253]LogSlate: Took 0.021864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.06.14-09.04.36:277][106]BlueprintLog: New page: Compile TopDownCharacter
+[2019.06.14-09.04.36:845][106]LogBlueprint: Error: [Compiler TopDownCharacter] Could not find a pin for the parameter WithinArc of CalculateWithinArc on  Calculate Within Arc
+[2019.06.14-09.04.36:845][106]LogBlueprint: Error: [Compiler TopDownCharacter] Pin  New Param 1  named NewParam1 doesn't match any parameters of function CalculateWithinArc
+[2019.06.14-09.04.37:245][106]LogBlueprint: Warning: [Compiler TopDownCharacter] [0650.74] Compile of TopDownCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 968 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2019.06.14-09.05.08:288][317]BlueprintLog: New page: Compile TopDownCharacter
+[2019.06.14-09.05.11:074][362]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacter0F6C7A744DD177DD50A5089A3202C313.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.07.16:603][297]BlueprintLog: New page: Compile TopDownCharacter
+[2019.06.14-09.07.18:641][346]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacterBAABD34B40896DB88BC020A58E319C89.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.07.28:188][213]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/TopDownCharacterA4078B7E42E03FAF54F00A904BBF5471.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.06.14-09.07.31:989][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Area1-Rework" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.06.14-09.07.32:908][626]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Area1-Rework05C7FD004FBCB40BB78D6284E47D10DD.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area1-Rework.umap'
+[2019.06.14-09.07.32:976][626]LogFileHelpers: Saving map 'Area1-Rework' took 1.245
+[2019.06.14-09.07.41:972][580]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-09.07.42:005][580]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Area2-MarketMeshStart.Area2-MarketMeshStart
+[2019.06.14-09.07.42:048][580]Cmd: MAP LOAD FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area2-MarketMeshStart.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-09.07.42:048][580]LightingResults: New page: Lighting Build
+[2019.06.14-09.07.42:049][580]LoadErrors: New page: Loading map: Area2-MarketMeshStart.umap
+[2019.06.14-09.07.42:053][580]MapCheck: New page: Map Check
+[2019.06.14-09.07.42:053][580]LightingResults: New page: Lighting Build
+[2019.06.14-09.07.42:255][580]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-09.07.42:327][580]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-09.07.42:578][580]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 251.424ms to complete.
+[2019.06.14-09.07.42:580][580]LogFileHelpers: Loading map 'Area2-MarketMeshStart' took 0.533
+[2019.06.14-09.07.50:710][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.07.50:818][478]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-09.07.50:846][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-09.07.50:846][478]PIE: New page: PIE session: Area2-MarketMeshStart (14 Jun 2019 11:07:50)
+[2019.06.14-09.07.50:847][478]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area2-MarketMeshStart
+[2019.06.14-09.07.50:889][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042680s)
+[2019.06.14-09.07.50:890][478]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-09.07.50:890][478]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2019.06.14-09.07.50:890][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area2-MarketMeshStart.Area2-MarketMeshStart to /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart (0.043488s)
+[2019.06.14-09.07.50:926][478]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-09.07.50:951][478]LogInit: FAudioDevice initialized.
+[2019.06.14-09.07.50:979][478]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-09.07.50:999][478]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart up for play (max tick rate 0) at 2019.06.14-10.07.50
+[2019.06.14-09.07.51:002][478]LogWorld: Bringing up level for play took: 0.022507
+[2019.06.14-09.07.51:016][478]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-09.07.51:018][478]LogBlueprintUserMessages: [HoundEnemyAI_2] Row Not Found
+[2019.06.14-09.07.51:018][478]LogBlueprintUserMessages: [HoundEnemyAI2_5] Row Not Found
+[2019.06.14-09.07.51:018][478]LogBlueprintUserMessages: [HoundEnemyAI3] Row Not Found
+[2019.06.14-09.07.51:019][478]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area2-MarketMeshStart -0.572
+[2019.06.14-09.08.04:226][ 41]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.04:226][ 41]LogBlueprintUserMessages: [TopDownCharacter_C_0] BasePickUp
+[2019.06.14-09.08.04:226][ 41]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon
+[2019.06.14-09.08.06:626][327]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.06:627][327]LogBlueprintUserMessages: [TopDownCharacter_C_0] BasePickUp2
+[2019.06.14-09.08.06:628][327]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseArmour
+[2019.06.14-09.08.10:327][765]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.10:327][765]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon2
+[2019.06.14-09.08.11:224][872]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.11:224][872]LogBlueprintUserMessages: [TopDownCharacter_C_0] BasePickUp4
+[2019.06.14-09.08.11:224][872]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.08.13:627][159]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.13:627][159]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.08.14:145][221]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.14:404][252]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.08.18:272][710]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.18:366][716]LogBlueprintUserMessages: [HoundEnemyAI_C_0] Row Not Found
+[2019.06.14-09.08.18:366][716]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:01F9
+[2019.06.14-09.08.18:366][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.18:595][743]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.18:862][775]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.18:862][775]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.18:870][776]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.18:870][776]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.18:870][776]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.18:870][776]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:322][830]LogBlueprintUserMessages: [HoundEnemyAI_C_1] Row Not Found
+[2019.06.14-09.08.19:322][830]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:01F9
+[2019.06.14-09.08.19:322][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:329][831]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:329][831]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:422][842]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:422][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:590][862]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:590][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:826][890]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:826][890]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:826][890]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:826][890]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:834][891]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:834][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.19:834][891]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.19:834][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.20:284][945]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.20:285][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.21:080][ 40]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.21:080][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.21:170][ 51]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.21:977][147]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.22:344][191]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.23:833][369]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.24:067][397]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.24:067][397]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.24:210][414]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.24:210][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.24:822][487]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:393][794]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.27:394][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.27:461][802]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.27:461][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.27:944][860]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:952][861]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:961][862]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:969][863]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:977][864]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.27:986][865]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.28:745][955]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.30:530][167]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.30:530][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.31:049][229]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.31:049][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.31:249][253]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.31:249][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.31:440][276]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.31:691][306]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.31:691][306]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.32:033][347]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.32:033][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.32:157][362]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.32:166][363]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.32:442][396]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.32:442][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.32:936][455]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.32:936][455]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.33:172][483]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.33:173][483]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.33:214][488]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.33:214][488]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.33:456][517]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.33:456][517]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.33:473][519]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.33:473][519]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.33:606][535]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.33:606][535]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.34:006][583]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.34:460][636]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.34:468][637]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.34:669][661]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_10
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.34:669][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.35:332][740]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.35:357][743]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.35:881][806]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.35:973][817]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.36:307][857]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.36:307][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.36:348][862]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.36:356][863]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.36:734][908]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.36:734][908]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.37:207][964]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	Proto_controller_C /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart:PersistentLevel.Proto_controller_C_9
+	Function /Game/AIAgent/Proto_controller.Proto_controller_C:ExecuteUbergraph_Proto_controller:011A
+[2019.06.14-09.08.37:207][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.38:190][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.38:314][ 94]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.38:431][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.38:484][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.38:709][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.39:184][198]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.40:480][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.40:487][353]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.40:495][354]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.08.40:796][390]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.43:028][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.43:145][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.43:436][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.43:520][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.45:204][917]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.45:333][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.46:058][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.46:300][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.48:404][299]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.48:735][338]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.49:010][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.49:602][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.49:669][450]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.49:894][477]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.49:977][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.50:755][580]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.08.51:032][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.08.51:079][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-09.08.51:106][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.08.51:140][614]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.14-09.08.52:037][719]LogEditorViewport: Clicking on Actor (LMB): HoundEnemyAI_C (HoundEnemyAI2)
+[2019.06.14-09.08.55:128][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.08.56:391][162]LogEditorViewport: Clicking on Actor (LMB): HoundEnemyAI_C (HoundEnemyAI)
+[2019.06.14-09.08.57:526][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.09.00:323][532]LogEditorViewport: Clicking on Actor (LMB): HoundEnemyAI_C (HoundEnemyAI3)
+[2019.06.14-09.09.02:109][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.09.03:377][865]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-09.09.03:400][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-09.09.03:400][865]PIE: New page: PIE session: Area2-MarketMeshStart (14 Jun 2019 11:09:03)
+[2019.06.14-09.09.03:400][865]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area2-MarketMeshStart
+[2019.06.14-09.09.03:445][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044250s)
+[2019.06.14-09.09.03:445][865]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-09.09.03:445][865]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2019.06.14-09.09.03:445][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area2-MarketMeshStart.Area2-MarketMeshStart to /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart (0.045075s)
+[2019.06.14-09.09.03:479][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-09.09.03:503][865]LogInit: FAudioDevice initialized.
+[2019.06.14-09.09.03:533][865]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-09.09.03:555][865]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart up for play (max tick rate 0) at 2019.06.14-10.09.03
+[2019.06.14-09.09.03:557][865]LogWorld: Bringing up level for play took: 0.023527
+[2019.06.14-09.09.03:571][865]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-09.09.03:573][865]LogBlueprintUserMessages: [HoundEnemyAI_2] Row Not Found
+[2019.06.14-09.09.03:573][865]LogBlueprintUserMessages: [HoundEnemyAI2_5] Row Not Found
+[2019.06.14-09.09.03:573][865]LogBlueprintUserMessages: [HoundEnemyAI3] Row Not Found
+[2019.06.14-09.09.03:574][865]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area2-MarketMeshStart -0.017
+[2019.06.14-09.09.11:306][777]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.13:180][  0]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.13:180][  0]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.24:780][379]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.24:781][379]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon1
+[2019.06.14-09.09.30:311][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.09.30:353][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-09.09.30:384][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.09.30:410][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.06.14-09.09.34:009][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.09.34:129][428]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-09.09.34:153][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-09.09.34:153][428]PIE: New page: PIE session: Area2-MarketMeshStart (14 Jun 2019 11:09:34)
+[2019.06.14-09.09.34:153][428]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area2-MarketMeshStart
+[2019.06.14-09.09.34:196][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043076s)
+[2019.06.14-09.09.34:196][428]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-09.09.34:197][428]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2019.06.14-09.09.34:197][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area2-MarketMeshStart.Area2-MarketMeshStart to /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart (0.043898s)
+[2019.06.14-09.09.34:232][428]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-09.09.34:255][428]LogInit: FAudioDevice initialized.
+[2019.06.14-09.09.34:286][428]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-09.09.34:307][428]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart up for play (max tick rate 0) at 2019.06.14-10.09.34
+[2019.06.14-09.09.34:310][428]LogWorld: Bringing up level for play took: 0.022686
+[2019.06.14-09.09.34:324][428]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-09.09.34:326][428]LogBlueprintUserMessages: [HoundEnemyAI_2] Row Not Found
+[2019.06.14-09.09.34:326][428]LogBlueprintUserMessages: [HoundEnemyAI2_5] Row Not Found
+[2019.06.14-09.09.34:326][428]LogBlueprintUserMessages: [HoundEnemyAI3] Row Not Found
+[2019.06.14-09.09.34:327][428]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area2-MarketMeshStart 0.736
+[2019.06.14-09.09.40:037][ 99]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.40:037][ 99]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.41:733][301]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.41:733][301]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.41:734][301]LogBlueprintUserMessages: [TopDownCharacter_C_0] BasePickUp2
+[2019.06.14-09.09.41:734][301]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.44:731][658]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.44:732][658]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon
+[2019.06.14-09.09.45:534][753]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.45:534][753]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.48:138][ 65]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.09.48:138][ 65]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.09.48:430][100]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.53:541][711]LogBlueprintUserMessages: [HoundEnemyAI_C_0] Row Not Found
+[2019.06.14-09.09.53:541][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:037][770]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:046][771]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:046][771]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:054][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:054][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:328][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:429][817]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:539][830]LogBlueprintUserMessages: [HoundEnemyAI_C_1] Row Not Found
+[2019.06.14-09.09.54:539][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:546][831]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.54:939][878]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.55:055][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:055][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:063][892]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:305][921]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:373][929]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:771][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.55:929][993]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.56:006][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:016][  3]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:049][  7]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.56:050][  7]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:083][ 11]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:275][ 34]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:300][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:335][ 41]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.56:343][ 42]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.09.56:344][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:402][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:652][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:811][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.56:819][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.57:080][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.57:105][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.09.57:586][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.09.57:629][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-09.09.57:657][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.09.57:694][191]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.06.14-09.09.58:786][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.10.05:742][891]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AIAgent/Proto_controller.Proto_controller
+[2019.06.14-09.10.41:065][875]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Area2-MarketMeshStart1843C21D453C8CB7796420B132CAAFC9.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Levels/Area2-MarketMeshStart.umap'
+[2019.06.14-09.10.41:105][875]LogFileHelpers: Saving map 'Area2-MarketMeshStart' took 1.214
+[2019.06.14-09.10.42:193][  4]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-09.10.42:221][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-09.10.42:221][  4]PIE: New page: PIE session: Area2-MarketMeshStart (14 Jun 2019 11:10:42)
+[2019.06.14-09.10.42:221][  4]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Area2-MarketMeshStart
+[2019.06.14-09.10.42:267][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046005s)
+[2019.06.14-09.10.42:268][  4]LogAIModule: Creating AISystem for world Area2-MarketMeshStart
+[2019.06.14-09.10.42:268][  4]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2019.06.14-09.10.42:268][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Area2-MarketMeshStart.Area2-MarketMeshStart to /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart (0.046917s)
+[2019.06.14-09.10.42:314][  4]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-09.10.42:336][  4]LogInit: FAudioDevice initialized.
+[2019.06.14-09.10.42:364][  4]LogLoad: Game class is 'TopDownGameMode_C'
+[2019.06.14-09.10.42:388][  4]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Area2-MarketMeshStart.Area2-MarketMeshStart up for play (max tick rate 0) at 2019.06.14-10.10.42
+[2019.06.14-09.10.42:391][  4]LogWorld: Bringing up level for play took: 0.026182
+[2019.06.14-09.10.42:405][  4]LogBehaviorTree: Warning: ProtoTree has missing service node! (parent: AttackPlayer[0])
+[2019.06.14-09.10.42:407][  4]LogBlueprintUserMessages: [HoundEnemyAI_2] Row Not Found
+[2019.06.14-09.10.42:407][  4]LogBlueprintUserMessages: [HoundEnemyAI2_5] Row Not Found
+[2019.06.14-09.10.42:407][  4]LogBlueprintUserMessages: [HoundEnemyAI3] Row Not Found
+[2019.06.14-09.10.42:408][  4]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Area2-MarketMeshStart 0.817
+[2019.06.14-09.10.50:497][960]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.50:497][960]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.10.52:199][162]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.52:199][162]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon
+[2019.06.14-09.10.52:998][257]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.52:999][257]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseArmour
+[2019.06.14-09.10.56:002][615]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.56:002][615]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon1
+[2019.06.14-09.10.58:502][913]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.58:502][913]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2019.06.14-09.10.58:502][913]LogBlueprintUserMessages: [TopDownCharacter_C_0] Health Potion Used
+[2019.06.14-09.10.58:503][913]LogBlueprintUserMessages: [TopDownCharacter_C_0] BaseWeapon2
+[2019.06.14-09.10.58:942][966]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.10.59:252][  3]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.11.00:696][176]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.11.05:205][716]LogBlueprintUserMessages: [HoundEnemyAI_C_0] Row Not Found
+[2019.06.14-09.11.05:206][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.05:697][775]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.05:705][776]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.05:714][777]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.05:714][777]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.05:964][807]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:208][836]LogBlueprintUserMessages: [HoundEnemyAI_C_1] Row Not Found
+[2019.06.14-09.11.06:208][836]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue1". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:283][845]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:716][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:717][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:717][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.06:724][898]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.07:539][995]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.11.07:790][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.09:686][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.09:702][253]LogBlueprintUserMessages: [TopDownCharacter_C_0] BossAI
+[2019.06.14-09.11.10:112][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.10:269][321]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  Proto_controller Function:  Execute Ubergraph Proto Controller Graph:  EventGraph Node:  Set Value as Bool
+[2019.06.14-09.11.10:287][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.11.10:334][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.14-09.11.10:370][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.14-09.11.10:406][324]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.14-09.11.11:703][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.11.34:922][ 51]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AIAgent/BossAI.BossAI
+[2019.06.14-09.11.56:988][305]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AIAgent/DerivedClasses/HoundEnemyAI.HoundEnemyAI
+[2019.06.14-09.12.25:856][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-09.12.30:241][ 37]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AIAgent/BaseAI.BaseAI
+[2019.06.14-09.21.08:251][887]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Area2-MarketMeshStart' took 0.036
+[2019.06.14-09.21.08:262][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AIAgent/BossAI] ([1] browsable assets)...
+[2019.06.14-09.21.08:291][887]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AIAgent/BossAI.BossAI]
+[2019.06.14-09.21.08:291][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIAgent/BossAI]
+[2019.06.14-09.21.08:291][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/BossAI" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/AIAgent/BossAI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.06.14-09.21.08:449][887]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/BossAI_Auto19F65823D463763767CAA369DAD6C6CCF.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/Autosaves/Game/AIAgent/BossAI_Auto1.uasset'
+[2019.06.14-09.21.08:450][887]LogFileHelpers: Auto-saving content packages took 0.199
+[2019.06.14-09.21.21:610][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.06.14-09.21.21:614][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.06.14-09.21.23:862][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIAgent/BossAI" FILE="../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/AIAgent/BossAI.uasset" SILENT=true
+[2019.06.14-09.21.24:010][308]LogSavePackage: Moving '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Saved/BossAI176AF4C940F820C0881433BC7D201B53.tmp' to '../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/AIAgent/BossAI.uasset'
+[2019.06.14-09.21.27:810][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.06.14-09.21.27:883][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.06.14-09.21.27:967][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.06.14-09.21.28:028][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.06.14-09.21.28:102][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.06.14-09.21.28:156][737]LogSlate: Window 'SP_Prototype - Unreal Editor' being destroyed
+[2019.06.14-09.21.28:157][737]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.14-09.21.28:380][738]Cmd: QUIT_EDITOR
+[2019.06.14-09.21.28:998][738]LogExit: Preparing to exit.
+[2019.06.14-09.21.29:561][738]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.06.14-09.21.30:483][738]LogWindows: Error: === Critical error: ===
+[2019.06.14-09.21.30:483][738]LogWindows: Error: 
+[2019.06.14-09.21.30:483][738]LogWindows: Error: Assertion failed: !HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectLinker.cpp] [Line: 105] 
+[2019.06.14-09.21.30:483][738]LogWindows: Error: Detaching from existing linker for ../../../../../My Documents/Github/SCollab-Proto/SP_Prototype/Content/Chloe/UI/Settings_Menu.uasset while object ButtonSlot /Game/Chloe/UI/Settings_Menu.WidgetArchetype:WidgetTree_0.Back-Button_118.ButtonSlot_0 needs loaded
+[2019.06.14-09.21.30:483][738]LogWindows: Error: 
+[2019.06.14-09.21.30:483][738]LogWindows: Error: 
+[2019.06.14-09.21.30:483][738]LogWindows: Error: [Callstack] 0x00007ffd3e2ba388 KERNELBASE.dll!UnknownFunction []
+[2019.06.14-09.21.30:483][738]LogWindows: Error: [Callstack] 0x00007ffd353a6850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.06.14-09.21.30:483][738]LogWindows: Error: [Callstack] 0x00007ffcf9d762fc UE4Editor-Core.dll!UnknownFunction []
+[2019.06.14-09.21.30:483][738]LogWindows: Error: [Callstack] 0x00007ffcf9d051db UE4Editor-Core.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda46e911 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda2b061c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda3501c1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda352ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda39eca3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffcda1a0a57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff674420134 UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff67441ffb6 UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff6744250af UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff674425b71 UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff674425bba UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff674433dac UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ff674435aaa UE4Editor.exe!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffd41844034 KERNEL32.DLL!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: [Callstack] 0x00007ffd41cb3691 ntdll.dll!UnknownFunction []
+[2019.06.14-09.21.30:484][738]LogWindows: Error: 
+[2019.06.14-09.21.30:488][738]LogExit: Executing StaticShutdownAfterError
+[2019.06.14-09.21.30:494][738]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.06.14-09.21.30:499][738]Log file closed, 06/14/19 10:21:30
